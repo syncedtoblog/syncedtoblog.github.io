@@ -1,6 +1,9 @@
 ---
 layout: post
 title: You're up and running!
+image: {{ site.baseurl }}/images/config.png
+image-alt: _config.yml
+author: teej
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
