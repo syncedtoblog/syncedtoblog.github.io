@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Implementing Pinch to Zoom in React Native
-img: images/config.png
+img: images/2019-8-13-RN-Pinch-To-Zoom-img.jpg
 ---
 
 React native is very versatile and widely used framework, frankly speaking, it is the *best in class* for creating cross platform applications. So, I was a bit disappointed to discover that React Native doesn’t come with a simple pinch to zoom component included in the box.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/2019-8-13-RN-Pinch-To-Zoom-img.jpg)
 
 I first ran into this inconvenience whilst working with RNCamera, a well-made and easy to implement library, unfortunately it was lacking in one aspect, it doesn’t come with a pinch to zoom feature, a common UI element in most cameras these days. The library does have a zoom constant which sets the zoom of the camera, although in order to allow the user to control the level of zoom, the value being passed into the zoom constant needs to be held in the application state. Now the real question is how do we give the user the ability to control the value of zoom being passed into the RNCamera zoom constant.
 
