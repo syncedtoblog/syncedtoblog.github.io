@@ -19,7 +19,8 @@ As the demands of the application grew, it became clear that a proper pinch to z
 Looking deeper into the gesture handler’s native events, I soon discovered that I could also get the x and y coordinates of each touch registered on the view. From this point on it all started to come together fairly quickly. When the user has two fingers on the screen, Pythagoras’ theorem, *a2 + b2 = c2*, is used to determine the distance between each touch, and as the user moves their fingers across the screen the value of *c2* changes. 
 
 
-```
+```javascript
+
 calculateZoom(touch0x, touch0y, touch1x, touch1y) {
     const x = touch0x - touch1x;
     const y = touch0y - touch1y;
@@ -28,6 +29,7 @@ calculateZoom(touch0x, touch0y, touch1x, touch1y) {
     
     return Math.sqrt(distance);
   }
+  
 ```
 
 To determine if the user if widening or shrinking their pinch, we find the difference between the present value of *c2* and its old value `var interTouchDistance = newValue – oldValue`, if this number is positive then the user is widening their pinch, if it is negative then they are decreasing their pinch. 
