@@ -38,6 +38,6 @@ And that was it! Pinch to zoom for the RNCamera cracked in one afternoon. Of cou
 
 A surprisingly simple solution to what seemed like a frustratingly daunting challenge.
 
-Thank you for reading, you can check us out on the [App or Google Play stores](http://onelink.to/8ttzr9).
+Thank you for reading, you can check out our app for exploring meaningful places on the [App or Google Play stores](http://onelink.to/8ttzr9).
 
 [- Sayo](https://synced.to/u/shyguy)
