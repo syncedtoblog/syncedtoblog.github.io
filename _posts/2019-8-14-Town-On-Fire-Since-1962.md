@@ -1,6 +1,13 @@
-**This Town&#39;s Been On Fire Since 1962**
+---
+layout: post
+title: This Town's Been On Fire Since 1962
+img: images/2019-8-14-Town-On-Fire-Since-1962.jpg
+---
 
-_For almost 60 years, a fire has been burning underneath Centralia, Pennsylvania._
+
+For almost 60 years, a fire has been burning underneath Centralia, Pennsylvania.
+
+
 
 Centralia, a small town in Pennsylvania, **has been on fire** since 1962.
 
