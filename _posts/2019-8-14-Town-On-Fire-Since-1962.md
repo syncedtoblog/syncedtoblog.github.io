@@ -83,7 +83,7 @@ At its current rate and position, experts predict it will continue to burn for a
 
 Until then, Centralia is a ghost town on fire. **Would you pay it a visit?**
 
-[Yomna](https://medium.com/@yomna)
+[- Yomna](https://medium.com/@yomna)
 
 _Found on the [Synced app, where you can explore meaningful places, nearaway and faraway.](http://onelink.to/8ttzr9)_
 
