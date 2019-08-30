@@ -17,7 +17,7 @@ Before we get into why, here are some quick numbers that have rightly earned Col
 
 These numbers mean that for every living resident of Colma, there are approximately _1,000_ residents 6-feet under.
 
-**Don&#39;t the dead outnumber the living everywhere?**
+### Don&#39;t the dead outnumber the living everywhere?
 
 In a sense, yes. Globally, the generations that have lived before us far outnumber the population of the world alive today. The Population Reference Bureau [estimates](https://www.bbc.com/news/magazine-16870579) that for every one of us alive today, there are 15 who have walked the earth before us.
 
@@ -25,7 +25,7 @@ In a sense, yes. Globally, the generations that have lived before us far outnumb
 
 Colma&#39;s different. Walking around Colma, you&#39;re more likely to come across acres of graves than you are to come across homes for the living. One [estimate](https://allthatsinteresting.com/colma-california) says that around 78% of the land in Colma is used for graves. That&#39;s pretty different to the towns you&#39;ve seen in your life, isn&#39;t it?
 
-### **How Colma became a mass cemetery**
+### How Colma became a mass cemetery
 
 A series of events in San Francisco essentially led to Colma becoming a mass cemetery for San Franciscans.
 
