@@ -17,7 +17,7 @@ Before we get into why, here are some quick numbers that have rightly earned Col
 
 These numbers mean that for every living resident of Colma, there are approximately _1,000_ residents 6-feet under.
 
-#### **Don&#39;t the dead outnumber the living everywhere?**
+**Don&#39;t the dead outnumber the living everywhere?**
 
 In a sense, yes. Globally, the generations that have lived before us far outnumber the population of the world alive today. The Population Reference Bureau [estimates](https://www.bbc.com/news/magazine-16870579) that for every one of us alive today, there are 15 who have walked the earth before us.
 
