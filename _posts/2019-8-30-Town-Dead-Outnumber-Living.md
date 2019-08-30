@@ -4,8 +4,6 @@ title: Why This Town's Dead Outnumber The Living By 1,000 to 1
 img: images/2019-8-30-Town-Dead-Outnumber-Living_1.jfif
 ---
 
-### **Why This Town&#39;s Dead Outnumber The Living By 1,000 to 1**
-
 _The story of Colma, California._
 
 © [BrokenSphere / Wikimedia Commons](![_config.yml]({{ site.baseurl }}/images/2019-8-30-Town-Dead-Outnumber-Living_1.jfif)).
