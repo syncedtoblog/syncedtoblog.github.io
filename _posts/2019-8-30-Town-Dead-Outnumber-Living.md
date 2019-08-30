@@ -4,7 +4,7 @@ title: Why This Town's Dead Outnumber The Living By 1,000 to 1
 img: images/2019-8-30-Town-Dead-Outnumber-Living_1.jfif
 ---
 
-_The story of Colma, California._
+The story of Colma, California.
 
 ![_config.yml]({{ site.baseurl }}/images/2019-8-30-Town-Dead-Outnumber-Living_1.jfif)
 *© [BrokenSphere / Wikimedia Commons]* {: .center}
@@ -55,6 +55,8 @@ Mass graves in Colma carry monuments that tell the (very generic) story of those
 The living residents of Colma have never outnumbered the dead, and the number of the dead buried beneath the town continues to grow.
 
 That&#39;s what sets Colma apart from other towns. It&#39;s not hard to see why Helen Fisicaro, Colma&#39;s former mayor, calls it, _&quot;the city of souls&quot;._
+
+[- Yomna](https://medium.com/@yomna)
 
 _Found on_ [_the Synced app_](http://onelink.to/8ttzr9)_, where you can explore meaningful places, nearaway and faraway._
 
