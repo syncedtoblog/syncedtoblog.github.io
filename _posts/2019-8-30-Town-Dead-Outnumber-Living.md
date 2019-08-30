@@ -6,7 +6,8 @@ img: images/2019-8-30-Town-Dead-Outnumber-Living_1.jfif
 
 _The story of Colma, California._
 
-© [BrokenSphere / Wikimedia Commons](![_config.yml]({{ site.baseurl }}/images/2019-8-30-Town-Dead-Outnumber-Living_1.jfif)).
+![_config.yml]({{ site.baseurl }}/images/2019-8-30-Town-Dead-Outnumber-Living_1.jfif)
+*© [BrokenSphere / Wikimedia Commons]*
 
 Before we get into why, here are some quick numbers that have rightly earned Colma the title of the _city of souls._
 
@@ -44,7 +45,8 @@ Cemetery owners who had been running out of space had already started opening ce
 
 Either way, the dead were evicted. Relatives of the deceased were asked to pay **$10** for their removal to Colma. Those with nobody to pay for them were moved anyway, and dumped into mass graves. Hundreds of thousands of bodies were moved.
 
-© [BrokenSphere / Wikimedia Commons](![_config.yml]({{ site.baseurl }}/images/2019-8-30-Town-Dead-Outnumber-Living_2.jfif)).
+![_config.yml]({{ site.baseurl }}/images/2019-8-30-Town-Dead-Outnumber-Living_2.jfif)
+*© [BrokenSphere / Wikimedia Commons]*
 
 Mass graves in Colma carry monuments that tell the (very generic) story of those who lie there. Like this one at [Holy Cross](https://www.nytimes.com/2016/02/06/sports/football/the-town-of-colma-where-san-franciscos-dead-live.html):
 
