@@ -1,13 +1,10 @@
 ---
 layout: post
 title: The Strangest Place You&#39;ve Been On A Highway? Right Through The Inside Of A Building
-img: images/2019-8-30-Town-Dead-Outnumber-Living_1.jfif
+img: images/2019-10-22-GateTower1.jpg
 ---
 
 This highway in Japan goes right through the inside of a skyscraper.
-
-![_config.yml]({{ site.baseurl }}/images/2019-10-22-GateTower1.jpg)
-*by [ignis](https://commons.wikimedia.org/wiki/User:Ignis)*
 
 Gate Tower Building is pretty ordinary. 16 floors. Full of offices. Circular and modern. A helipad on the rooftop. Rectangular windows. Beige. _Possibly even boring._
 
