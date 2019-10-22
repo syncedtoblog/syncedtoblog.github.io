@@ -6,6 +6,9 @@ img: images/2019-10-22-GateTower1.jpg
 
 This highway in Japan goes right through the inside of a skyscraper.
 
+![_config.yml]({{ site.baseurl }}/images/2019-10-22-GateTower1.jpg)
+*by [ignis](https://commons.wikimedia.org/wiki/User:Ignis)*
+
 Gate Tower Building is pretty ordinary. 16 floors. Full of offices. Circular and modern. A helipad on the rooftop. Rectangular windows. Beige. _Possibly even boring._
 
 Until you see the _full-on highway_ running through its 5th, 6th, and 7th floors. It&#39;s the sort of thing you might expect to see in a _Back To The Future_ movie.
