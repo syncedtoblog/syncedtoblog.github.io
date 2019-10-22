@@ -18,7 +18,7 @@ For those driving, it would be pretty awesome if they had windows off the highwa
 For those working in the offices, it&#39;s also no different. They use the floors above and beneath the highway, and the noise-proof walls and floors mean they&#39;re not even disturbed by the flow of cars. In fact, it&#39;s built in such a way that the highway doesn&#39;t actually touch the building. So, working in the office, you wouldn&#39;t feel the vibrations of the passing cars either.
 
 ![_config.yml]({{ site.baseurl }}/images/2019-10-22-GateTower2.jpg)
-*by [_Hiroshi Nakai_](https://www.flickr.com/people/39088099@N04)*
+*by [Hiroshi Nakai](https://www.flickr.com/people/39088099@N04)*
 
 ### **So what actually happened? How did this become the only ever highway going through a building?**
 
@@ -37,5 +37,5 @@ Until then, if you&#39;re planning a trip near Osaka, Japan, check out the Gate 
 
 [Yomna El-Serafy](https://medium.com/u/cfdf8602e700)
 
-_Found on _[_the Synced app_](http://onelink.to/8ttzr9)_, where you can explore meaningful places, nearaway and faraway._
+_Found on [the Synced app](http://onelink.to/8ttzr9), where you can explore meaningful places, nearaway and faraway._
 
