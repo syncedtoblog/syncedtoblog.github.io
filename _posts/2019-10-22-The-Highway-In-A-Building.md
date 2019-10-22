@@ -16,7 +16,7 @@ Until you see the _full-on highway_ running through its 5th, 6th, and 7th floors
 For those driving, it would be pretty awesome if they had windows off the highway, so you would drive right past dazzled, coffee-fuelled people in their offices. But, alas, the _highway floors_ are office free, and it&#39;s just your usual drive through a dark tunnel.
 
 For those working in the offices, it&#39;s also no different. They use the floors above and beneath the highway, and the noise-proof walls and floors mean they&#39;re not even disturbed by the flow of cars. In fact, it&#39;s built in such a way that the highway doesn&#39;t actually touch the building. So, working in the office, you wouldn&#39;t feel the vibrations of the passing cars either.
-
+ 
 ![_config.yml]({{ site.baseurl }}/images/2019-10-22-GateTower2.jpg)
 *by [Hiroshi Nakai](https://www.flickr.com/people/39088099@N04)*
 
