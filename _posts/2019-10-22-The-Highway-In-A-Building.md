@@ -37,5 +37,5 @@ Until then, if you&#39;re planning a trip near Osaka, Japan, check out the Gate 
 
 [Yomna El-Serafy](https://medium.com/u/cfdf8602e700)
 
-_Found on_[_the Synced app_](http://onelink.to/8ttzr9)_, where you can explore meaningful places, nearaway and faraway._
+_Found on _[_the Synced app_](http://onelink.to/8ttzr9)_, where you can explore meaningful places, nearaway and faraway._
 
