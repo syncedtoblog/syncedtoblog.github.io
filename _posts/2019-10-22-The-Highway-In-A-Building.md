@@ -6,10 +6,8 @@ img: images/2019-8-30-Town-Dead-Outnumber-Living_1.jfif
 
 This highway in Japan goes right through the inside of a skyscraper.
 
-[Photo](https://commons.wikimedia.org/wiki/File:Building_penetrated_by_an_expressway_001_OSAKA_JPN.jpg) by [ignis](https://commons.wikimedia.org/wiki/User:Ignis).
-
-![_config.yml]({{ site.baseurl }}/images/2019-8-30-Town-Dead-Outnumber-Living_1.jfif)
-*BrokenSphere/Wikimedia Commons ©*
+![_config.yml]({{ site.baseurl }}/images/2019-10-22-GateTower1.jpg)
+*by [ignis](https://commons.wikimedia.org/wiki/User:Ignis)*
 
 Gate Tower Building is pretty ordinary. 16 floors. Full of offices. Circular and modern. A helipad on the rooftop. Rectangular windows. Beige. _Possibly even boring._
 
@@ -19,7 +17,8 @@ For those driving, it would be pretty awesome if they had windows off the highwa
 
 For those working in the offices, it&#39;s also no different. They use the floors above and beneath the highway, and the noise-proof walls and floors mean they&#39;re not even disturbed by the flow of cars. In fact, it&#39;s built in such a way that the highway doesn&#39;t actually touch the building. So, working in the office, you wouldn&#39;t feel the vibrations of the passing cars either.
 
-[_Photo_](https://commons.wikimedia.org/wiki/File:Gate_Tower_Bldg_DSC00218_%286503327115%29.jpg) _by_ [_Hiroshi Nakai_](https://www.flickr.com/people/39088099@N04)_._
+![_config.yml]({{ site.baseurl }}/images/2019-10-22-GateTower2.jpg)
+*by [_Hiroshi Nakai_](https://www.flickr.com/people/39088099@N04)*
 
 ### **So what actually happened? How did this become the only ever highway going through a building?**
 
@@ -31,7 +30,8 @@ Who says you can&#39;t think outside the box, right? In fact, it&#39;s a wonder 
 
 If not to ease the traffic, at least for the aesthetic appeal, someone should consider doing it. I mean, look at this:
 
-[Photo](https://commons.wikimedia.org/wiki/File:Wtf_%283346098563%29.jpg) by [Steve Collis](https://www.flickr.com/people/44259454@N00).
+![_config.yml]({{ site.baseurl }}/images/2019-10-22-GateTower3.jpg)
+*by [Steve Collis](https://www.flickr.com/people/44259454@N00)*
 
 Until then, if you&#39;re planning a trip near Osaka, Japan, check out the Gate Tower Building, the only building in the world with a highway cutting through it.
 
