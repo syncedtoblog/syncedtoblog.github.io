@@ -26,6 +26,8 @@ It&#39;s a pretty interesting story actually, going back to 1983. The landowners
 
 After more than 5 years of negotiations and planning, the government and the landowners reached a surprising compromise: they would build the highway right through the building.
 
+The building has a double core construction, with a circular cross-section. The highway is designed as a bridge, with pillars on either side of the building supporting it, and is covered in sound-proof casing to protect the workers from noise pollution.
+
 Who says you can&#39;t think outside the box, right? In fact, it&#39;s a wonder nobody else has done this yet. Imagine the impact we could have on highly congested roads like those in rush hour Istanbul or London, if we built additional roads going through buildings.
 
 If not to ease the traffic, at least for the aesthetic appeal, someone should consider doing it. I mean, look at this:
