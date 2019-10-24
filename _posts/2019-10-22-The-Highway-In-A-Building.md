@@ -33,7 +33,7 @@ Who says you can&#39;t think outside the box, right? In fact, it&#39;s a wonder 
 If not to ease the traffic, at least for the aesthetic appeal, someone should consider doing it. I mean, look at this:
 
 ![_config.yml]({{ site.baseurl }}/images/2019-10-22-GateTower3.jpg)
-*by [Steve Collis](https://www.flickr.com/people/44259454@N00)*
+*by [Daniel Rubio](https://www.flickr.com/people/21299067@N02)*
 
 Until then, if you&#39;re planning a trip near Osaka, Japan, check out the Gate Tower Building, the only building in the world with a highway cutting through it.
 
