@@ -159,3 +159,10 @@ To round up all you need to do is import and add your package to the get package
             new TestBridgePackage()
           );
         }
+        
+ 
+And that's it!
+ 
+Thank you for reading, you can check out our app for exploring meaningful places on the [App or Google Play stores](http://onelink.to/8ttzr9).
+
+[- Sayo](https://synced.to/u/shyguy)
