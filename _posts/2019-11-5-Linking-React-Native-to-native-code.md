@@ -36,6 +36,8 @@ Taking a closer look at the TestBridgeNativeModule.js file you should see that w
 
 #### TestBridgeNativeModule.js
 
+```javascript
+
     import { NativeModules } from 'react-native'
 
     const { TestBridge } = NativeModules
@@ -47,6 +49,7 @@ Taking a closer look at the TestBridgeNativeModule.js file you should see that w
 
       EXAMPLE_CONSTANT: TestBridge.EXAMPLE_CONSTANT
     }
+```
 
 ## Moving on to the native side of things
 
@@ -70,6 +73,8 @@ The first parameter in the function must have an argument name, if you have no n
 
 #### TestBridge.swift
 
+```swift
+
     @objc(TestBridge)
     class TestBridge : NSObject {
       // Export constants to use in your native module
@@ -83,6 +88,7 @@ The first parameter in the function must have an argument name, if you have no n
       }
     }
 
+```
 
 You must also clearly define the parameter type for all parameters. 
 
@@ -94,8 +100,10 @@ This is done by adding a space followed by a parenthesis which is then followed 
 
 #### TestBridge.m
 
-    RCT_EXTERN_METHOD(exampleMethod : (NSString)name)
 
+```
+    RCT_EXTERN_METHOD(exampleMethod : (NSString)name)
+```
 
 Remember, the .m file is written in Objective C so the type will have to be an ObjC type, in our case, NSString.
 
@@ -109,20 +117,21 @@ To pass data back from Swift to React you will need to pass in a callback functi
 
 #### TestBridgeNativeModule.js
 
-
+```javascript
     export default {
       exampleMethod (name) {
         return TestBridge.exampleMethod(name, (err, newName) => console.log(newName);)
     } 
-
+```
 
 #### TestBridge.swift
 
+```swift
     @objc func exampleMethod(_ name : String, callback: RCTResponseSenderBlock) {
         // write method here 
     callback([NSNull() ,newName])
      }
-
+```
 
 ### Now for Android
 
@@ -139,6 +148,7 @@ Similar to iOS, in order to pass data back from Java to React you will need to a
 
 #### TestBridgeModule.java
 
+```java
     @ReactMethod
     public void exampleMethod (String name) {
         try {
@@ -147,11 +157,13 @@ Similar to iOS, in order to pass data back from Java to React you will need to a
                 e.printStackTrace();
             }    
     }
+```
 
 To round up all you need to do is import and add your package to the get packages function in MainApplication.java and voila.
 
 #### MainApplication.java
 
+```java
     @Override
         protected List<ReactPackage> getPackages() {
           return Arrays.<ReactPackage>asList(
@@ -159,7 +171,7 @@ To round up all you need to do is import and add your package to the get package
             new TestBridgePackage()
           );
         }
-        
+```        
  
 And that's it!
  
