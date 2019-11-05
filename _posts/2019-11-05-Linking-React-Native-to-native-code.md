@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linking React Native to native code
-img: images/2019-8-13-RN-Pinch-To-Zoom-img.jpg
+img: images/2019-11-05-Bridge-Output-1.png
 ---
 
 Linking native code to React Native, piece of cake, right? After all it’s in the name. Wrong! I found it to be an unnecessarily complex and obscured process. 
@@ -23,7 +23,7 @@ When prompted by terminal, name your bridge module, here we will be using the na
 You’re then given the option of creating a module and or a UI component, depending on what you would like to do in your native code, here we won’t be creating any UI components, so we just choose module.
 
 
-![_config.yml]({{ site.baseurl }}/images/2019-11-05-Bridge-Output.png)
+![_config.yml]({{ site.baseurl }}/images/2019-11-05-Bridge-Output-2.png)
 
 
 Next you will be asked to select the languages you will support – In this article we will choose Swift and Java, for iOS and android respectively and these languages will be the main focus of the article. 
