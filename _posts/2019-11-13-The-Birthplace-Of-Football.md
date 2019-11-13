@@ -15,7 +15,7 @@ Few things in history have spread across cultures, capturing the hearts of young
 
 ### **How does such a global phenomenon start?**
 
-The answer might surprise you. **Football as we know it today started in an inconspicuous park in the heart of Cambridge.** Cambridge is more usually known for its University, one of the oldest in the UK. It&#39;s been home to famous names the literature and the sciences, including by Isaac Newton, Sylvia Plath, Stephen Hawking, Charles Darwin, and Emma Roberts.
+The answer might surprise you. **Football as we know it today started in an inconspicuous park in the heart of Cambridge.** Cambridge is more usually known for its University, one of the oldest in the UK. It&#39;s been home to famous names in literature and the sciences, including Isaac Newton, Sylvia Plath, Stephen Hawking, Charles Darwin, and Emma Roberts.
 
 It&#39;s perhaps not so out-of-place, then, that the game that&#39;s captured the world also started right in the heart of Cambridge.
 
