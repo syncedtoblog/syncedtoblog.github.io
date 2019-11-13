@@ -4,7 +4,7 @@ title: The Birthplace of Modern Football
 img: images/2019-11-13-The-Birthplace-Of-Football1.JPG
 ---
 
-_The beautiful game wasn't always so beautiful._
+The beautiful game wasn't always so beautiful.
 
 
 ![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football1.JPG)
