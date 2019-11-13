@@ -6,6 +6,7 @@ img: images/2019-11-13-The-Birthplace-Of-Football1.JPG
 
 _The beautiful game wasn't always so beautiful._
 
+
 ![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football1.JPG)
 
 
@@ -37,6 +38,7 @@ Coming together afterwards, people were mournful that a day of joy and celebrati
 
 It was then that they decided to put together the _&#39;Cambridge Rules&#39;_, to make sure future games remained peaceful and friendly. They wrote down the 11 rules, nailed them to the trees surrounding Parker&#39;s Piece, and named the game _&#39;Football&#39;._
 
+
 ![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football2.JPG)
 
 
@@ -56,6 +58,7 @@ The first-known rules of football, recorded and agreed upon by students at the U
 10. In no case is holding a player, pushing with the hands, or tripping up allowed. Any player may prevent another from getting to the ball by any means consistent with the above rules.
 11. Every match shall be decided by a majority of goals.
 
+
 ![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football3.JPG)
 
 
@@ -64,6 +67,7 @@ The first-known rules of football, recorded and agreed upon by students at the U
 Remember that this happened in the _1800s_. It was a time when tensions were rife both within Europe and internationally. Throughout it all, a group of people managed to come together, to agree on a set of rules for a game they all loved, and to play the game in a way that brought them together, rather than separated them. It&#39;s pretty impressive to see how the rules became so universal and uniform.
 
 In 2017, Cambridge City Council commissioned 2 artists to create a monument in memory of the history hiding in Parker&#39;s Piece. The monument was erected in 2018 — a stone monument, with messages in a variety of languages, and with the rules written in stone, representing the globality and unity that was born in Parker&#39;s Piece, and that continues to be spread through football to this day.
+
 
 ![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football4.JPG)
 
