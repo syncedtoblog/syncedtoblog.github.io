@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Birthplace of Modern Football 
+title: The Birthplace of Football 
 img: images/2019-11-13-The-Birthplace-Of-Football1.JPG
 ---
 
