@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Where Was Football Born? 
+title: The Birthplace of Football 
 img: images/2019-11-13-The-Birthplace-Of-Football1.JPG
 ---
 
