@@ -4,7 +4,9 @@ title: Where Was Football Born?
 img: images/2019-11-13-The-Birthplace-Of-Football1.JPG
 ---
 
-_It&#39;s the beautiful game we all know and love. It had to start somewhere, right?_
+_The beautiful game wasn't always so beautiful. An undignified melee in a muddy field 170 years ago changed that_
+
+![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football1.JPG)
 
 All images are the author&#39;s.
 
