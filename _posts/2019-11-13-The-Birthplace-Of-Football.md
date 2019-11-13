@@ -4,19 +4,20 @@ title: Where Was Football Born?
 img: images/2019-11-13-The-Birthplace-Of-Football1.JPG
 ---
 
-_The beautiful game wasn't always so beautiful. An undignified melee in a muddy field 170 years ago changed that_
+_The beautiful game wasn't always so beautiful._
 
 ![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football1.JPG)
 
-All images are the author&#39;s.
 
 Few things in history have spread across cultures, capturing the hearts of young and old alike, in all corners of the globe, the way football has. (For the American readers: _soccer_). It&#39;s a game that brings people together year after year, speaking a global language — a glue that&#39;s kept linkages between countries intact despite all the disasters that have happened.
+
 
 ### **How does such a global phenomenon start?**
 
 The answer might surprise you. **Football as we know it today started in an inconspicuous park in the heart of Cambridge.** Cambridge is more usually known for its University, one of the oldest in the UK. It&#39;s been home to famous names the literature and the sciences, including by Isaac Newton, Sylvia Plath, Stephen Hawking, Charles Darwin, and Emma Roberts.
 
 It&#39;s perhaps not so out-of-place, then, that the game that&#39;s captured the world also started right in the heart of Cambridge.
+
 
 ### **So, how did it all begin?**
 
@@ -38,6 +39,7 @@ It was then that they decided to put together the _&#39;Cambridge Rules&#39;_, t
 
 ![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football2.JPG)
 
+
 ### **The original rules of football**
 
 The first-known rules of football, recorded and agreed upon by students at the University of Cambridge, were adopted in 1863 by the Football Association of England, with the addition of 3 more rules. These were the original rules:
@@ -56,6 +58,7 @@ The first-known rules of football, recorded and agreed upon by students at the U
 
 ![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football3.JPG)
 
+
 ### **This is more than football**
 
 Remember that this happened in the _1800s_. It was a time when tensions were rife both within Europe and internationally. Throughout it all, a group of people managed to come together, to agree on a set of rules for a game they all loved, and to play the game in a way that brought them together, rather than separated them. It&#39;s pretty impressive to see how the rules became so universal and uniform.
@@ -63,6 +66,7 @@ Remember that this happened in the _1800s_. It was a time when tensions were rif
 In 2017, Cambridge City Council commissioned 2 artists to create a monument in memory of the history hiding in Parker&#39;s Piece. The monument was erected in 2018 — a stone monument, with messages in a variety of languages, and with the rules written in stone, representing the globality and unity that was born in Parker&#39;s Piece, and that continues to be spread through football to this day.
 
 ![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football4.JPG)
+
 
 ### **170 years later, Parker&#39;s Piece is still standing strong**
 
@@ -72,4 +76,4 @@ If you&#39;re ever in England, pay a visit to Cambridge. Once you&#39;ve done th
 
 [Yomna El-Serafy](https://medium.com/u/cfdf8602e700)
 
-_Found on_ [_the Synced app_](http://onelink.to/8ttzr9)_, where you can explore meaningful places, nearaway and faraway._
+_Found on [the Synced app](http://onelink.to/8ttzr9), where you can explore meaningful places, nearaway and faraway._
