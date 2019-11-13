@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Birthplace of Modern Football 
+title: The Birthplace of Football 
 img: images/2019-11-13-The-Birthplace-Of-Football1.JPG
 ---
 
@@ -26,7 +26,7 @@ So long as there are human beings and a ball-shaped object, people are going to 
 
 The earliest record of football in Cambridge goes way back to 1579, when the Vice Chancellor responded to violent brawling by forbidding students from playing _&#39;footeball&#39;_ on college grounds.
 
-Players formed teams, and alternated between throwing the ball with their hands and kicking it with their feet. It was notoriously very violent, with games frequently descending into fights. Essentially, although some form of a game involving a ball was played in various places, **there were no**** rules**.
+Players formed teams, and alternated between throwing the ball with their hands and kicking it with their feet. It was notoriously very violent, with games frequently descending into fights. Essentially, although some form of a game involving a ball was played in various places, **there were no rules**.
 
 That&#39;s where Cambridge came in. In 1848, a game was organised between the &#39;Town&#39; and &#39;Gown&#39;. The &#39;Town and Gown&#39; distinction refers to the residents of the City of Cambridge, versus the students of the University of Cambridge. It&#39;s an archaic phrase that&#39;s been passed down through generations of both Townies and Gownies, and is still just as prevalent today.
 
