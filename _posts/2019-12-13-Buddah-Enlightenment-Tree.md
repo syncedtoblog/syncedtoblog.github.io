@@ -48,6 +48,7 @@ Afterwards, the Buddha observed the tree for another week. Sitting in the very s
 ![_config.yml]({{ site.baseurl }}/images/2019-12-13-Buddah-Enlightenment-Tree-5.jpg)
 *the tree itself*
 
+
 If you&#39;re considering a visit, the Mahabodhi temple isn&#39;t the only destination to look at. Buddhists from various countries, including Japan, Tibet, Bhutan, and Thailand have set up monasteries and temples in Bodh Gaya within comfortable walking distance of the Mahabodhi compound. A walk around the different temples and places of worship in the village gives an insight into the different traditions and practices of Buddhists around the world who have been inspired by the Buddha&#39;s tradition.
 
 It really is a place of infinite wonder and surrealism. The way the spirituality of the place has stayed alive for thousands of years is a testament to the vitality it offers visitors from around the globe. If you&#39;re planning your next trip abroad, Bodh Gaya is definitely one for the list.
