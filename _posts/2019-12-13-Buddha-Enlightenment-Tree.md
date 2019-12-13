@@ -1,11 +1,10 @@
 ---
 layout: post
-title: The Tree Where the Buddha Found Enlightenment 
+title: The Tree that Enlightened the Buddha 
 img: images/2019-12-13-Buddha-Enlightenment-Tree-1.jpg
 ---
 
-The spirit of the village is alive and well.
-
+Another famous occasion when wisdom was found under a tree.
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-13-Buddha-Enlightenment-Tree-1.jpg)
 
