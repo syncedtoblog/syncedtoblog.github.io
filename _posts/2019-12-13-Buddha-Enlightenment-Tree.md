@@ -4,7 +4,7 @@ title: The Tree that Enlightened the Buddha
 img: images/2019-12-13-Buddha-Enlightenment-Tree-1.jpg
 ---
 
-Another famous occasion when wisdom was found under a tree.
+Another famous occasion of wisdom being found under a tree.
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-13-Buddha-Enlightenment-Tree-1.jpg)
 
