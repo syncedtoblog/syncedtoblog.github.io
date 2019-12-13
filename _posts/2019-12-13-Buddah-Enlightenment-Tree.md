@@ -1,6 +1,12 @@
-### **You Can Visit the Tree Where the Buddha Found Enlightenment**
+---
+layout: post
+title: You Can Visit the Tree Where the Buddha Found Enlightenment 
+img: images/2019-11-13-The-Birthplace-Of-Football1.JPG
+---
 
-_The spirit of the village is alive and well._
+The spirit of the village is alive and well.
+
+![_config.yml]({{ site.baseurl }}/images/2019-11-13-The-Birthplace-Of-Football1.JPG)
 
 Photo by [tss101\_uk](https://www.flickr.com/photos/37595959@N04/) on [Flickr](https://www.flickr.com/photos/37595959@N04/4365777139/).
 
