@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You Can Visit the Tree Where the Buddha Found Enlightenment 
+title: The Tree Where the Buddha Found Enlightenment 
 img: images/2019-12-13-Buddha-Enlightenment-Tree-1.jpg
 ---
 
@@ -26,10 +26,15 @@ What he found was that Enlightenment consisted of abandoning lust, hatred, and d
 
 That very same tree — the Bodhi tree — is still around. It&#39;s not the exact same tree, but it&#39;s thought to be a descendant of the original tree.
 
+
+![_config.yml]({{ site.baseurl }}/images/2019-12-13-Buddha-Enlightenment-Tree-3.jpg)
+*the tree itself*
+
+
 Around 300 years after the Buddha found Enlightenment, the first temple was built there. King Ashoka was the Indian Emperor of the Maurya Dynasty from c. 268–232 BC. He visited the place where Buddha found Enlightenment, and built a temple there, called the Mahabodhi Temple. Several other temples have now been built in the area as well, and they&#39;re all places that tourists and pilgrims can visit to experience some of the spirit and teachings of the place.
 
 
-![_config.yml]({{ site.baseurl }}/images/2019-12-13-Buddha-Enlightenment-Tree-3.jpg)
+![_config.yml]({{ site.baseurl }}/images/2019-12-13-Buddha-Enlightenment-Tree-4.jpg)
 
 
 As well as the Bodhi tree and the numerous temples, Bodh Gaya is also home to a larger-than-life statue of the Buddha in his meditation pose. The peace and clarity is evident on his face and posture, and the statue is an inspiration to tourists and pilgrims alike.
@@ -39,15 +44,10 @@ After the Enlightenment, the Buddha continued to meditate. In the second week af
 The lotus has long been a symbol of rebirth and regeneration in the Buddhist tradition, and in the Ancient Egyptian tradition as well. Even in the murkiest waters, the lotus blossoms into a beautiful flower. It&#39;s a symbol for how we can be guided by our inner peace and beauty, even if we&#39;re in difficult situations.
 
 
-![_config.yml]({{ site.baseurl }}/images/2019-12-13-Buddha-Enlightenment-Tree-4.jpg)
+![_config.yml]({{ site.baseurl }}/images/2019-12-13-Buddha-Enlightenment-Tree-5.jpg)
 
 
 Afterwards, the Buddha observed the tree for another week. Sitting in the very same spot, tourists and pilgrims can contemplate the tree too, and walk the same spiritual journey that led Buddha to find his higher truth.
-
-
-![_config.yml]({{ site.baseurl }}/images/2019-12-13-Buddha-Enlightenment-Tree-5.jpg)
-*the tree itself*
-
 
 If you&#39;re considering a visit, the Mahabodhi temple isn&#39;t the only destination to look at. Buddhists from various countries, including Japan, Tibet, Bhutan, and Thailand have set up monasteries and temples in Bodh Gaya within comfortable walking distance of the Mahabodhi compound. A walk around the different temples and places of worship in the village gives an insight into the different traditions and practices of Buddhists around the world who have been inspired by the Buddha&#39;s tradition.
 
