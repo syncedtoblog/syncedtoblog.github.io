@@ -1,19 +1,19 @@
 ---
 layout: post
-title: When You Lose the Elections… Make Your Own Republic
+title: The Self-declared Republic whose Former Presidents Include a Goat and a Poodle
 img: images/2019-12-24-Whanga-1.jpg
 ---
 
-This self-declared Republic has presidents ranging from goats to poodles.
+Whangamomona is a republic like no other
 
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-1.jpg)
 *by [Robyn Gallagher](https://www.flickr.com/people/21944795@N00)*
 
 
-We&#39;ve all been there… we&#39;ve all experienced that gut-wrenching feeling when we lose an election we were certain we&#39;d win. All the built-up hype and excitement comes crashing down, and we just can&#39;t believe how other people would vote for something that&#39;s just so clearly… wrong.
+They say when life gives you lemons, you should make them into lemonade. That's reasonable, but how long will the lemonade really make you happy?
 
-Well, former residents of New Zealand didn&#39;t let that get them down. They decided to declare their own republic, and honestly, this is the kind of story that just keeps getting better.
+These former residents of New Zealand didn't seem to think lemonade would quite cut it. When life gave them lemons, they declared their own republic in response. And honestly, this is the kind of story that just keeps getting better. 
 
 ### **Here&#39;s how it started…**
 
