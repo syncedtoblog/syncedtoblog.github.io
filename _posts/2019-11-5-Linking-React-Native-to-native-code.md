@@ -6,6 +6,10 @@ img: images/2019-11-05-Bridge-Output-1.png
 
 Linking native code to React Native, piece of cake, right? After all it’s in the name. Wrong! I found it to be an unnecessarily complex and obscured process. 
 
+
+![_config.yml]({{ site.baseurl }}/images/2019-11-05-Bridge-Output-1.png)
+
+
 Whilst trying to develop a camera application, I ran into some difficulty with the implementation of a rotate and crop function, solutions that could be achieved through the incorporation of external libraries took a noticeable toll on performance and speed, so it was time to go native. 
 
 Turning to Google, I soon realised that not nearly enough has been written about how to implement native code alongside React Native. 
