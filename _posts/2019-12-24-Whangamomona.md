@@ -4,7 +4,7 @@ title: The Self-declared Republic whose Former Presidents Include a Goat and a P
 img: images/2019-12-24-Whanga-1.jpg
 ---
 
-Whangamomona is a republic like no other
+Whangamomona is a Republic like no other
 
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-1.jpg)
