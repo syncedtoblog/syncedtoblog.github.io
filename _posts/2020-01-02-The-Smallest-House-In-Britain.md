@@ -1,3 +1,17 @@
+---
+layout: post
+title: Britain's Smallest House
+img: images/2019-12-24-Whanga-1.jpg
+draft: true
+---
+
+Could You Live in a 72x120inch house?
+
+
+![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-1.jpg)
+*by [liam okeeffe](https://www.flickr.com/photos/1450ljokeeffe/)*
+
+
 ### **Could You Live in a 72x120inch house?**
 _That&amp;#39;s how it is in Britain&amp;#39;s smallest house._
 Photo by [liam okeeffe](https://www.flickr.com/photos/1450ljokeeffe/) from
