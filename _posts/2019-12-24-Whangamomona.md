@@ -8,7 +8,7 @@ Whangamomona is a Republic like no other
 
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-1.jpg)
-*by [Robyn Gallagher](https://www.flickr.com/people/21944795@N00)*
+*by [Seamoor](https://www.flickr.com/photos/29146790@N00/6874534183)*
 
 
 They say when life gives you lemons, you should make them into lemonade. That's reasonable, but how long will the lemonade really make you happy?
@@ -29,7 +29,7 @@ So… they came together… and decided to start their own republic. They even e
 
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-2.jpg)
-*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
+*by [Natalia Volna itravelNZ@ travel app](https://www.flickr.com/photos/65041041@N08/8427637885)*
 
 
 ### **Now, a bit of background…**
@@ -52,7 +52,7 @@ Whangamomona&#39;s first president _was_ actually a human. Ian Kjestrup was put 
 
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-3.jpg)
-*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
+*by [chris24w ](https://www.flickr.com/photos/78361112@N00/133150101)*
 
 
 In 1999, a goat called Billy Gumboot was elected as President. Some think he ate all the ballot papers of the other candidates, giving him a landslide victory. What I&#39;m wondering is how Billy Gumboot the Goat was in the Presidential race in the first place.
@@ -65,7 +65,7 @@ The next President — reminiscent of the Republic&#39;s first — was i
 
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-4.jpg)
-*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
+*by [Seamoor](https://www.flickr.com/photos/29146790@N00/6874544299)*
 
 
 Catching up with the 21st century, Whangamomona had their first female President in 2015. Vicki Pratt, allegedly, didn&#39;t put herself up for the elections… and was voted in while she working in the kitchen. She served in office until 2017.
@@ -76,7 +76,7 @@ In 2017, John Herlihy — a human, man — was elected to the Presidency
 
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-5.jpg)
-*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
+*by [Natalia Volna itravelNZ@ travel app](https://www.flickr.com/photos/65041041@N08/8427638843)*
 
 
 Every 2 years, in January, Whangamomona holds an independence festival on their &quot;Republic Day&quot;, to celebrate their independence. In January 2019, the Republic celebrated its 30th birthday.
@@ -85,14 +85,14 @@ On Republic day, the streets are filled with hundreds of tourists from around Ne
 
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-6.jpg)
-*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
+*by [Victor Engmark](https://www.flickr.com/photos/73695971@N00/2072647607)*
 
 
 Tourists going to Whangamomona actually cross customs borders to get into the Republic. Passing through, you even get a Whangamomona stamp on your passport. Or, you could dish out $3 for your very own Whanga passport. Now, that&#39;s quite something.
 
 
 ![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-7.jpg)
-*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
+*by [Map of the Urban Linguistic Landscape](https://www.flickr.com/photos/124511019@N08/14928437516)*
 
 
 The next Republic day, with the next elections, should take place in January 2021, when it&#39;s nice and summery in New Zealand. It&#39;s a cheery place, and quite unlike any other holiday I can imagine. So if you&#39;re wanting to experience the place… maybe it&#39;s time to start making plans.
