@@ -50,7 +50,10 @@ Whangamomona&#39;s first president _was_ actually a human. Ian Kjestrup was put 
 
 10 years is a long time, considering the residents hold elections every two years. He must have been loved enough to get re-elected. What came afterwards was… interesting, let&#39;s say.
 
-Ian Kjestrup, Whangamomona&#39;s first President. Image from [Brad White](https://www.flickr.com/photos/157762425@N05/).
+
+![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-3.jpg)
+*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
+
 
 In 1999, a goat called Billy Gumboot was elected as President. Some think he ate all the ballot papers of the other candidates, giving him a landslide victory. What I&#39;m wondering is how Billy Gumboot the Goat was in the Presidential race in the first place.
 
@@ -61,8 +64,8 @@ From 2003 to 2004, Whangamomona was served by Tai the poodle. In 2004, he was at
 The next President — reminiscent of the Republic&#39;s first — was in office for a whopping 10 years. Sir Murt &quot;Murtle the Turtle&quot; Kennard served from 2005 to 2015. He served until his death in a hospice, in October 2015.
 
 
-![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-3.jpg)
-*Republic Day, 2009. By [Nick Adderley](https://www.flickr.com/photos/nickadderley/)*
+![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-4.jpg)
+*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
 
 
 Catching up with the 21st century, Whangamomona had their first female President in 2015. Vicki Pratt, allegedly, didn&#39;t put herself up for the elections… and was voted in while she working in the kitchen. She served in office until 2017.
@@ -71,8 +74,9 @@ In 2017, John Herlihy — a human, man — was elected to the Presidency
 
 ### **Republic day: the time of year to visit**
 
-![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-4.jpg)
-*by [Jim Ebenhoh](https://www.flickr.com/photos/jimebenhoh/)*
+
+![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-5.jpg)
+*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
 
 
 Every 2 years, in January, Whangamomona holds an independence festival on their &quot;Republic Day&quot;, to celebrate their independence. In January 2019, the Republic celebrated its 30th birthday.
@@ -80,15 +84,15 @@ Every 2 years, in January, Whangamomona holds an independence festival on their 
 On Republic day, the streets are filled with hundreds of tourists from around New Zealand, alongside the Republic&#39;s 12 actual residents. They&#39;re treated to animal races, games, and the unique opportunity to witness the Republic&#39;s elections.
 
 
-![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-5.jpg)
-*A hat contest on Republic day, 2009. By [Jim Ebenhoh](https://www.flickr.com/photos/jimebenhoh/)*
+![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-6.jpg)
+*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
 
 
 Tourists going to Whangamomona actually cross customs borders to get into the Republic. Passing through, you even get a Whangamomona stamp on your passport. Or, you could dish out $3 for your very own Whanga passport. Now, that&#39;s quite something.
 
 
-![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-6.jpg)
-*by [itravelNZ® — New Zealand in your pocket](https://www.flickr.com/photos/itravelnz/8427640145/in/photolist-dQHRNr-DL6t3R-dQHRpZ-dQHRXk-dQPs1G-dQPtz9-dQPsJh-btnRs3-arsgaX-dQPt2E-b7ed3T-dUHdct-cpBHS-mNKd6f-8aysML-arsfmk-mNJQXJ-4V23nS-5Z7icy-5Z7ieY-9c6nBk-5Z7ifE-z2vUU1-5Z7iky-4M5QwH-5Z36VP-cpyTrJ-9EthjF-4Ma2sf-4pTYeW-5Z7iaf-DWkQPX-bckRCt-5Z36N6-7zUnvq-5Z36WR-as5sKw-4U3TkU-6rjWqS-6pXiVz-6q2s3f-4TYCcx-pUTdy6-4CrE1p-GbC5rk-foNz8w-pfiHrj-qa22mA-pUSTZn-pfx6ii)*
+![_config.yml]({{ site.baseurl }}/images/2019-12-24-Whanga-7.jpg)
+*by [Aidan Wojtas](https://www.flickr.com/people/31909437@N00)*
 
 
 The next Republic day, with the next elections, should take place in January 2021, when it&#39;s nice and summery in New Zealand. It&#39;s a cheery place, and quite unlike any other holiday I can imagine. So if you&#39;re wanting to experience the place… maybe it&#39;s time to start making plans.
