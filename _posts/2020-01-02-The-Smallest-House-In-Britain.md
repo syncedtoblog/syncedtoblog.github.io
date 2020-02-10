@@ -80,3 +80,8 @@ to really make you feel as though you're back in the 16th century.
 It's a great way to take an escape from our day-to-day modern lives, and to
 get a real feel for how things would be if you lived in a 16th century infill
 cottage. What's not to love?
+
+
+[Yomna El-Serafy](https://medium.com/u/cfdf8602e700)
+
+_Found on [the Synced app](http://onelink.to/8ttzr9), where you can explore meaningful places, nearaway and faraway._
