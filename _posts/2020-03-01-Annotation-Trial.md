@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Introducing Synced's Data feeds And Neighbourhood Annotation Trial
+title: Introducing Synced's Data feeds And Annotation Trial
 img: images/2020-03-01-Annotation-Trial-1.jpg
-draft: 1
 ---
 
 As part of our project with Innovate UK and the UK's Geospatial Commission we have developed new tools for people to crowdsource the state of the neighbourhoods, and data feeds to inform people about the places they live, work and frequent. 
