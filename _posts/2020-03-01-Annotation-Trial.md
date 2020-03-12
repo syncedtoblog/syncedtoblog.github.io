@@ -21,3 +21,6 @@ We're currently trialing these features in Cambridge, Oxford and East London. We
 
 ![_config.yml]({{ site.baseurl }}/images/2020-03-01-Annotation-Trial-3.png)
 
+
+Thank you for reading, you can check out our app for exploring meaningful places on the [App or Google Play stores](http://onelink.to/8ttzr9).
+
