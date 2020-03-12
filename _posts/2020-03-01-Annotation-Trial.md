@@ -12,7 +12,7 @@ The Synced app lets users "mark" places with information. These marks are then s
 
 We're now automatically adding data feeds to marks to give a more complete representation of a place for residents and explorers. we are starting by showing the recently reported crimes at a mark's location.
 
-We've also added a new crowdsourced feed. Users can add data to a location themselves by using the new mini-mark functionality. By holding the Mark button, locations can be labeled as #lovely, #busy, #polluted, #rundown and #unsafe with more options to come.
+We've also added a new crowdsourced feed. Users can add data to a location themselves by using the new mini-mark functionality. By holding the Mark button, locations can be labeled as \#lovely, \#busy, \#polluted, \#rundown and \#unsafe with more options to come.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-03-01-Annotation-Trial-2.jpg)
 
