@@ -18,3 +18,6 @@ We've also added a new crowdsourced feed. Users can add data to a location thems
 
 We're currently trialing these features in Cambridge, Oxford and East London. We'll be updating them based on feedback, and adding more datasets in the coming months to inform residents, explorers and city planners.
 
+
+![_config.yml]({{ site.baseurl }}/images/2020-03-01-Annotation-Trial-3.png)
+
