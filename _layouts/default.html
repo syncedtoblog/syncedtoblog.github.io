@@ -17,6 +17,27 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i,900&amp;subset=latin-ext" rel="stylesheet">
     
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script>
+    var allposts = [];  
+    function redirectToCorrectPage() {  
+	    {% for post in site.posts %}  
+		    allposts.push("{{ site.url }}{{ post.url }}");  
+	    {% endfor %}  
+	    var url = window.location.toString();  
+	    if (url.slice(-1) != "/") {  
+		    url = url + '/';  
+	    }  
+	    var allpostsUpperCase = allposts.map(function(value) {  
+		    return value.toUpperCase();  
+	    });  
+	    var i = allpostsUpperCase.indexOf(url.toUpperCase());  
+	    if (i != -1) {  
+		    console.log(allposts[i]);  
+		    window.location = allposts[i];  
+	    }  
+    }  
+    redirectToCorrectPage();
+    </script>    
   </head>
 
   <body>
