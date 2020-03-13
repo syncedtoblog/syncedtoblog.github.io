@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+
+<div style="text-align: center;">
+<img src="{{ site.baseurl }}/images/404.jpg" alt="sailor lost" style="width: 400px;"/>
+<p>Sorry, we can't find that page that you're looking for. You can try again by going <a href="{{ site.baseurl }}">back to the homepage</a></p>
+</div>
+
+<script>
+var allposts = [];  
+function redirectToCorrectPage() {  
+	{% for post in site.posts %}  
+		allposts.push("{{ site.url }}{{ post.url }}");  
+	{% endfor %}  
+	var url = window.location.toString();  
+	if (url.slice(-1) === "/") {  
+		 url = url.slice(0, -1);  
+	}  
+	var allpostsUpperCase = allposts.map(function(value) {  
+		return value.toUpperCase();  
+	});  
+	var i = allpostsUpperCase.indexOf(url.toUpperCase());  
+	if (i != -1) {  
+		console.log(allposts[i]);  
+		window.location = allposts[i];  
+	}  
+}  
+window.onload = redirectToCorrectPage;
+</script>
