@@ -11,8 +11,8 @@ function redirectToCorrectPage() {
 		allposts.push("{{ site.url }}{{ post.url }}");  
 	{% endfor %}  
 	var url = window.location.toString();  
-	if (url.slice(-1) === "/") {  
-		 url = url.slice(0, -1);  
+	if (url.slice(-1) !== "/") {  
+		 url = url + '/';  
 	}  
 	var allpostsUpperCase = allposts.map(function(value) {  
 		return value.toUpperCase();  
