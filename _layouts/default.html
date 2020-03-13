@@ -31,7 +31,8 @@
 		    return value.toUpperCase();  
 	    });  
 	    var i = allpostsUpperCase.indexOf(url.toUpperCase());  
-	    if (i != -1) {  
+	    var j = allposts.indexOf(url);
+	    if (i != -1 && j == -1) {  
 		    console.log(allposts[i]);  
 		    window.location = allposts[i];  
 	    }  
