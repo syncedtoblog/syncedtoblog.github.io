@@ -39,3 +39,5 @@ put less pressure on the health system, and people could get ICU treatment shoul
 
 I am most definitely not an epidemiologist, but as a social tool to limit virus spread a social ration book seems like an interesting idea.
 
+
+- Point out finer grained regional control with tokens (London vs UK)
