@@ -43,4 +43,4 @@ Obviously there are a number of privacy implications to this idea. Historically 
 
 Thanks for reading
 
-[- Tejas](https://synced.to/u/tej)
+[- Tejas](https://twitter.com/syncedto)
