@@ -30,13 +30,11 @@ People would receive a certain number of tokens a month, which they could use to
 
 Today's social rationing book would be implemented as an app. Tokens would be issued dynamically as barcodes venues can scan. That way the government will be able to more surgically stop the virus spreading in secondary outbreaks with less impact on people's lives. For example, the virus is currently spreading faster in London than in other parts of the UK, so Londoners would receive fewer monthly social rationing tokens. Such a tool would also help with contact tracing during outbreaks, as they would know where people used their socializing tokens.
 
-Many people will already understand the idea, based on the experiences of older generations. 
-Plus the prospect of being able to see people will keep the spirits up as opposed to an indefinite isolation. Counterintuitively, in a pre-lockdown situation perhaps this would result in more overall social distancing, as people won't be lapsing. 
+Many people will already understand the idea based on the experiences of older generations. 
+Plus the prospect of being able to see people will keep the spirits up as opposed to an indefinite isolation. Counterintuitively, in a pre-lockdown situation perhaps this would result in more overall social distancing as people won't be lapsing. 
 
-This might be a bit too out there, but maybe those populations who might be considered more at risk could also get tokens, 
-but just less frequently. The reason this might work is that on a larger scale maybe under social rationing would 
-put less pressure on the health system, and people could get ICU treatment should the need arise.
+I'm thinking at risk populations would also get tokens, but just less frequently. On a larger scale under social rationing there would be less pressure on the health system, and people could get ICU treatment should the need arise.
 
 I am most definitely not an epidemiologist, but as a social tool to limit virus spread a social ration book seems like an interesting idea.
 
-There are a number of privacy implications to this idea. Historically, when wartime ended rationing ended soon after, and with the UK government, one should expect for this to be the case on this occasion too. 
+Obviously there are a number of privacy implications to this idea. Historically when wartime ended rationing ended soon after. With the UK government one should expect for this to be the case on this occasion too. 
