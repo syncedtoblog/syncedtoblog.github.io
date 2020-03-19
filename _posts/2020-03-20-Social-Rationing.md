@@ -37,6 +37,6 @@ Plus the prospect of being able to see people will keep the spirits up as oppose
 
 At risk populations would also get tokens, but just less frequently. On a larger scale under social rationing there would be less pressure on the health system, and people could get ICU treatment should the need arise.
 
-I am most definitely not an epidemiologist, but as a social tool to limit virus spread a social ration book seems like an interesting idea. It would serve to reduce the frequency of social contact over no measures, but could be implemented with more geographic specificity, less population fatigue and on a longer term compared to lockdowns.
+I am most definitely not an epidemiologist, but as a social tool to limit virus spread, a social ration book seems like an interesting idea. It would serve to reduce the frequency of social contact over no measures, but could be implemented with more geographic specificity, less population fatigue and on a longer term compared to lockdowns.
 
 Obviously there are a number of privacy implications to this idea. Historically once wartime ended, rationing ended soon after. With the UK government one should expect for this to be the case on this occasion too. 
