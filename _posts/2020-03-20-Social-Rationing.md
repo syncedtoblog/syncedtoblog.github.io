@@ -32,6 +32,8 @@ People would receive a certain number of tokens a month, which they could use to
 
 Today's social rationing book would be implemented as an app. Tokens would be issued dynamically as barcodes venues can scan. That way the government will be able to more surgically stop the virus spreading in secondary outbreaks with less impact on people's lives. For example, the virus is currently spreading faster in London than in other parts of the UK, so Londoners would receive fewer monthly social rationing tokens. Such a tool would also help with contact tracing during outbreaks, as they would know where people used their social tokens.
 
+![_config.yml]({{ site.baseurl }}/images/2020-03-20-Social-Rationing-2.png)
+
 Many people will already understand the idea based on the experiences of older generations. 
 Plus the prospect of being able to see people will keep the spirits up as opposed to an indefinite isolation. Perhaps this would result in better overall social distancing versus just requesting people not to socialize, as people may lapse less. 
 
