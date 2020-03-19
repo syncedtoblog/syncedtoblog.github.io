@@ -14,10 +14,10 @@ I've seen around me, I think people will try to socially distance with the best 
 
 In some countries and regions, where the virus is further along, lockdowns have been enforced for months at a time. 
 This has been effective in quelling the virus. However, there is much talk in the scientific community about a second wave 
-of infections, and in a grimmer scenario a cycle of new infections followed by lockdowns. Plus some people are defying the lockdowns (). After a first wave lockdown, subsequent lockdowns will be increasingly affecting for people. 
+of infections, and an even grimmer scenario suggests a cycle of new infections followed by lockdowns. Plus some people have begun [defying](https://nypost.com/2020/03/18/spanish-man-hides-in-t-rex-costume-to-avoid-coronavirus-lockdown/) the lockdowns. Following a first wave lockdown subsequent lockdowns will be increasingly affecting for people. 
 
 The UK government has said we are on a war footing, and it got me thinking about previous wartime approaches to 
-meet people's needs when resources are scarce. Specifically rationing and the ration book:
+meet people's needs when resources are scarce. Specifically rationing and the ration book.
 
 ![_config.yml](https://upload.wikimedia.org/wikipedia/commons/c/cf/A_ration_book_and_clothing_coupon_book_as_issued_to_British_civilians_during_the_Second_World_War._D11310.jpg)
 
@@ -37,4 +37,4 @@ I'm thinking at risk populations would also get tokens, but just less frequently
 
 I am most definitely not an epidemiologist, but as a social tool to limit virus spread a social ration book seems like an interesting idea. It would serve to reduce the frequency of social contact over no measures, but could be implemented with more geographic specificity, less population fatigue, and on a longer term compared to lockdowns.
 
-Obviously there are a number of privacy implications to this idea. Historically when wartime ended, rationing ended soon after. With the UK government one should expect for this to be the case on this occasion too. 
+Obviously there are a number of privacy implications to this idea. Historically once wartime ended, rationing ended soon after. With the UK government one should expect for this to be the case on this occasion too. 
