@@ -5,8 +5,8 @@ img: images/2020-03-01-Annotation-Trial-1.png
 draft: true
 ---
 
-This week the UK and US recently shifted gear in their strategy towards the coronavirus, 
-introducing voluntary measures which would drastically affect people's lives over the next few months ([worst case possibly longer](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)). One of these measures is asking people to avoid non-essential social contact with friends and family.
+This week the UK and US shifted gear in their strategy towards the coronavirus, 
+introducing voluntary measures which would drastically affect people's lives over the next few months (in the [worst](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) case possibly longer). One of these measures is asking people to avoid non-essential social contact with friends and family.
 
 In the UK many people have listened to the government's requests and have started to limit non-essential social contact. 
 But humans are social creatures, and plenty (myself included) will find social distancing a challenge. Based on what
@@ -28,13 +28,13 @@ is it to stop it entirely for prolonged periods of time? So here's a crazy idea,
 
 People would receive a certain number of tokens a month, which they could use to leave the house for non-essential socializing (trips to the supermarket or essential work wouldn't be rationed). The venue they visit would then take the token (which may also tie into the venue receiving government assistance). 
 
-Today's social rationing book would be implemented as an app. Tokens would be issued dynamically as barcodes venues can scan. That way the government will be able to more surgically stop the virus spreading in secondary outbreaks with less impact on people's lives. For example, the virus is currently spreading faster in London than in other parts of the UK, so Londoners would receive fewer monthly social rationing tokens. Such a tool would also help with contact tracing during outbreaks, as they would know where people used their socializing tokens.
+Today's social rationing book would be implemented as an app. Tokens would be issued dynamically as barcodes venues can scan. That way the government will be able to more surgically stop the virus spreading in secondary outbreaks with less impact on people's lives. For example, the virus is currently spreading faster in London than in other parts of the UK, so Londoners would receive fewer monthly social rationing tokens. Such a tool would also help with contact tracing during outbreaks, as they would know where people used their social tokens.
 
 Many people will already understand the idea based on the experiences of older generations. 
-Plus the prospect of being able to see people will keep the spirits up as opposed to an indefinite isolation. Counterintuitively, in a pre-lockdown situation perhaps this would result in more overall social distancing as people won't be lapsing. 
+Plus the prospect of being able to see people will keep the spirits up as opposed to an indefinite isolation. Perhaps this would result in better overall social distancing versus just requesting people not to socialize, as people may lapse less. 
 
-I'm thinking at risk populations would also get tokens, but just less frequently. On a larger scale under social rationing there would be less pressure on the health system, and people could get ICU treatment should the need arise.
+At risk populations would also get tokens, but just less frequently. On a larger scale under social rationing there would be less pressure on the health system, and people could get ICU treatment should the need arise.
 
-I am most definitely not an epidemiologist, but as a social tool to limit virus spread a social ration book seems like an interesting idea. It would serve to reduce the frequency of social contact over no measures, but could be implemented with more geographic specificity, less population fatigue, and on a longer term compared to lockdowns.
+I am most definitely not an epidemiologist, but as a social tool to limit virus spread a social ration book seems like an interesting idea. It would serve to reduce the frequency of social contact over no measures, but could be implemented with more geographic specificity, less population fatigue and on a longer term compared to lockdowns.
 
 Obviously there are a number of privacy implications to this idea. Historically once wartime ended, rationing ended soon after. With the UK government one should expect for this to be the case on this occasion too. 
