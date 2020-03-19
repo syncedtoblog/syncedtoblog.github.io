@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Social Rationing to Suppress the Coronavirus
-img: images/2020-03-01-Annotation-Trial-1.png
+img: images/2020-03-20-Social-Rationing-1.png
 draft: true
 ---
 
@@ -19,7 +19,7 @@ of infections, and an even grimmer scenario suggests a cycle of new infections f
 The UK government has said we are on a war footing, and it got me thinking about previous wartime approaches to 
 meet people's needs when resources are scarce. Specifically rationing and the ration book.
 
-![_config.yml](https://upload.wikimedia.org/wikipedia/commons/c/cf/A_ration_book_and_clothing_coupon_book_as_issued_to_British_civilians_during_the_Second_World_War._D11310.jpg)
+![_config.yml]({{ site.baseurl }}/images/2020-03-20-Social-Rationing-1.png)
 
 Ration books were used on multiple occasions in 20th century Britain to ration food during wartime. They were given to every citizen who then registered in a shop of their choice.  When something was purchased the shopkeeper marked the purchase off in the customer’s book. Petrol coupons were also issued for a short time during the 1973 oil crisis, but were never used in the end.
 
