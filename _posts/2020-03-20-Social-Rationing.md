@@ -2,7 +2,6 @@
 layout: post
 title: Social Rationing to Suppress the Coronavirus
 img: images/2020-03-20-Social-Rationing-1.png
-draft: true
 ---
 
 This week the UK and US shifted gear in their strategy towards the coronavirus, 
