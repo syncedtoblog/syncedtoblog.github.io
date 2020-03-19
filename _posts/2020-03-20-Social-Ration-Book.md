@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Crazy Idea: A Social Ration Book to Suppress the Coronavirus
+title: A Social Ration Book to Suppress the Coronavirus
 img: images/2020-03-01-Annotation-Trial-1.png
 draft: true
 ---
