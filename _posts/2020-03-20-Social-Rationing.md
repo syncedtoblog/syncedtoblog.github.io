@@ -17,7 +17,7 @@ This has been effective in quelling the virus. However, there is much talk in th
 of infections, and an even grimmer scenario suggests a cycle of new infections followed by lockdowns. Plus more people may start [defying](https://nypost.com/2020/03/18/spanish-man-hides-in-t-rex-costume-to-avoid-coronavirus-lockdown/) the lockdowns. Following a first wave lockdown subsequent lockdowns will be increasingly affecting for people. 
 
 The UK government has said we are on a war footing, and it got me thinking about previous wartime approaches to 
-meet people's needs when resources are scarce. Specifically rationing and the ration book.
+meet people's needs when resources are scarce. Namely rationing and the ration book.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-03-20-Social-Rationing-1.png)
 ![_config.yml](https://upload.wikimedia.org/wikipedia/commons/c/cf/A_ration_book_and_clothing_coupon_book_as_issued_to_British_civilians_during_the_Second_World_War._D11310.jpg)
