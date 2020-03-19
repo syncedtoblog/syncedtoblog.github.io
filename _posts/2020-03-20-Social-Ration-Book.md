@@ -6,7 +6,7 @@ draft: true
 ---
 
 This week the UK and US shifted gear in their strategy towards the coronavirus, 
-introducing voluntary measures which would drastically affect people's lives over the next few months (in the [worst](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) case possibly longer). One of these measures is asking people to avoid non-essential social contact with friends and family.
+introducing voluntary measures which would drastically affect people's lives over the next few months (in the [worst case](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) possibly longer). One of these measures is asking people to avoid non-essential social contact with friends and family.
 
 In the UK many people have listened to the government's requests and have started to limit non-essential social contact. 
 But humans are social creatures, and plenty (myself included) will find social distancing a challenge. Based on what
@@ -14,7 +14,7 @@ I've seen around me, I think people will try to socially distance with the best 
 
 In some countries and regions, where the virus is further along, lockdowns have been enforced for months at a time. 
 This has been effective in quelling the virus. However, there is much talk in the scientific community about a second wave 
-of infections, and an even grimmer scenario suggests a cycle of new infections followed by lockdowns. Plus some people have begun [defying](https://nypost.com/2020/03/18/spanish-man-hides-in-t-rex-costume-to-avoid-coronavirus-lockdown/) the lockdowns. Following a first wave lockdown subsequent lockdowns will be increasingly affecting for people. 
+of infections, and an even grimmer scenario suggests a cycle of new infections followed by lockdowns. Plus more people may start [defying](https://nypost.com/2020/03/18/spanish-man-hides-in-t-rex-costume-to-avoid-coronavirus-lockdown/) the lockdowns. Following a first wave lockdown subsequent lockdowns will be increasingly affecting for people. 
 
 The UK government has said we are on a war footing, and it got me thinking about previous wartime approaches to 
 meet people's needs when resources are scarce. Specifically rationing and the ration book.
