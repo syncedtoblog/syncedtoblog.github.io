@@ -37,4 +37,4 @@ I'm thinking at risk populations would also get tokens, but just less frequently
 
 I am most definitely not an epidemiologist, but as a social tool to limit virus spread a social ration book seems like an interesting idea. It would serve to reduce the frequency of social contact over no measures, but could be implemented with more geographic specificity, less population fatigue, and on a longer term compared to lockdowns.
 
-Obviously there are a number of privacy implications to this idea. Historically when wartime ended rationing ended soon after. With the UK government one should expect for this to be the case on this occasion too. 
+Obviously there are a number of privacy implications to this idea. Historically when wartime ended, rationing ended soon after. With the UK government one should expect for this to be the case on this occasion too. 
