@@ -43,3 +43,4 @@ I am most definitely not an epidemiologist, but as a social tool to limit virus 
 - Point out finer grained regional control with tokens (London vs UK)
 - Counterintuitively may involve less overall social contact than current approach
 - whack a mole for months
+- excludes essential trips like supermarkets
