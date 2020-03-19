@@ -14,7 +14,7 @@ I've seen around me, I think people will try to socially distance with the best 
 
 In some countries and regions, where the virus is further along, lockdowns have been enforced for months at a time. 
 This has been effective in quelling the virus. However, there is much talk in the scientific community about a second wave 
-of infections, and in a grimmer scenario a cycle of new infections followed by lockdowns. Plus people are defying the lockdowns (). After a first wave lockdown, subsequent lockdowns will be increasingly affecting for people. 
+of infections, and in a grimmer scenario a cycle of new infections followed by lockdowns. Plus some people are defying the lockdowns (). After a first wave lockdown, subsequent lockdowns will be increasingly affecting for people. 
 
 The UK government has said we are on a war footing, and it got me thinking about previous wartime approaches to 
 meet people's needs when resources are scarce. Specifically rationing and the ration book:
