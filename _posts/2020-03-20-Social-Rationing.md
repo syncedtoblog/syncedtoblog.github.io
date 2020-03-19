@@ -35,7 +35,7 @@ Today's social rationing book would be implemented as an app. Tokens would be is
 Many people will already understand the idea based on the experiences of older generations. 
 Plus the prospect of being able to see people will keep the spirits up as opposed to an indefinite isolation. Perhaps this would result in better overall social distancing versus just requesting people not to socialize, as people may lapse less. 
 
-At risk populations would also get tokens, but just less frequently. On a larger scale under social rationing there would be less pressure on the health system, and people could get ICU treatment should the need arise.
+At risk populations would also get tokens, but just less frequently. On a larger scale under social rationing there would be less pressure on the health system, and those people could get ICU treatment should the need arise.
 
 I am most definitely not an epidemiologist, but as a social tool to limit virus spread, a social ration book seems like an interesting idea. It would serve to reduce the frequency of social contact over no measures, but could be implemented with more geographic specificity, less population fatigue and on a longer term compared to lockdowns.
 
