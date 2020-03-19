@@ -39,4 +39,4 @@ put less pressure on the health system, and people could get ICU treatment shoul
 
 I am most definitely not an epidemiologist, but as a social tool to limit virus spread a social ration book seems like an interesting idea.
 
-
+There are a number of privacy implications to this idea. Historically, when wartime ended rationing ended soon after, and with the UK government, one should expect for this to be the case on this occasion too. 
