@@ -43,4 +43,5 @@ I am most definitely not an epidemiologist, but as a social tool to limit virus 
 Obviously there are a number of privacy implications to this idea. Historically once wartime ended, rationing ended soon after. With the UK government one should expect for this to be the case on this occasion too.
 
 Thanks for reading
-Tejas
+
+[- Tejas](https://synced.to/u/tej)
