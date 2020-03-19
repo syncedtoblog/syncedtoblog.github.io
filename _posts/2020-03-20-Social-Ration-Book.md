@@ -19,9 +19,9 @@ of infections, and in a grimmer scenario a cycle of new infections followed by l
 The UK government has said we are on a war footing, and it got me thinking about previous wartime approaches to 
 meet people's needs when resources are scarce. Specifically rationing and the ration book:
 
-![_config.yml](https://upload.wikimedia.org/wikipedia/commons/c/c1/Sample_UK_Childs_Ration_Book_WW2.jpg)
+![_config.yml](https://upload.wikimedia.org/wikipedia/commons/c/cf/A_ration_book_and_clothing_coupon_book_as_issued_to_British_civilians_during_the_Second_World_War._D11310.jpg)
 
-Ration books were used on multiple occasions in 20th centiry Britain to ration food during wartime. They were given to everyone in Britain who then registered in a shop of their choice.  When something was purchased the shopkeeper marked the purchase off in the customer’s book. Petrol coupons were also issued for a short time during the 1973 oil crisis, but were never used in the end.
+Ration books were used on multiple occasions in 20th century Britain to ration food during wartime. They were given to every citizen who then registered in a shop of their choice.  When something was purchased the shopkeeper marked the purchase off in the customer’s book. Petrol coupons were also issued for a short time during the 1973 oil crisis, but were never used in the end.
 
 During this pandemic, we're going to have to limit social contact. But human nature being what it is, how realistic 
 is it to stop it entirely for prolonged periods of time? So here's a crazy idea, what about a social ration book?
