@@ -14,13 +14,12 @@ I've seen around me, I think people will try to socially distance with the best 
 
 In some countries and regions, where the virus is further along, lockdowns have been enforced for months at a time. 
 This has been effective in quelling the virus. However, there is much talk in the scientific community about a second wave 
-of infections, and an even grimmer scenario suggests a cycle of new infections followed by lockdowns. Plus more people may start [defying](https://nypost.com/2020/03/18/spanish-man-hides-in-t-rex-costume-to-avoid-coronavirus-lockdown/) the lockdowns. Following a first wave lockdown subsequent lockdowns will be increasingly affecting for people. 
+of infections, and an even grimmer scenario suggests a cycle of new infections followed by lockdowns. Subsequent lockdowns will be increasingly affecting for people, and more people may start [defying](https://nypost.com/2020/03/18/spanish-man-hides-in-t-rex-costume-to-avoid-coronavirus-lockdown/) them. 
 
 The UK government has said we are on a war footing, and it got me thinking about previous wartime approaches to 
 meet people's needs when resources are scarce. Namely rationing and the ration book.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-03-20-Social-Rationing-1.png)
-![_config.yml](https://upload.wikimedia.org/wikipedia/commons/c/cf/A_ration_book_and_clothing_coupon_book_as_issued_to_British_civilians_during_the_Second_World_War._D11310.jpg)
 *Imperial War Museum/Wikimedia Commons*
 
 Ration books were used on multiple occasions in 20th century Britain to ration food during wartime. They were given to every citizen who then registered in a shop of their choice.  When something was purchased the shopkeeper marked the purchase off in the customer’s book. Petrol coupons were also issued for a short time during the 1973 oil crisis, but were never used in the end.
@@ -35,10 +34,13 @@ Today's social rationing book would be implemented as an app. Tokens would be is
 ![_config.yml]({{ site.baseurl }}/images/2020-03-20-Social-Rationing-2.png)
 
 Many people will already understand the idea based on the experiences of older generations. 
-Plus the prospect of being able to see people will keep the spirits up as opposed to an indefinite isolation. Perhaps this would result in better overall social distancing versus just requesting people not to socialize, as people may lapse less. 
+Plus the prospect of being able to see friends and family will keep the spirits up as opposed to an indefinite isolation. Perhaps this would result in better overall social distancing versus just requesting people not to socialize, as people may lapse less often. 
 
 At risk populations would also get tokens, but just less frequently. On a larger scale under social rationing there would be less pressure on the health system, and those people could get ICU treatment should the need arise.
 
 I am most definitely not an epidemiologist, but as a social tool to limit virus spread, a social ration book seems like an interesting idea. It would serve to reduce the frequency of social contact over no measures, but could be implemented with more geographic specificity, less population fatigue and on a longer term compared to lockdowns.
 
-Obviously there are a number of privacy implications to this idea. Historically once wartime ended, rationing ended soon after. With the UK government one should expect for this to be the case on this occasion too. 
+Obviously there are a number of privacy implications to this idea. Historically once wartime ended, rationing ended soon after. With the UK government one should expect for this to be the case on this occasion too.
+
+Thanks for reading
+Tejas
