@@ -55,24 +55,24 @@ All the spaces that have implemented naked streets have seen reductions in the s
 In Poynton, there was a busy intersection which connected the town to the highway and other nearby towns. It was notoriously busy — a site of traffic jams, accidents, and of course: road rage. Lots of it.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-4.jpg)
-*Before the renovations. Notice how there are still suggestive sidewalks in the new design, but the restrictions have been massively reduced. [_&quot;Park Lane, Poynton&quot;_](https://www.geograph.org.uk/photo/67572) _by_ [_L J Cunningham_](https://geograph.org.uk/profile/1755)*
+*Before the renovations. Notice how there are still suggestive sidewalks in the new design, but the restrictions have been massively reduced. [_&quot;Park Lane, Poynton&quot;_](https://www.geograph.org.uk/photo/67572) by [_L J Cunningham_](https://geograph.org.uk/profile/1755)*
 
 In a daring project, the Council decided to experiment with making the intersection into a shared space. They removed barriers between pedestrians and cars, removed traffic lights, removed pedestrian crossings and cycle lanes, and made the square into a shared, open, naked street.
 
 The results were quite outstanding. Traffic got by a lot quicker. Pedestrians felt safer crossing the streets. Accidents decreased sharply.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-5.jpg)
-*[&quot;Park Lane (Poynton High Street), Cheshire&quot;_](https://www.flickr.com/photos/41616459@N02/11926981263) _by_ [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)*
+*[&quot;Park Lane (Poynton High Street), Cheshire&quot;_](https://www.flickr.com/photos/41616459@N02/11926981263) by [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)*
 
 Some residents, understandably, had initially opposed the plans. But, once the new square opened, they were amazed by the results.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-6.jpg)
-*[&quot;Park Lane (Poynton High Street), Cheshire&quot;_](https://www.flickr.com/photos/41616459@N02/11927027543) _by_ [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)*
+*[&quot;Park Lane (Poynton High Street), Cheshire&quot;_](https://www.flickr.com/photos/41616459@N02/11927027543) by [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)*
 
 **Or, take the example of London's Exhibition Road.**
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-7.jpg)
-*[&quot;IMGP8936&quot;_](https://www.flickr.com/photos/23136508@N00/16045947546) _by_ [_mattbuck4950_](https://www.flickr.com/photos/23136508@N00)*
+*[&quot;IMGP8936&quot;_](https://www.flickr.com/photos/23136508@N00/16045947546) by [_mattbuck4950_](https://www.flickr.com/photos/23136508@N00)*
 
 The situation with London's Exhibition Road is a bit different. Exhibition Road, aptly named, is central to London's cultural hotspots: it leads to the Royal Albert Hall on one end and is bordered by the Victoria and Albert Museum on one side, and Imperial College and the Science and History Museums on the other. Collectively, these attractions bring in more annual visitors than Venice does.
 
@@ -81,7 +81,7 @@ You'd think that a road like that, so central to London's cultural identity and 
 That's why, when it came time to sit down and discuss renovations, it wasn't just ease of access that was on the table. The designers of the new Exhibition Road wanted something to make traffic control easier, yes, but that's not all they wanted. They also wanted Exhibition Road to live up to its symbolic position and cultural importance. They wanted it to invite people in and to emphasise the shared and central value of the place.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-8.jpg)
-*[&quot;London, Exhibition Road&quot;_](https://www.flickr.com/photos/130600941@N07/16759695507) _by_ [_b16aug_](https://www.flickr.com/photos/130600941@N07)*
+*[&quot;London, Exhibition Road&quot;_](https://www.flickr.com/photos/130600941@N07/16759695507) by [_b16aug_](https://www.flickr.com/photos/130600941@N07)*
 
 Hence: Bring in the naked streets.
 
@@ -90,22 +90,22 @@ Barriers between pedestrians and cars were, as with Poynton Square, removed. The
 The results were quite remarkable. The renovations didn't just improve the flow of traffic, they also improved the pedestrian experience, and highlighted the Road as an attraction in and of itself, rather than merely being a thoroughfare.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-9.jpg)
-*[&quot;IMGP8940&quot;_](https://www.flickr.com/photos/23136508@N00/15449439484) _by_ [_mattbuck4950_](https://www.flickr.com/photos/23136508@N00)*
+*[&quot;IMGP8940&quot;_](https://www.flickr.com/photos/23136508@N00/15449439484) by [_mattbuck4950_](https://www.flickr.com/photos/23136508@N00)*
 
 **Another nice example is Elwick Square in Kent, England.**
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-10.jpg)
-*[&quot;Elwick Road / West Street&quot;_](https://www.flickr.com/photos/41616459@N02/15659111067) _by_ [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)*
+*[&quot;Elwick Road / West Street&quot;_](https://www.flickr.com/photos/41616459@N02/15659111067) by [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)*
 
 Elwick Square, in Ashford, also tested out the naked streets. They've given no priority to cyclists, pedestrians, or motorists. Some cars do u-turns, others stop on the sides, but there are no signs indicating what they should or shouldn't do.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-11.jpg)
-*[&quot;Elwick Road / West Street&quot;_](https://www.flickr.com/photos/41616459@N02/15657416160) _by_ [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)*
+*[&quot;Elwick Road / West Street&quot;_](https://www.flickr.com/photos/41616459@N02/15657416160) by [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)*
 
 Some pedestrians have said they feel a bit hesitant when crossing. But the numbers show that accidents have drastically gone down. Motorists and pedestrians make eye-contact with each other to manoeuvre their way around the space which, in theory, should encourage a sense of community.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-12.jpg)
-*[&quot;Elwick Road / West Street&quot;_](https://www.flickr.com/photos/41616459@N02/15658753539) _by_ [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)*
+*[&quot;Elwick Road / West Street&quot;_](https://www.flickr.com/photos/41616459@N02/15658753539) by [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)*
 
 **Where do we go from here?**
 
