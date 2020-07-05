@@ -21,6 +21,7 @@ Imagine the busiest, messiest crossroads you know. The one that just makes you s
 
 Sound chaotic? Surprisingly, it's not. Everywhere that's implemented the so-called _naked streets_ has seen decreases in traffic accidents, and increases in the smooth flow of traffic. Here's a closer look:
 
+
 **Who stripped the streets?**
 
 The concept of the naked street is usually attributed to Hans Monderman, a Dutch road traffic engineer. Moderman didn't like the way the government controlled a space that should be ours. By imposing travel restrictions, he felt they were restricting our rights and freedoms as well.
@@ -29,6 +30,7 @@ The concept of the naked street is usually attributed to Hans Monderman, a Dutch
 *[&quot;Monderman in calmed traffic circle&quot;](https://www.flickr.com/photos/35034362215@N01/414192129) by [sociate](https://www.flickr.com/photos/35034362215@N01)*
 
 Instead, he envisaged a different way to conceptualise traffic as part of the spatial fabric of our lives. Instead of regulation and segregation, Monderman believed that we could allow people — drivers, cyclists, and pedestrians — to communicate with each other to negotiate their space, including who gets to pass where and when.
+
 
 **Why would anybody want to do that?**
 
@@ -43,11 +45,13 @@ It sounds very different to the uber-organised world we're used to living in. A 
 
 Shared spaces reject that. They want to have as little demarcation as possible between vehicles and pedestrians.
 
+
 **How has it worked out?**
 
 All the spaces that have implemented naked streets have seen reductions in the speed of vehicles, reductions in road accidents, and reductions in pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic.
 
-**Take, for example, what happened in Poynton, a village-like town in Cheshire, England.**
+
+**Take, for example, what happened in Poynton, a village-like town in Cheshire, England**
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-3.jpg)
 *[&quot;Park Lane (Poynton High Street), Cheshire&quot;](https://www.flickr.com/photos/41616459@N02/11926246975) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
@@ -68,6 +72,7 @@ Some residents, understandably, had initially opposed the plans. But, once the n
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-6.jpg)
 *[&quot;Park Lane (Poynton High Street), Cheshire&quot;](https://www.flickr.com/photos/41616459@N02/11927027543) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
+
 
 **Or, take the example of London's Exhibition Road.**
 
@@ -92,7 +97,8 @@ The results were quite remarkable. The renovations didn't just improve the flow 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-9.jpg)
 *[&quot;IMGP8940&quot;](https://www.flickr.com/photos/23136508@N00/15449439484) by [mattbuck4950](https://www.flickr.com/photos/23136508@N00)*
 
-**Another nice example is Elwick Square in Kent, England.**
+
+**Another nice example is Elwick Square in Kent, England**
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-10.jpg)
 *[&quot;Elwick Road / West Street&quot;](https://www.flickr.com/photos/41616459@N02/15659111067) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
@@ -107,13 +113,12 @@ Some pedestrians have said they feel a bit hesitant when crossing. But the numbe
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-12.jpg)
 *[&quot;Elwick Road / West Street&quot;](https://www.flickr.com/photos/41616459@N02/15658753539) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
 
-**Where do we go from here?**
-
-Are naked streets the future?
+**Are naked streets the future?**
 
 Well, it's probably too soon to tell. Yes, they've worked well in numerous places, but there's also been concern from citizens. In all likelihood, some experimentation is still needed to see how and where naked streets can work best, to better manage our spatial communities.
 
 In terms of accountability, having rules and regulations probably makes it easier when accidents happen, to find out who was in the wrong. But, even that is based on what we're used to with the legal system handling regulated streets. A shift to more naked streets would also require a shift in how driving lessons are taught in the first place, and on how the laws surrounding the streets are shaped and applied.
+
 
 **When did they really start?**
 
