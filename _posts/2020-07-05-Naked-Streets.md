@@ -113,16 +113,8 @@ Some pedestrians have said they feel a bit hesitant when crossing. But the numbe
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-12.jpg)
 *[&quot;Elwick Road / West Street&quot;](https://www.flickr.com/photos/41616459@N02/15658753539) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
 
-**Are naked streets the future?**
 
-Well, it's probably too soon to tell. Yes, they've worked well in numerous places, but there's also been concern from citizens. In all likelihood, some experimentation is still needed to see how and where naked streets can work best, to better manage our spatial communities.
-
-In terms of accountability, having rules and regulations probably makes it easier when accidents happen, to find out who was in the wrong. But, even that is based on what we're used to with the legal system handling regulated streets. A shift to more naked streets would also require a shift in how driving lessons are taught in the first place, and on how the laws surrounding the streets are shaped and applied.
-
-
-**When did they really start?**
-
-A note on controversy:
+**A note on controversy**
 
 The idea of naked streets has generated some backlash. Not over the concept, but over its attribution.
 
@@ -132,7 +124,13 @@ These critics are basically saying that advocates of naked streets have taken so
 
 In all fairness, this is likely true. But people implementing naked streets now aren't making claims on originality — they're interested in moving towards a new approach of conceptualising and organising our public spaces. And that's pretty cool for all of us.
 
-_Found on the Synced app, where you can explore awesome places, nearaway and faraway._
 
+**Are naked streets the future?**
 
+Well, it's probably too soon to tell. Yes, they've worked well in numerous places, but there's also been concern from citizens. In all likelihood, some experimentation is still needed to see how and where naked streets can work best, to better manage our spatial communities.
 
+In terms of accountability, having rules and regulations probably makes it easier when accidents happen, to find out who was in the wrong. But, even that is based on what we're used to with the legal system handling regulated streets. A shift to more naked streets would also require a shift in how driving lessons are taught in the first place, and on how the laws surrounding the streets are shaped and applied.
+
+[Yomna El-Serafy](https://medium.com/u/cfdf8602e700)
+
+_Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._
