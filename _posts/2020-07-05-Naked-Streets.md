@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Naked Streets: Do They Bring Chaos or Safety
+title: Naked Streets: Do They Bring Chaos or Safety?
 img: images/2020-03-20-Social-Rationing-1.png
 draft: 1
 ---
