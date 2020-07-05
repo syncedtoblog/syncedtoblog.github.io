@@ -9,7 +9,7 @@ img: images/2020-07-05-Naked-Streets-1.jpg
 _What's happening to the cities choosing to remove road signs, traffic lights, and markings? Apparently, they're safer._
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-1.jpg)
-*[&quot;_Speed camera sign stock photo&quot;](https://www.flickr.com/photos/126066997@N07/46662927374) by [moneybright](https://www.flickr.com/photos/126066997@N07)*
+*[&quot;Speed camera sign stock photo&quot;](https://www.flickr.com/photos/126066997@N07/46662927374) by [moneybright](https://www.flickr.com/photos/126066997@N07)*
 
 Road rage is, simply put, a phenomena that is _so_ universal, that it makes me wonder if we would even survive without it. I've travelled to dozens of countries, to almost every continent, and I've seen even the most seemingly basic elements of day-to-day life completely turned upside down. But for all the variation in lifestyle and cultures, road rage persists. Everywhere.
 
@@ -26,7 +26,7 @@ Sound chaotic? Surprisingly, it's not. Everywhere that's implemented the so-call
 The concept of the naked street is usually attributed to Hans Monderman, a Dutch road traffic engineer. Moderman didn't like the way the government controlled a space that should be ours. By imposing travel restrictions, he felt they were restricting our rights and freedoms as well.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-2.jpg)
-*[&quot;_Monderman in calmed traffic circle&quot;](https://www.flickr.com/photos/35034362215@N01/414192129) by [sociate](https://www.flickr.com/photos/35034362215@N01)*
+*[&quot;Monderman in calmed traffic circle&quot;](https://www.flickr.com/photos/35034362215@N01/414192129) by [sociate](https://www.flickr.com/photos/35034362215@N01)*
 
 Instead, he envisaged a different way to conceptualise traffic as part of the spatial fabric of our lives. Instead of regulation and segregation, Monderman believed that we could allow people — drivers, cyclists, and pedestrians — to communicate with each other to negotiate their space, including who gets to pass where and when.
 
@@ -50,7 +50,7 @@ All the spaces that have implemented naked streets have seen reductions in the s
 **Take, for example, what happened in Poynton, a village-like town in Cheshire, England.**
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-3.jpg)
-*[&quot;_Park Lane (Poynton High Street), Cheshire&quot;](https://www.flickr.com/photos/41616459@N02/11926246975) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
+*[&quot;Park Lane (Poynton High Street), Cheshire&quot;](https://www.flickr.com/photos/41616459@N02/11926246975) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
 
 In Poynton, there was a busy intersection which connected the town to the highway and other nearby towns. It was notoriously busy — a site of traffic jams, accidents, and of course: road rage. Lots of it.
 
