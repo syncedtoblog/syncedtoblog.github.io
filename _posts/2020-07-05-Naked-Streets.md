@@ -74,7 +74,7 @@ Some residents, understandably, had initially opposed the plans. But, once the n
 *[&quot;Park Lane (Poynton High Street), Cheshire&quot;](https://www.flickr.com/photos/41616459@N02/11927027543) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
 
 
-**Or, take the example of London's Exhibition Road.**
+**Or, take the example of London's Exhibition Road**
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-7.jpg)
 *[&quot;IMGP8936&quot;](https://www.flickr.com/photos/23136508@N00/16045947546) by [mattbuck4950](https://www.flickr.com/photos/23136508@N00)*
