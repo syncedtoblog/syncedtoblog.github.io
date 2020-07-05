@@ -25,7 +25,7 @@ Sound chaotic? Surprisingly, it's not. Everywhere that's implemented the so-call
 
 The concept of the naked street is usually attributed to Hans Monderman, a Dutch road traffic engineer. Moderman didn't like the way the government controlled a space that should be ours. By imposing travel restrictions, he felt they were restricting our rights and freedoms as well.
 
-![](RackMultipart20200705-4-14bvva7_html_71d8bd37c9b28264.jpg)[&quot;_Monderman in calmed traffic circle&quot;_](https://www.flickr.com/photos/35034362215@N01/414192129) _by _[_sociate_](https://www.flickr.com/photos/35034362215@N01)
+![](RackMultipart20200705-4-14bvva7_html_71d8bd37c9b28264.jpg)[&quot;_Monderman in calmed traffic circle&quot;_](https://www.flickr.com/photos/35034362215@N01/414192129) _by_ [_sociate_](https://www.flickr.com/photos/35034362215@N01)
 
 Instead, he envisaged a different way to conceptualise traffic as part of the spatial fabric of our lives. Instead of regulation and segregation, Monderman believed that we could allow people — drivers, cyclists, and pedestrians — to communicate with each other to negotiate their space, including who gets to pass where and when.
 
@@ -52,7 +52,7 @@ All the spaces that have implemented naked streets have seen reductions in the s
 
 In Poynton, there was a busy intersection which connected the town to the highway and other nearby towns. It was notoriously busy — a site of traffic jams, accidents, and of course: road rage. Lots of it.
 
-![](RackMultipart20200705-4-14bvva7_html_e290ba5e753de319.jpg)Before the renovations. Notice how there are still suggestive sidewalks in the new design, but the restrictions have been massively reduced. [_&quot;Park Lane, Poynton&quot;_](https://www.geograph.org.uk/photo/67572) _by_ [_L J Cunningham_](https://geograph.org.uk/profile/1755)_._
+![](RackMultipart20200705-4-14bvva7_html_e290ba5e753de319.jpg)Before the renovations. Notice how there are still suggestive sidewalks in the new design, but the restrictions have been massively reduced. [_&quot;Park Lane, Poynton&quot;_](https://www.geograph.org.uk/photo/67572) _by_ [_L J Cunningham_](https://geograph.org.uk/profile/1755)
 
 In a daring project, the Council decided to experiment with making the intersection into a shared space. They removed barriers between pedestrians and cars, removed traffic lights, removed pedestrian crossings and cycle lanes, and made the square into a shared, open, naked street.
 
@@ -74,7 +74,7 @@ You'd think that a road like that, so central to London's cultural identity and 
 
 That's why, when it came time to sit down and discuss renovations, it wasn't just ease of access that was on the table. The designers of the new Exhibition Road wanted something to make traffic control easier, yes, but that's not all they wanted. They also wanted Exhibition Road to live up to its symbolic position and cultural importance. They wanted it to invite people in and to emphasise the shared and central value of the place.
 
-![](RackMultipart20200705-4-14bvva7_html_d7103fd0b6ebc758.jpg)[&quot;_London, Exhibition Road [21.03.2015]&quot;_](https://www.flickr.com/photos/130600941@N07/16759695507) _by _[_b16aug_](https://www.flickr.com/photos/130600941@N07)
+![](RackMultipart20200705-4-14bvva7_html_d7103fd0b6ebc758.jpg)[&quot;_London, Exhibition Road &quot;_](https://www.flickr.com/photos/130600941@N07/16759695507) _by_ [_b16aug_](https://www.flickr.com/photos/130600941@N07)
 
 Hence: Bring in the naked streets.
 
@@ -90,11 +90,11 @@ The results were quite remarkable. The renovations didn't just improve the flow 
 
 Elwick Square, in Ashford, also tested out the naked streets. They've given no priority to cyclists, pedestrians, or motorists. Some cars do u-turns, others stop on the sides, but there are no signs indicating what they should or shouldn't do.
 
-![](RackMultipart20200705-4-14bvva7_html_b2305bbd32706176.jpg)[&quot;_Elwick Road / West Street&quot;_](https://www.flickr.com/photos/41616459@N02/15657416160) _by_ [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)_._
+![](RackMultipart20200705-4-14bvva7_html_b2305bbd32706176.jpg)[&quot;_Elwick Road / West Street&quot;_](https://www.flickr.com/photos/41616459@N02/15657416160) _by_ [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)
 
 Some pedestrians have said they feel a bit hesitant when crossing. But the numbers show that accidents have drastically gone down. Motorists and pedestrians make eye-contact with each other to manoeuvre their way around the space which, in theory, should encourage a sense of community.
 
-![](RackMultipart20200705-4-14bvva7_html_26237785f43c44b8.jpg)[&quot;_Elwick Road / West Street&quot;_](https://www.flickr.com/photos/41616459@N02/15658753539) _by_ [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)_._
+![](RackMultipart20200705-4-14bvva7_html_26237785f43c44b8.jpg)[&quot;_Elwick Road / West Street&quot;_](https://www.flickr.com/photos/41616459@N02/15658753539) _by_ [_The Academy of Urbanism_](https://www.flickr.com/photos/41616459@N02)
 
 **Where do we go from here?**
 
