@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Naked Streets: Do They Bring Chaos or Safety?
+title: Naked Streets - Do They Bring Chaos or Safety?
 img: images/2020-07-05-Naked-Streets-1.jpg
 ---
 
-**Naked Streets: Do They Bring Chaos or Safety?**
+**Naked Streets - Do They Bring Chaos or Safety?**
 
 _What's happening to the cities choosing to remove road signs, traffic lights, and markings? Apparently, they're safer._
 
