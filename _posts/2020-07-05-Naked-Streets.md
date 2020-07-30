@@ -118,7 +118,7 @@ The attribution of the naked streets concept has also generated some backlash. S
 
 **Are naked streets the future?**
 
-Well, it's probably too soon to tell. Yes, they've worked well in numerous places, but there's also been concern from citizens, especially those who may be more vulnerable when navigating the streets. In all likelihood, some experimentation is still needed to see how and where naked streets can work best, to better manage our spatial communities.
+Well, it's probably too soon to tell. Yes, they've worked well in numerous places, but there's also been concern from citizens. In all likelihood, some experimentation is still needed to see how and where naked streets can work best, to better manage our spatial communities.
 
 In terms of accountability, having rules and regulations probably makes it easier when accidents happen, to find out who was in the wrong. But, even that is based on what we're used to with the legal system handling regulated streets. A shift to more naked streets would also require a shift in how driving lessons are taught in the first place, and on how the laws surrounding the streets are shaped and applied.
 
