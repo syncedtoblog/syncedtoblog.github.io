@@ -105,13 +105,13 @@ Some pedestrians have said they feel a bit hesitant when crossing. But the numbe
 
 **How has it worked out overall?**
 
-Many of the spaces that have implemented naked streets have seen reductions in vehicle speed, road accidents, and pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic. One interesting finding also showed how the function of the naked street changes depending on who's using it. The British Transport Research Laboratory found that below flows of 90 vehicles per hour adult pedestrians were prepared to mingle with traffic. But when flows reached 110 vehicles per hour, they used the width between frontages as if it were a traditional road.
+Many of the spaces that have implemented naked streets have seen reductions in vehicle speed, road accidents, and pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic. 
 
 It's not all good news however. With more naked streets in the wild, a number of criticisms of the concept have emerged. 
 
 The strongest criticism has come from organisations representing blind, partially sighted and deaf people. Naked streets often mean the absence of familiar features (such as railings, kerbs, barriers and separate surfaces) that pedestrians with disabilities rely on to safely navigate. The UK's Guide Dogs for the Blind Association's "Say No to Shared Streets" campaign has been supported by more than thirty other disability organisations.
 
-Another concern is that when pedestrians, cyclists and drivers interact with the space, the law of the jungle prevails. In streets with high volumes of traffic, pedestrians may be more likely to give way to vehicles than vice versa. Many pedestrians, including a markedly higher proportion of vulnerable people, have found the new design more intimidating. 
+Another concern is that when pedestrians, cyclists and drivers interact with the space, the law of the jungle prevails. In streets with high volumes of traffic, pedestrians may be more likely to give way to vehicles than vice versa. The British Transport Research Laboratory found that below flows of 90 vehicles per hour adult pedestrians were prepared to mingle with traffic. But when flows reached 110 vehicles per hour, they used the width between frontages as if it were a traditional road. Many pedestrians, including a markedly higher proportion of vulnerable people, have found the new design more intimidating. 
 
 The attribution of the naked streets concept has also generated some backlash. Some critics argue that naked streets have been around for a long time outside European contexts. In some places, it's the norm not to have road signs and regulations, and people are comfortable sharing their streets that way. These critics are basically saying that advocates of naked streets have taken something that already exists, and re-packaged it as a European invention.
 
