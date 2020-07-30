@@ -68,7 +68,7 @@ Some residents, understandably, had initially opposed the plans. But, once the n
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-7.jpg)
 *[&quot;IMGP8936&quot;](https://www.flickr.com/photos/23136508@N00/16045947546) by [mattbuck4950](https://www.flickr.com/photos/23136508@N00)*
 
-The situation with London's Exhibition Road is a bit different. Exhibition Road, aptly named, is central to London's cultural hotspots: it leads to the Royal Albert Hall on one end and is bordered by the Victoria and Albert Museum on one side, and Imperial College and the Science and History Museums on the other. Collectively, these attractions bring in more annual visitors than Venice does.
+The situation with London's Exhibition Road is a bit different. Exhibition Road, aptly named, is central to London's cultural hotspots: it leads to the Royal Albert Hall on one end and is bordered by the Victoria and Albert Museum on one side, and Imperial College and the Science and Natural History Museums on the other. Collectively, these attractions bring in more annual visitors than Venice does.
 
 You'd think that a road like that, so central to London's cultural identity and tourism, would be nothing less than red-carpet-like. But, it had been largely neglected for years. It was notorious for traffic jams, difficult pedestrian crossings, and the impossibility of finding a parking spot. Its overall appearance and atmosphere probably did more to contribute to the stereotype of England being grey and gloomy than it did to welcome visitors and highlight its cultural attributes.
 
