@@ -105,7 +105,7 @@ Some pedestrians have said they feel a bit hesitant when crossing. But the numbe
 
 **How has it worked out overall?**
 
-Many of the spaces that have implemented naked streets have seen reductions in the speed of vehicles, road accidents, and pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic. One interesting finding also showed how the function of the naked street changes depending on who's using it. The British Transport Research Laboratory found that below flows of 90 vehicles per hour adult pedestrians were prepared to mingle with traffic. But when flows reached 110 vehicles per hour, they used the width between frontages as if it were a traditional road.
+Many of the spaces that have implemented naked streets have seen reductions in vehicle speed, road accidents, and pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic. One interesting finding also showed how the function of the naked street changes depending on who's using it. The British Transport Research Laboratory found that below flows of 90 vehicles per hour adult pedestrians were prepared to mingle with traffic. But when flows reached 110 vehicles per hour, they used the width between frontages as if it were a traditional road.
 
 It's not all good news however. With more naked streets in the wild, a number of criticisms of the concept have emerged. 
 
