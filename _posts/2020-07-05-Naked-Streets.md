@@ -4,20 +4,16 @@ title: Naked Streets - Do They Bring Chaos or Safety?
 img: images/2020-07-05-Naked-Streets-1.jpg
 ---
 
-What happens to the places choosing to remove road signs, traffic lights, and markings? TLDR, They become safer.
+What happens to the places choosing to remove road signs, traffic lights, and markings?
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-1.jpg)
 *[&quot;Speed camera sign stock photo&quot;](https://www.flickr.com/photos/126066997@N07/46662927374) by [moneybright](https://www.flickr.com/photos/126066997@N07)*
 
-Road rage is, simply put, a phenomena that is _so_ universal, that it makes me wonder if we would even survive without it. I've travelled to dozens of countries, to almost every continent, and I've seen even the most seemingly basic elements of day-to-day life completely turned upside down. But for all the variation in lifestyle and cultures, road rage persists. Everywhere.
+Cities have tried all sorts of ways to manage traffic. From road cameras, to traffic lights, to speed limits, to more lights, to ramps and pedestrians crossing, to road signs, to public awareness campaigns, to _more_ lights, and the list goes on and on.
 
-People have tried all sorts of ways to manage traffic. From instituting neighbourhood watch areas, to road cameras, to traffic lights, to speed limits, to more lights, to ramps and pedestrians crossing, to road signs, to public awareness campaigns, to _more_ lights, and the list goes on and on.
+Over the last fifteen years, planners and civil engineers around Europe have been experimenting with a wholly different approach: _getting rid of these signs all together_. Not just signs, getting rid of everything. Traffic lights, pedestrian crossings, even the distinction between roads for cars and pavements for pedestrians.
 
-Now, people in cities around Europe are trying a wholly different approach: _getting rid of these signs all together_. Not just signs, getting rid of everything. Traffic lights, pedestrian crossings, even the distinction between roads for cars and pavements for pedestrians.
-
-Imagine the busiest, messiest crossroads you know. The one that just makes you sigh if you have to drive through it, shout as you drive through, and shudder if you walk past. Imagine all the lights and signs removed from that crossing. What would happen? That's what cities around the continent are trying.
-
-Sound chaotic? Surprisingly, it's not. Everywhere that's implemented the so-called _naked streets_ has seen decreases in traffic accidents, and increases in the smooth flow of traffic. Here's a closer look:
+Imagine the busiest, messiest crossroads you know. The one that just makes you sigh if you have to drive through it, shout as you drive through, and shudder if you walk past. Imagine all the lights and signs removed from that crossing. That's what cities around the continent have been trying out, and here's how things went:
 
 
 **Who stripped the streets?**
@@ -42,11 +38,6 @@ The space where we live, walk, drive, or cycle is shared by all of us, and is es
 It sounds very different to the uber-organised world we're used to living in. A lot of us are used to think that regulation is necessary so we can have order.
 
 Shared spaces reject that. They want to have as little demarcation as possible between vehicles and pedestrians.
-
-
-**How has it worked out?**
-
-All the spaces that have implemented naked streets have seen reductions in the speed of vehicles, reductions in road accidents, and reductions in pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic.
 
 
 **Take, for example, what happened in Poynton, a village-like town in Cheshire, England**
@@ -112,7 +103,9 @@ Some pedestrians have said they feel a bit hesitant when crossing. But the numbe
 *[&quot;Elwick Road / West Street&quot;](https://www.flickr.com/photos/41616459@N02/15658753539) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
 
 
-**A note on controversy**
+**How has it worked out?**
+
+All the spaces that have implemented naked streets have seen reductions in the speed of vehicles, reductions in road accidents, and reductions in pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic.
 
 The idea of naked streets has generated some backlash. Not over the concept, but over its attribution.
 
