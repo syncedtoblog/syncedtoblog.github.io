@@ -48,11 +48,11 @@ Shared spaces reject that. They want to have as little demarcation as possible b
 In Poynton, there was a busy intersection which connected the town to the highway and other nearby towns. It was notoriously busy — a site of traffic jams, accidents, and of course: road rage. Lots of it.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-4.jpg)
-*Before the renovations. Notice how there are still suggestive sidewalks in the new design, but the restrictions have been massively reduced. [&quot;Park Lane, Poynton&quot;](https://www.geograph.org.uk/photo/67572) by [L J Cunningham](https://geograph.org.uk/profile/1755)*
+*Before the renovations. [&quot;Park Lane, Poynton&quot;](https://www.geograph.org.uk/photo/67572) by [L J Cunningham](https://geograph.org.uk/profile/1755)*
 
 In a daring project, the Council decided to experiment with making the intersection into a shared space. They removed barriers between pedestrians and cars, removed traffic lights, removed pedestrian crossings and cycle lanes, and made the square into a shared, open, naked street.
 
-The results were quite outstanding. Traffic got by a lot quicker. Pedestrians felt safer crossing the streets. Accidents decreased sharply.
+The results were [impressive](https://en.wikipedia.org/wiki/Shared_space). The average speed fell to 20 mph, travel time decreased and congestion improved. Safety too improved, with one minor accident in the frst 3 years compared to 4-7 in each of the previous three years. The scheme also led to economic revitalization, with 80% of retailers reporting increased turnover.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-5.jpg)
 *[&quot;Park Lane (Poynton High Street), Cheshire&quot;](https://www.flickr.com/photos/41616459@N02/11926981263) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
@@ -81,7 +81,7 @@ Hence: Bring in the naked streets.
 
 Barriers between pedestrians and cars were, as with Poynton Square, removed. There are some suggestive guidelines for parking spots, but otherwise, pedestrians, cars, and cyclists have the freedom to navigate however they please, and to negotiate with one another to share the space.
 
-The results were quite remarkable. The renovations didn't just improve the flow of traffic, they also improved the pedestrian experience, and highlighted the Road as an attraction in and of itself, rather than merely being a thoroughfare.
+The result was an improvement in the flow of traffic, [reduced conflict rates](https://www.researchgate.net/publication/278189605_Analysis_of_Pedestrian-Vehicle_Traffic_Conflicts_in_Street_Designs_with_Elements_of_Shared_Space) and a [better pedestrian experience](https://discovery.ucl.ac.uk/1541184/1/Karimi_Ruiz-Apilanez%20et%20al.%202017%20Shared%20Space%20Streets%20UDI%20Repository1.pdf). The new design highlighted the Road as an attraction in and of itself, rather than merely being a thoroughfare, and the project received a Royal Institute of British Architects (RIBA) award, a European Prize for Urban Public Space Special Mention, and the Civic Trust Award.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-9.jpg)
 *[&quot;IMGP8940&quot;](https://www.flickr.com/photos/23136508@N00/15449439484) by [mattbuck4950](https://www.flickr.com/photos/23136508@N00)*
@@ -97,7 +97,7 @@ Elwick Square, in Ashford, also tested out the naked streets. They've given no p
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-11.jpg)
 *[&quot;Elwick Road / West Street&quot;](https://www.flickr.com/photos/41616459@N02/15657416160) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
 
-Some pedestrians have said they feel a bit hesitant when crossing. But the numbers show that accidents have drastically gone down. Motorists and pedestrians make eye-contact with each other to manoeuvre their way around the space which, in theory, should encourage a sense of community.
+Some pedestrians have said they feel a bit hesitant when crossing. But the numbers showed that accidents had [drastically gone down](https://www.ft.com/content/0773e65e-8a29-11e0-beff-00144feab49a). Motorists and pedestrians make eye-contact with each other to manoeuvre their way around the space which, in theory, should encourage a sense of community.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-12.jpg)
 *[&quot;Elwick Road / West Street&quot;](https://www.flickr.com/photos/41616459@N02/15658753539) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
@@ -105,20 +105,16 @@ Some pedestrians have said they feel a bit hesitant when crossing. But the numbe
 
 **How has it worked out overall?**
 
-All the spaces that have implemented naked streets have seen reductions in the speed of vehicles, reductions in road accidents, and reductions in pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic.
+Many of the spaces that have implemented naked streets have seen reductions in the speed of vehicles, reductions in road accidents, and reductions in pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic.
 
-The idea of naked streets has generated some backlash. Not over the concept, but over its attribution.
+-- criticisms
 
-Some critics argue that naked streets have been around for a long time outside European contexts. In some places, it's the norm not to have road signs and regulations, and people are comfortable sharing their streets that way.
-
-These critics are basically saying that advocates of naked streets have taken something that already exists, and re-packaged it as a European invention.
-
-In all fairness, this is likely true. But people implementing naked streets now aren't making claims on originality — they're interested in moving towards a new approach of conceptualising and organising our public spaces. And that's pretty cool for all of us.
+The attribution of the naked streets concept has also generated some backlash. Some critics argue that naked streets have been around for a long time outside European contexts. In some places, it's the norm not to have road signs and regulations, and people are comfortable sharing their streets that way. These critics are basically saying that advocates of naked streets have taken something that already exists, and re-packaged it as a European invention.
 
 
 **Are naked streets the future?**
 
-Well, it's probably too soon to tell. Yes, they've worked well in numerous places, but there's also been concern from citizens. In all likelihood, some experimentation is still needed to see how and where naked streets can work best, to better manage our spatial communities.
+Well, it's probably too soon to tell. Yes, they've worked well in numerous places, but there's also been concern from citizens, especially those who may be more vulnerable when navigating the streets. In all likelihood, some experimentation is still needed to see how and where naked streets can work best, to better manage our spatial communities.
 
 In terms of accountability, having rules and regulations probably makes it easier when accidents happen, to find out who was in the wrong. But, even that is based on what we're used to with the legal system handling regulated streets. A shift to more naked streets would also require a shift in how driving lessons are taught in the first place, and on how the laws surrounding the streets are shaped and applied.
 
