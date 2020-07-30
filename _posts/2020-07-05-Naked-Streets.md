@@ -81,7 +81,7 @@ Hence: Bring in the naked streets.
 
 Barriers between pedestrians and cars were, as with Poynton Square, removed. There are some suggestive guidelines for parking spots, but otherwise, pedestrians, cars, and cyclists have the freedom to navigate however they please, and to negotiate with one another to share the space.
 
-The result was an improvement in the flow of traffic, [reduced conflict rates](https://www.researchgate.net/publication/278189605_Analysis_of_Pedestrian-Vehicle_Traffic_Conflicts_in_Street_Designs_with_Elements_of_Shared_Space) and a [better pedestrian experience](https://discovery.ucl.ac.uk/1541184/1/Karimi_Ruiz-Apilanez%20et%20al.%202017%20Shared%20Space%20Streets%20UDI%20Repository1.pdf). The new design highlighted the Road as an attraction in and of itself, rather than merely being a thoroughfare, and the project received a Royal Institute of British Architects (RIBA) award, a European Prize for Urban Public Space Special Mention, and the Civic Trust Award.
+The result was an improvement in the flow of traffic, [reduced conflict rates](https://www.researchgate.net/publication/278189605_Analysis_of_Pedestrian-Vehicle_Traffic_Conflicts_in_Street_Designs_with_Elements_of_Shared_Space) and a [better pedestrian experience](https://discovery.ucl.ac.uk/1541184/1/Karimi_Ruiz-Apilanez%20et%20al.%202017%20Shared%20Space%20Streets%20UDI%20Repository1.pdf). The new design highlighted the road as an attraction in and of itself, rather than merely being a thoroughfare, and the project received a Royal Institute of British Architects (RIBA) award, a European Prize for Urban Public Space Special Mention, and the Civic Trust Award.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-9.jpg)
 *[&quot;IMGP8940&quot;](https://www.flickr.com/photos/23136508@N00/15449439484) by [mattbuck4950](https://www.flickr.com/photos/23136508@N00)*
@@ -105,9 +105,13 @@ Some pedestrians have said they feel a bit hesitant when crossing. But the numbe
 
 **How has it worked out overall?**
 
-Many of the spaces that have implemented naked streets have seen reductions in the speed of vehicles, reductions in road accidents, and reductions in pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic.
+Many of the spaces that have implemented naked streets have seen reductions in the speed of vehicles, road accidents, and pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic. One interesting finding also showed how the function of the naked street changes depending on who's using it. The British Transport Research Laboratory found that below flows of 90 vehicles per hour adult pedestrians were prepared to mingle with traffic. But when flows reached 110 vehicles per hour, they used the width between frontages as if it were a traditional road.
 
--- criticisms
+It's not all good news however. With more naked streets in the wild, a number of criticisms of the concept have emerged. 
+
+The strongest criticism has come from organisations representing blind, partially sighted and deaf people. Naked streets often mean the absence of familiar features (such as railings, kerbs, barriers and separate surfaces) that pedestrians with disabilities can use to safely navigate. 
+
+Another concern is that when pedestrians, cyclists and drivers interact with the space, the law of the jungle prevails. In streets with high volumes of traffic, pedestrians may be more likely to give way to vehicles than vice versa. Many pedestrians, including a markedly higher proportion of vulnerable people, have found the new design more intimidating. 
 
 The attribution of the naked streets concept has also generated some backlash. Some critics argue that naked streets have been around for a long time outside European contexts. In some places, it's the norm not to have road signs and regulations, and people are comfortable sharing their streets that way. These critics are basically saying that advocates of naked streets have taken something that already exists, and re-packaged it as a European invention.
 
