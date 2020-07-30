@@ -109,7 +109,7 @@ Many of the spaces that have implemented naked streets have seen reductions in t
 
 It's not all good news however. With more naked streets in the wild, a number of criticisms of the concept have emerged. 
 
-The strongest criticism has come from organisations representing blind, partially sighted and deaf people. Naked streets often mean the absence of familiar features (such as railings, kerbs, barriers and separate surfaces) that pedestrians with disabilities can use to safely navigate. 
+The strongest criticism has come from organisations representing blind, partially sighted and deaf people. Naked streets often mean the absence of familiar features (such as railings, kerbs, barriers and separate surfaces) that pedestrians with disabilities can use to safely navigate. The UK's Guide Dogs for the Blind Association's "Say No to Shared Streets" campaign has been supported by more than thirty other disability organisations.
 
 Another concern is that when pedestrians, cyclists and drivers interact with the space, the law of the jungle prevails. In streets with high volumes of traffic, pedestrians may be more likely to give way to vehicles than vice versa. Many pedestrians, including a markedly higher proportion of vulnerable people, have found the new design more intimidating. 
 
