@@ -13,7 +13,7 @@ Cities have tried all sorts of ways to manage traffic. From road cameras, to tra
 
 Over the last fifteen years, planners and civil engineers around Europe have been experimenting with a wholly different approach: _getting rid of these signs all together_. Not just signs, getting rid of everything. Traffic lights, pedestrian crossings, even the distinction between roads for cars and pavements for pedestrians.
 
-Imagine the busiest, messiest crossroads you know. The one that just makes you sigh if you have to drive through it, shout as you drive through, and shudder if you walk past. Imagine all the lights and signs removed from that crossing. That's what cities around the continent have been trying out, and here's how things went:
+Imagine the busiest, messiest crossroads you know. The one that just makes you sigh if you have to drive through it, shout as you drive through, and shudder if you walk past. Imagine all the lights and signs removed from that crossing. That's what cities around the continent have been trying out.
 
 
 **Who stripped the streets?**
@@ -103,7 +103,7 @@ Some pedestrians have said they feel a bit hesitant when crossing. But the numbe
 *[&quot;Elwick Road / West Street&quot;](https://www.flickr.com/photos/41616459@N02/15658753539) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
 
 
-**How has it worked out?**
+**How has it worked out overall?**
 
 All the spaces that have implemented naked streets have seen reductions in the speed of vehicles, reductions in road accidents, and reductions in pedestrian incidents. As well as that, they've seen increases in the smooth flow of traffic.
 
