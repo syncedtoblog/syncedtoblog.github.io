@@ -52,7 +52,7 @@ In Poynton, there was a busy intersection which connected the town to the highwa
 
 In a daring project, the Council decided to experiment with making the intersection into a shared space. They removed barriers between pedestrians and cars, removed traffic lights, removed pedestrian crossings and cycle lanes, and made the square into a shared, open, naked street.
 
-The results were [impressive](https://en.wikipedia.org/wiki/Shared_space). The average speed fell to 20 mph, travel time decreased and congestion improved. Safety too improved, with one minor accident in the frst 3 years compared to 4-7 in each of the previous three years. The scheme also led to economic revitalization, with 80% of retailers reporting increased turnover.
+The results were impressive. The average speed fell to 20 mph, travel time decreased and congestion improved. Safety too improved, with one minor accident in the frst 3 years compared to 4-7 in each of the previous three years. The scheme also led to economic revitalization, with 80% of retailers reporting increased turnover.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-5.jpg)
 *[&quot;Park Lane (Poynton High Street), Cheshire&quot;](https://www.flickr.com/photos/41616459@N02/11926981263) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
@@ -81,7 +81,7 @@ Hence: Bring in the naked streets.
 
 Barriers between pedestrians and cars were, as with Poynton Square, removed. There are some suggestive guidelines for parking spots, but otherwise, pedestrians, cars, and cyclists have the freedom to navigate however they please, and to negotiate with one another to share the space.
 
-The result was an improvement in the flow of traffic, [reduced conflict rates](https://www.researchgate.net/publication/278189605_Analysis_of_Pedestrian-Vehicle_Traffic_Conflicts_in_Street_Designs_with_Elements_of_Shared_Space) and a [better pedestrian experience](https://discovery.ucl.ac.uk/1541184/1/Karimi_Ruiz-Apilanez%20et%20al.%202017%20Shared%20Space%20Streets%20UDI%20Repository1.pdf). The new design highlighted the road as an attraction in and of itself, rather than merely being a thoroughfare, and the project received a Royal Institute of British Architects (RIBA) award, a European Prize for Urban Public Space Special Mention, and the Civic Trust Award.
+The result was an improvement in the flow of traffic, reduced conflict rates and a better pedestrian experience. The new design highlighted the road as an attraction in and of itself, rather than merely being a thoroughfare, and the project received a Royal Institute of British Architects (RIBA) award, a European Prize for Urban Public Space Special Mention, and the Civic Trust Award.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-9.jpg)
 *[&quot;IMGP8940&quot;](https://www.flickr.com/photos/23136508@N00/15449439484) by [mattbuck4950](https://www.flickr.com/photos/23136508@N00)*
