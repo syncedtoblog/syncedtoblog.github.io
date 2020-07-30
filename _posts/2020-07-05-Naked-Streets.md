@@ -97,7 +97,7 @@ Elwick Square, in Ashford, also tested out the naked streets. They've given no p
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-11.jpg)
 *[&quot;Elwick Road / West Street&quot;](https://www.flickr.com/photos/41616459@N02/15657416160) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
 
-Some pedestrians have said they feel a bit hesitant when crossing. But the numbers showed that accidents had [drastically gone down](https://www.ft.com/content/0773e65e-8a29-11e0-beff-00144feab49a). Motorists and pedestrians make eye-contact with each other to manoeuvre their way around the space which, in theory, should encourage a sense of community.
+Some pedestrians have said they feel a bit hesitant when crossing. But the numbers showed that accidents had drastically gone down. Motorists and pedestrians make eye-contact with each other to manoeuvre their way around the space which, in theory, should encourage a sense of community.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-12.jpg)
 *[&quot;Elwick Road / West Street&quot;](https://www.flickr.com/photos/41616459@N02/15658753539) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
