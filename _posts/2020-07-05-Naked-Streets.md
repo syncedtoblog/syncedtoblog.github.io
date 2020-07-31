@@ -9,7 +9,7 @@ What happens to the places choosing to remove road signs, traffic lights, and ma
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-1.jpg)
 *[&quot;Speed camera sign stock photo&quot;](https://www.flickr.com/photos/126066997@N07/46662927374) by [moneybright](https://www.flickr.com/photos/126066997@N07)*
 
-Cities have tried all sorts of ways to manage traffic. From road cameras, to traffic lights, to speed limits, to more lights, to ramps and pedestrians crossing, to road signs, to public awareness campaigns, to _more_ lights, and the list goes on and on.
+Cities have tried all sorts of ways to manage traffic. From road cameras, to traffic lights, to speed limits, to more lights, to ramps and pedestrian crossings, to road signs, to public awareness campaigns, to _more_ lights, and the list goes on and on.
 
 Over the last fifteen years, planners and civil engineers around Europe have been experimenting with a wholly different approach: _getting rid of these signs all together_. Not just signs, getting rid of everything. Traffic lights, pedestrian crossings, even the distinction between roads for cars and pavements for pedestrians.
 
