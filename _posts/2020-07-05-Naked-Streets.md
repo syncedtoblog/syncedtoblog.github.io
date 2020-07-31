@@ -45,7 +45,7 @@ Shared spaces reject that. They want to have as little demarcation as possible b
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-3.jpg)
 *[&quot;Park Lane (Poynton High Street), Cheshire&quot;](https://www.flickr.com/photos/41616459@N02/11926246975) by [The Academy of Urbanism](https://www.flickr.com/photos/41616459@N02)*
 
-In Poynton, there was a busy intersection which connected the town to the highway and other nearby towns. It was notoriously busy — a site of traffic jams, accidents, and of course: road rage. Lots of it.
+In Poynton, there was a busy intersection which connected the town to the highway and other nearby towns. It was notoriously busy — a site of traffic jams, accidents, and of course: road rage.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-07-05-Naked-Streets-4.jpg)
 *Before the renovations. [&quot;Park Lane, Poynton&quot;](https://www.geograph.org.uk/photo/67572) by [L J Cunningham](https://geograph.org.uk/profile/1755)*
