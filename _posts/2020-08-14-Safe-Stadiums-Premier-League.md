@@ -11,7 +11,7 @@ Is it a fun day out for all the family, or are there more risks than just seeing
 
 We were posed this question by a Synced user who had noticed that crime & safety statistics on their local stadium's Synced mark were higher than the rest of the local area. We were intrigued, does matchday bring with it significantly more crime and safety problems? And do some stadiums have more of a problem than others? 
 
-We decided to focus on Premier League stadiums, and only for those teams that have consistently been in the Premier League over the last xxxx years. 
+We decided to focus on Premier League stadiums, and for the period over the 2018-2019 season, for which sufficient data was available. 
 
 **Comparing On-Season Crime Stats to Off-Season**
 
@@ -26,7 +26,8 @@ And indeed, there is quite a discrepancy in crime scores between the stadiums.
 <style type="text/css">
 .chart-1 {
 background: "white";
-margin: 0 auto;
+display:block;
+margin: auto;
 padding-top: 0px;
 }
 
@@ -72,7 +73,8 @@ We started looking for a way to get the crimes in and around each football stadi
 
 .chart-2 {
 background: "white";
-margin: 0 auto;
+display:block;
+margin: auto;
 padding-top: 0px;
 }
 
@@ -119,7 +121,8 @@ As one final test, we also looked at how the crime scores differed between the s
 
 .chart-3 {
 background: "white";
-margin: 0 auto;
+display:block;
+margin: auto;
 padding-top: 0px;
 }
 
@@ -158,7 +161,6 @@ The general theme that we have been seeing throughout is that match day crimes a
 **Conclusions**
 
 To sum up, Premier League football matches are very safe and fun for all the family, with on average just 3 arrests at matches per 100,000 fans. This is a credit to the clubs, the local councils, police and to the fans. We looked at making a ranking or football stadium safety, and also considered stadium capacity in those calculations. But a ranking would obscure the true conclusion that matchday is a very safe experience at each club.
-
 
 
 Rahman and Sachin
