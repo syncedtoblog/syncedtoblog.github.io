@@ -161,6 +161,6 @@ To sum up, Premier League football matches are very safe and fun for all the fam
 
 
 
-[Yomna El-Serafy](https://medium.com/u/cfdf8602e700)
+Rahman and Sachin
 
 _Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._
