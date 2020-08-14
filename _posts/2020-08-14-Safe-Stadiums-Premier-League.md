@@ -66,7 +66,7 @@ So, maybe there is an increase in on-season crime because of football, but becau
 
 **Football-Related Arrests as a Proportion of All Arrests**
 
-We started looking for a way to get the crimes in and around each football stadium that were directly related to football matches. Thankfully, our lovely friends over at the Home Office collected all the data for these football-related arrests (we used the 2018/2019 in-season) which we then compared with the official arrests data that the MET police publish. We searched over a 2km by 2km square centred around each stadium and our results can be seen on the graph below.
+We started looking for a way to get the crimes in and around each football stadium that were directly related to football matches. Thankfully, our lovely friends over at the Home Office collected all the data for these football-related arrests (we used the 2018/2019 in-season) which we then compared with the official arrests data that the UK police publish. We searched over a 2km by 2km square centred around each stadium and our results can be seen on the graph below.
 
 
 <style type="text/css">
