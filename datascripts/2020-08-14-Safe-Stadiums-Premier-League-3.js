@@ -58,7 +58,7 @@ function plotchart3() {
     //.attr("x", (labelArea / 2) + width) //alters x position start
         .attr("x", labelArea-20)
         .attr("y", function(d){ return y(d) + y.rangeBand()/2; } )
-        .attr("dy", ".em")
+        .attr("dy", ".0em")
         .attr("text-anchor", "end") //start, middle, end
         .attr('class', 'name')
         .text(String);
