@@ -15,7 +15,7 @@ function plotchart2() {
 
       var chart = d3.select(".chart-2-container")
         .append('svg')
-        .attr('class', 'chart2')
+        .attr('class', 'chart-2')
         .attr('width', labelArea + width + width)
         .attr('height', height);
 
