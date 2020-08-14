@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Safe is Matchday Across Premier League Stadiums?
+title: How Safe is Matchday Across the Premier League?
 img: images/2020-08-14-Safe-Stadiums-Premier-League-1.jpg
 ---
 
@@ -26,7 +26,7 @@ And indeed, there is quite a discrepancy in crime scores between the stadiums.
 <style type="text/css">
 .chart-1 {
 background: "white";
-margin: 10px;
+margin: 0 auto;
 padding-top: 0px;
 }
 
@@ -72,7 +72,7 @@ We started looking for a way to get the crimes in and around each football stadi
 
 .chart-2 {
 background: "white";
-margin: 10px;
+margin: 0 auto;
 padding-top: 0px;
 }
 
@@ -119,7 +119,7 @@ As one final test, we also looked at how the crime scores differed between the s
 
 .chart-3 {
 background: "white";
-margin: 10px;
+margin: 0 auto;
 padding-top: 0px;
 }
 
