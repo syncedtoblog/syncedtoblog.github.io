@@ -17,7 +17,7 @@ function plotchart1(){
         .append('svg')
         .attr('class', 'chart-1')
         .attr('preserveAspectRatio', "xMinYMin meet")
-        .attr("viewBox", "0 0 "+(labelArea + width + width)+" " (height));
+        .attr("viewBox", "0 0 "+(labelArea + width + width)+" "+(height));
       //.attr('width', labelArea + width + width)
       //.attr('height', height);
 
