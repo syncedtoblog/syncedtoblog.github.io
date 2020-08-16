@@ -91,8 +91,8 @@ function plotchart1(){
         .attr('class', 'score') // class for CSS
         .text(String);
 
-    chart.append("text").attr("x",labelArea+width/2-95).attr("y", 20).attr("class","title").text("In Season Crime Rating").style("font", "15px times");
-    chart.append("text").attr("x",width/2+rightOffset/2+labelArea/2-35).attr("y", 20).attr("class","title").text("Off Season Crime Rating").style("font", "15px times");
+    chart.append("text").attr("x",labelArea+width/2-95).attr("y", 20).attr("class","title").text("In Season Crime Rating").style("font", "12px times");
+    chart.append("text").attr("x",width/2+rightOffset/2+labelArea/2-35).attr("y", 20).attr("class","title").text("Off Season Crime Rating").style("font", "12px times");
 
 }
 plotchart1()

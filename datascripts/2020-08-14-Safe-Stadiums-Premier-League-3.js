@@ -66,7 +66,7 @@ function plotchart3() {
         .text(String);
 
 
-    chart.append("text").attr("x",labelArea+width/2-150).attr("y", 20).attr("class","title").text("Outer : Inner Crime Rating Ratio").style("font", "20px times");
+    chart.append("text").attr("x",labelArea+width/2-150).attr("y", 20).attr("class","title").text("Outer : Inner Crime Rating Ratio").style("font", "14px times");
 
 
 }

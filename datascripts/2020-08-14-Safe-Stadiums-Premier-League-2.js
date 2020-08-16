@@ -92,8 +92,8 @@ function plotchart2() {
         .attr('class', 'score') // class for CSS
         .text(String);
 
-        chart.append("text").attr("x",labelArea+width/2-96).attr("y", 20).attr("class","title").text("Football Related Arrests").style("font", "16px times");
-    chart.append("text").attr("x",width/2+rightOffset/2+labelArea/2-38).attr("y", 20).attr("class","title").text("Total Arrests").style("font", "16px times");
+        chart.append("text").attr("x",labelArea+width/2-96).attr("y", 20).attr("class","title").text("Football Related Arrests").style("font", "12px times");
+    chart.append("text").attr("x",width/2+rightOffset/2+labelArea/2-38).attr("y", 20).attr("class","title").text("Total Arrests").style("font", "12px times");
 }
 
 plotchart2()
