@@ -43,7 +43,7 @@ function plotchart3() {
     chart.selectAll("text.leftscore") //text for left hand side
         .data(ratios)
         .enter().append("text")
-        .style("font", "15px times")
+        .style("font", '15px "Titillium Web", sans-serif')
     //.attr("x", function(d) { return width - xFrom(d); })
         .attr("x", function(d) { return leftOffset + xTo(d); })
         .attr("y", function(d, z){ return y(z) + y.rangeBand()/2; } )
@@ -56,7 +56,7 @@ function plotchart3() {
     chart.selectAll("text.name") //label area
         .data(names)
         .enter().append("text")
-        .style("font", "14px times")
+        .style("font", '14px "Titillium Web", sans-serif')
     //.attr("x", (labelArea / 2) + width) //alters x position start
         .attr("x", labelArea-20)
         .attr("y", function(d){ return y(d) + y.rangeBand()/2; } )
@@ -66,7 +66,7 @@ function plotchart3() {
         .text(String);
 
 
-    chart.append("text").attr("x",labelArea+width/2-150).attr("y", 20).attr("class","title").text("Outer : Inner Crime Rating Ratio").style("font", "14px times");
+    chart.append("text").attr("x",labelArea+width/2-150).attr("y", 20).attr("class","title").text("Outer : Inner Crime Rating Ratio").style("font", '14px "Titillium Web", sans-serif');
 
 
 }

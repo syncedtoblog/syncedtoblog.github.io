@@ -44,7 +44,7 @@ function plotchart1(){
     chart.selectAll("text.leftscore") //text for left hand side
         .data(inseason)
         .enter().append("text")
-        .style("font", "14px times")
+        .style("font", '14px "Titillium Web", sans-serif')
     //.attr("x", function(d) { return width - xFrom(d); })
         .attr("x", function(d) { return leftOffset + xTo(d); })
         .attr("y", function(d, z){ return y(z) + y.rangeBand()/2; } )
@@ -57,7 +57,7 @@ function plotchart1(){
     chart.selectAll("text.name") //label area
         .data(names)
         .enter().append("text")
-        .style("font", "14px times")
+        .style("font", '14px "Titillium Web", sans-serif')
     //.attr("x", (labelArea / 2) + width) //alters x position start
         .attr("x", labelArea-20)
         .attr("y", function(d){ return y(d) + y.rangeBand()/2; } )
@@ -82,7 +82,7 @@ function plotchart1(){
     chart.selectAll("text.score") //right hand side text
         .data(offseason)
         .enter().append("text")
-        .style("font", "14px times")
+        .style("font", '14px "Titillium Web", sans-serif')
         .attr("x", function(d) { return xTo(d) +  rightOffset; })
         .attr("y", function(d,z){ return y(z) + y.rangeBand()/2; } )
         .attr("dx", - 55) //x padding
@@ -91,8 +91,8 @@ function plotchart1(){
         .attr('class', 'score') // class for CSS
         .text(String);
 
-    chart.append("text").attr("x",labelArea+width/2-95).attr("y", 20).attr("class","title").text("In Season Crime Rating").style("font", "12px times");
-    chart.append("text").attr("x",width/2+rightOffset/2+labelArea/2-35).attr("y", 20).attr("class","title").text("Off Season Crime Rating").style("font", "12px times");
+    chart.append("text").attr("x",labelArea+width/2-95).attr("y", 20).attr("class","title").text("In Season Crime Rating").style("font", '12px "Titillium Web", sans-serif');
+    chart.append("text").attr("x",width/2+rightOffset/2+labelArea/2-35).attr("y", 20).attr("class","title").text("Off Season Crime Rating").style("font", '12px "Titillium Web", sans-serif');
 
 }
 plotchart1()
