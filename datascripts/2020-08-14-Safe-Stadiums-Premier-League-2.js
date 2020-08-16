@@ -16,8 +16,10 @@ function plotchart2() {
       var chart = d3.select(".chart-2-container")
         .append('svg')
         .attr('class', 'chart-2')
-        .attr('width', labelArea + width + width)
-        .attr('height', height);
+        .attr('preserveAspectRatio', "xMinYMin meet")
+        .attr("viewBox", "0 0 "+(labelArea + width + width)+" "+(height));
+      //.attr('width', labelArea + width + width)
+      //.attr('height', height);
 
       var y = d3.scale.ordinal()
          .domain(names)

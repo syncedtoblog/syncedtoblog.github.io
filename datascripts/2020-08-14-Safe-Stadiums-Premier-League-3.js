@@ -15,8 +15,10 @@ function plotchart3() {
     var chart = d3.select(".chart-3-container")
         .append('svg')
         .attr('class', 'chart-3')
-        .attr('width', labelArea + width)
-        .attr('height', height);
+        .attr('preserveAspectRatio', "xMinYMin meet")
+        .attr("viewBox", "0 0 "+(labelArea + width)+" "+(height));
+      //.attr('width', labelArea + width)
+      //.attr('height', height);
 
     var y = d3.scale.ordinal()
         .domain(names)
