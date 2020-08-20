@@ -169,6 +169,6 @@ The general theme that we have been seeing throughout is that match day crimes a
 To sum up, Premier League football matches are very safe and fun for all the family, with on average just 3 arrests at matches per 100,000 fans. This is a credit to the clubs, the local councils, police and to the fans. We looked at making a ranking or football stadium safety, and also considered stadium capacity in those calculations. But a ranking would obscure the true conclusion that matchday is a very safe experience at each club.
 
 
-[Rahman](https://synced.to) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/)
+[Rahman](https://www.linkedin.com/in/rahman-zane/) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/)
 
 _Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._
