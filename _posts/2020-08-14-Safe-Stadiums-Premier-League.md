@@ -55,6 +55,7 @@ fill: black;
 </style>
 
 <div class="chart-1-container"></div>
+*crime severity by stadium*
 
 <script src="https://blog.synced.to/datascripts/2020-08-14-Safe-Stadiums-Premier-League-1.js"></script>
 
@@ -103,12 +104,13 @@ fill: black;
 </style>
 
 <div class="chart-2-container"></div>
+*football related arrests vs totall arrests over 2018-2019 season*
 
 <script src="https://blog.synced.to/datascripts/2020-08-14-Safe-Stadiums-Premier-League-2.js"></script>
 
 We can see match day arrests account for a very small proportion of the total arrests around each stadium. This adds to the conclusion that, from a crime perspective, football stadiums don't see an increase in crime level on match days, relative to the background criminal activity in the area. 
 
-The eagle-eyed might notice a few cases where football-related arrests exceed the total arrests in that area. That's because the football-related arrests incorporate all arrests on match days that the police have deemed to be directly related to the fixture, and some of these will take place outside of the immediate stadium area. For example, any arrests of football fans in the wider area around the stadium, or travelling to and from the venue, would be included in the football-related arrests but not in the police data of the stadium area. 
+Note: football-related arrests incorporate all arrests on match days that the police have deemed to be directly related to the fixture, and some of these will take place outside of the immediate stadium area. For example, any arrests of football fans in the wider area around the stadium, or travelling to and from the venue, would be included in the football-related arrests but not in the police data of the stadium area. 
 
 So it's looking like matchday is really safe.
 
@@ -151,6 +153,7 @@ fill: black;
 </style>
 
 <div class="chart-3-container"></div>
+*stadium area vs surroundings crime ratio (higher means stadium area has more crime than surroundings)*
 
 <script src="https://blog.synced.to/datascripts/2020-08-14-Safe-Stadiums-Premier-League-3.js"></script>
 
@@ -163,6 +166,6 @@ The general theme that we have been seeing throughout is that match day crimes a
 To sum up, Premier League football matches are very safe and fun for all the family, with on average just 3 arrests at matches per 100,000 fans. This is a credit to the clubs, the local councils, police and to the fans. We looked at making a ranking or football stadium safety, and also considered stadium capacity in those calculations. But a ranking would obscure the true conclusion that matchday is a very safe experience at each club.
 
 
-Rahman and Sachin
+[Rahman](https://synced.to) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/)
 
 _Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._
