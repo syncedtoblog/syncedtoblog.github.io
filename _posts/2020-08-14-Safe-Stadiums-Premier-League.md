@@ -59,6 +59,7 @@ fill: black;
 
 <script src="https://blog.synced.to/datascripts/2020-08-14-Safe-Stadiums-Premier-League-1.js"></script>
 
+
 But - this might just represent the crimes in the neighbourhood itself, and not be because of football matches. So we compared the on-season crime severity to the off-season severity at each stadium. Taking the off-season crime severity into account, the situation looks quite different. In most cases there's very little difference between when football matches are being played, and the off-season. So, relative to the background city crime, it looks like football matches are really safe...
 
 Strangely it even looks like on-season is actually safer than off-season. Is it possible that Premier League football makes a place safer?? Probably not. The likeliest explanation we found was a known general effect that crime [tends to increase in the summer months](https://www.chicagomag.com/Chicago-Magazine/The-312/March-2012/Heat-and-Crime-Its-Not-Just-You-Feeling-It/).
@@ -108,6 +109,7 @@ fill: black;
 
 <script src="https://blog.synced.to/datascripts/2020-08-14-Safe-Stadiums-Premier-League-2.js"></script>
 
+
 We can see match day arrests account for a very small proportion of the total arrests around each stadium. This adds to the conclusion that, from a crime perspective, football stadiums don't see an increase in crime level on match days, relative to the background criminal activity in the area. 
 
 Note: football-related arrests incorporate all arrests on match days that the police have deemed to be directly related to the fixture, and some of these will take place outside of the immediate stadium area. For example, any arrests of football fans in the wider area around the stadium, or travelling to and from the venue, would be included in the football-related arrests but not in the police data of the stadium area. 
@@ -156,6 +158,7 @@ fill: black;
 *stadium area vs surroundings crime ratio (higher means stadium area has more crime than surroundings)*
 
 <script src="https://blog.synced.to/datascripts/2020-08-14-Safe-Stadiums-Premier-League-3.js"></script>
+
 
 In most cases, what we see is that this data closely agrees with our hypothesis and the crime scores of inner and outer areas of the stadium tend to be very similar. 
 
