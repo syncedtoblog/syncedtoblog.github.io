@@ -54,7 +54,7 @@ fill: black;
 }
 </style>
 
-<div class="chart-1-container"></div>
+<div class="d3-chart-container chart-1-container"></div>
 *crime severity by stadium*
 
 <script src="https://blog.synced.to/datascripts/2020-08-14-Safe-Stadiums-Premier-League-1.js"></script>
@@ -104,7 +104,7 @@ fill: black;
 
 </style>
 
-<div class="chart-2-container"></div>
+<div class="d3-chart-container chart-2-container"></div>
 *football related arrests vs totall arrests over 2018-2019 season*
 
 <script src="https://blog.synced.to/datascripts/2020-08-14-Safe-Stadiums-Premier-League-2.js"></script>
@@ -154,7 +154,7 @@ fill: black;
 
 </style>
 
-<div class="chart-3-container"></div>
+<div class="d3-chart-container chart-3-container"></div>
 *stadium area vs surroundings crime ratio (higher means stadium area has more crime than surroundings)*
 
 <script src="https://blog.synced.to/datascripts/2020-08-14-Safe-Stadiums-Premier-League-3.js"></script>
