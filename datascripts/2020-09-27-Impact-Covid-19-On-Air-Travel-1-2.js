@@ -38,7 +38,7 @@ var eur_legend = [['London - LHR','#2d7fb8'], ['Paris - CDG','#ff861c'], ['Italy
         .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-      d3.tsv("2020-09-27-Impact-Covid-19-On-Air-Travel-1-2.flights_eur.tsv", function(error, data) {
+      d3.tsv("/datascripts/2020-09-27-Impact-Covid-19-On-Air-Travel-1-2.flights_eur.tsv", function(error, data) {
         color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
         data.forEach(function(d) {
