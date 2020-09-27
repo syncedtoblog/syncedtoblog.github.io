@@ -59,6 +59,10 @@ Below is a plot of air traffic in and out of various airports in Europe.
 <script src="https://blog.synced.to/datascripts/2020-09-27-Impact-Covid-19-On-Air-Travel-1-1.js"></script>
 <style>
 
+.chart-1-container {
+font: 10px sans-serif;
+}
+
 
 .axis path,
 .axis line {
