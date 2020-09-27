@@ -32,7 +32,7 @@ var eur_legend = [['London - LHR','#2d7fb8'], ['Paris - CDG','#ff861c'], ['Italy
           .x(function(d) { return x(d.date); })
           .y(function(d) { return y(d.temperature); });
 
-      var chart1 = d3.select("chart-1-container").append("svg")
+      var chart1 = d3.select(".chart-1-container").append("svg")
           .attr('preserveAspectRatio', "xMinYMin meet")
           .attr("viewBox", "0 0 "+(width + margin.left + margin.right)+" "+( height + margin.top + margin.bottom))
         .append("g")
