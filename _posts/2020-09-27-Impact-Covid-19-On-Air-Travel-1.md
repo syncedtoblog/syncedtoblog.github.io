@@ -53,8 +53,6 @@ OpenSky Network has released a special [Covid-19 dataset](https://zenodo.org/rec
 ### So what does the data show?
 Below is a plot of air traffic in and out of various airports in Europe.
 
-**add taster chart - Tracking Flights\final-charts\pt1-taster\daily_flights_eur.html**
-
 <script src="https://d3js.org/d3.v3.js"></script>
 <script src="https://blog.synced.to/datascripts/2020-09-27-Impact-Covid-19-On-Air-Travel-1-1.js"></script>
 <style>
