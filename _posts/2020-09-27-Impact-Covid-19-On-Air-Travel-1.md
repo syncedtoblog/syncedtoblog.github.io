@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Charting the Impact of Covid-19 on Air Travel using ADS-B data (Part 1)
+title: Charting the Impact of Covid-19 on Air Travel Using ADS-B Data (Part 1)
 img: images/2020-09-27-Impact-Covid-19-On-Air-Travel-1-1.jpg
 ---
 
