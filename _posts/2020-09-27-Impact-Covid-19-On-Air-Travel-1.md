@@ -60,7 +60,7 @@ Below is a plot of air traffic in and out of various airports in Europe.
 <style>
 
 .chart-1-container {
-font: 10px sans-serif;
+font: 10px "Titillium Web", sans-serif;
 }
 
 
