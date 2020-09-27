@@ -30,7 +30,7 @@ Automatic dependent surveillance-broadcast is a primary surveillance technology 
 Mode S is then a secondary surveillance radar process. It uses a unique 24-bit address for each aircraft to allow selective interrogation of the aircraft. These signals can be be picked up using software defined radio receiver (SDR receiver).
 
 ![_config.yml]({{ site.baseurl }}/images/2020-09-27-Impact-Covid-19-On-Air-Travel-1-2.jpg)
-*by [FAA](https://commons.wikimedia.org/wiki/File:FAA_NextGen_ADS-B_implementation.jpg)*
+*Basic graphic of ADS-B by the [FAA](https://commons.wikimedia.org/wiki/File:FAA_NextGen_ADS-B_implementation.jpg)*
 
 Simply put, it's a way for planes to communicate their positions with each other and with air traffic control. And since Mode S is broadcast by radio on the 1090 MHz frequency band, it's possible to listen out for planes flying overhead with the right kit. We decided to give it a try ourselves.
 
