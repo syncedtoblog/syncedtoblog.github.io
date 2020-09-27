@@ -87,7 +87,7 @@ opacity:0.8;}
 </style>
 
 <div class="chart-1-container"></div>
-*Select European air traffic 2019-2020*
+*Select European air traffic late 2019 through 2020*
 
 <script src="https://blog.synced.to/datascripts/2020-09-27-Impact-Covid-19-On-Air-Travel-1-2.js"></script>
 
