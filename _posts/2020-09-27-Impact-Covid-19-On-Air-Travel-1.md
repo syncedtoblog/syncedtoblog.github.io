@@ -34,16 +34,19 @@ Mode S is then a secondary surveillance radar process. It uses a unique 24-bit a
 
 Simply put, it's a way for planes to communicate their positions with each other and with air traffic control. And since Mode S is broadcast by radio on the 1090 MHz frequency band, it's possible to listen out for planes flying overhead with the right kit. We decided to give it a try ourselves.
 
-We purchased a cheap Software Defined Radio Receiver USB Stick and used a combination of the [Dump1090 software](https://github.com/antirez/dump1090) (written by antirez, yes of [Redis](https://redis.io/) fame) to retrieve the raw data of each nearby aircraft. Below shows an example of two aircraft within the receiver's range.
-
 ![_config.yml]({{ site.baseurl }}/images/2020-09-27-Impact-Covid-19-On-Air-Travel-1-3.png)
+*Software Defined Radio Receiver (SDR) USB stick with banana for scale*
+
+We purchased a cheap Software Defined Radio Receiver USB stick and used a combination of the [Dump1090 software](https://github.com/antirez/dump1090) (written by antirez, yes of [Redis](https://redis.io/) fame) to retrieve the raw data of each nearby aircraft. Below shows an example of two aircraft within the receiver's range.
+
+![_config.yml]({{ site.baseurl }}/images/2020-09-27-Impact-Covid-19-On-Air-Travel-1-4.png)
 *raw terminal output of Dump1090*
 
 In order to convert this raw data into a more visual format, we used [Virtual Radar on Windows](https://www.virtualradarserver.co.uk/). This decodes the raw data and uses it to plot the flight path on a map. The software also allows users to identify the type of aircraft, as well as the airline and destination. 
 
 Below shows an animation of how a RyanAir Boeing 737 makes it way from London Heathrow to Ireland.
 
-![_config.yml]({{ site.baseurl }}/images/2020-09-27-Impact-Covid-19-On-Air-Travel-1-4.gif)
+![_config.yml]({{ site.baseurl }}/images/2020-09-27-Impact-Covid-19-On-Air-Travel-1-5.gif)
 *GUI output of Dump1090*
 
 An OpenSky Network contributor would keep monitoring this radio data, and would then upload it to the OpenSky Network database. Many thousands of other contributors around the world also doing this creates a dataset of worldwide air traffic that is nbeing used to track the pandemic and to measure its secondary effects.
