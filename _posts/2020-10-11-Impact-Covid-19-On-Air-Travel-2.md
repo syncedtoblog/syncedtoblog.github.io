@@ -27,7 +27,7 @@ We tracked the number of daily flights (arrivals and departures) at each of our 
 
 
 <script src="https://d3js.org/d3.v3.js"></script>
-<script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1/d3.legend.js"></script>
+
 
 
 
@@ -65,6 +65,7 @@ opacity:0.8;}
 <div class="d3-chart-container chart-1-container"></div>
 *Air traffic late 2019 through 2020*
 
+<script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1/d3.legend.js"></script>
 <script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1/dailyflights.js"></script>
 
 As expected we see significant drops between March and April, corresponding to national lockdowns, followed by a recovery in flight numbers. 
@@ -144,9 +145,12 @@ opacity:0.8;}
 
 </style>
 
+
+
 <div class="d3-chart-container chart-3-container"></div>
 *ratio of domestic flights to international (higher means more domestic)*
 
+<script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-3/d3.legend.js"></script>
 <script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-3/domvsint.js"></script>
 
 
