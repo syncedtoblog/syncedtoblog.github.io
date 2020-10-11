@@ -1,3 +1,5 @@
+function runcharts() {
+
 var root = '/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-2/'
 
 var margin = {top: 30, right: 20, bottom: 20, left: 60},
@@ -1327,3 +1329,14 @@ MIDbar23.append("text")
     .selectAll("text")
       .style("font-weight","bold");
 });
+
+    
+    
+
+    
+    
+    
+    
+}
+
+runcharts()
