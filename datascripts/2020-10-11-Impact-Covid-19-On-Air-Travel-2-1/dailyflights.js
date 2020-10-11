@@ -1,4 +1,4 @@
-var plotcharts = function() {
+var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height, chart, regions, region_fns, legends, datasets) {
     for (var i = 0; i < regions.length; i++){
 
         var curr_topleft = {'left':0, 'top':0 + i*(margin.top+margin.bottom+height)}
@@ -174,7 +174,7 @@ d3.tsv(region_fns[0], function (data){
           d3.tsv(region_fns[3], function (data3){ 
               
               datasets.push(data3);
-              plotcharts()
+              plotcharts(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height, chart, regions, region_fns, legends, datasets)
 
           })
               
