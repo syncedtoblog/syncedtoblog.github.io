@@ -28,7 +28,47 @@ We looked at flights in and out of the following 12 airports worldwide, for whic
 ### Changes in the number of flights 
 We tracked the number of daily flights (arrivals and departures) at each of our airports.
 
-**insert daily flight pattern graph - Tracking Flights\final-charts\daily-flights\dailyflights.html**
+
+<script src="https://d3js.org/d3.v3.js"></script>
+<script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1/d3.legend.js"></script>
+
+
+
+<style>
+
+.chart-1-container {
+font: 0.7em "Titillium Web", sans-serif;
+}
+
+
+.chart-1-container .axis path,
+.chart-1-container .axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.chart-1-container .x.axis path {
+display: none;
+}
+
+.chart-1-container .line {
+fill: none;
+stroke: steelblue;
+stroke-width: 1.5px;
+}
+
+.chart-1-container .legend rect {
+fill:white;
+stroke:black;
+opacity:0.8;}
+
+</style>
+
+<div class="d3-chart-container chart-1-container"></div>
+*Air traffic late 2019 through 2020*
+
+<script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1/dailyflights.js"></script>
 
 As expected we see significant drops between March and April, corresponding to national lockdowns, followed by a recovery in flight numbers. 
 
@@ -40,7 +80,31 @@ We wondered if the flights still running were arriving from and going to the sam
 
 For each airport, we ranked the top three most popular destinations and calculated a popularity score, which we charted below. There are columns for  November 2019, April and September 2020. These are a snapshot of pre-pandemic, lockdown and re-opening. 
 
-**insert airport popularity chart - Tracking Flights\final-charts\airport-popularity\airportPopularity.html**
+<style>
+
+.chart-2-container {
+font: 10px "Titillium Web", sans-serif;
+}
+
+
+.chart-2-container .axis path,
+.chart-2-container .axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.chart-1-container .x.axis {
+display: none;
+}
+
+</style>
+
+<div class="d3-chart-container chart-2-container"></div>
+*most popular countries by airport and month*
+
+<script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-2/combined.js"></script>
+
 
 Much of the data is as expected. We see in Europe that there are small fluctuations between the different months and that most flights are to surrounding European countries or to the US. There's not many surprises with Dubai and New Delhi either.
 
@@ -52,8 +116,43 @@ Another quirk in the data was Bermuda becoming the second most popular airport f
 
 Lastly we wanted to see whether the drops in air traffic were coming international or domestic flights (or both).
 
-[ INSERT RATIO CHART - Tracking Flights\final-charts\dom-vs-international\domVsInt.html] 
+<style>
+
+.chart-3-container {
+font: 0.7em "Titillium Web", sans-serif;
+}
+
+
+.chart-3-container .axis path,
+.chart-3-container .axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.chart-3-container .x.axis path {
+display: none;
+}
+
+.chart-3-container .line {
+fill: none;
+stroke: steelblue;
+stroke-width: 1.5px;
+}
+
+.chart-3-container .legend rect {
+fill:white;
+stroke:black;
+opacity:0.8;}
+
+</style>
+
+<div class="d3-chart-container chart-3-container"></div>
 *ratio of domestic flights to international (higher means more domestic)*
+
+<script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-3/domvsint.js"></script>
+
+
 
 Italy was first in Europe to be hit by Coronavirus and it was hit hard. This is reflected in the large spike in Rome's domestic:international flight ratio over the March-July period. At its peak, this ratio jumped four-fold on its pre-March trend levels (i.e. many more domestic flights relative to international). The sharp rise could be attributed to other countries placing travel restrictions on flights to and from Italy. Another contributor could be Italians traveling to their hometowns and be with their families during the period. There were also smaller jumps for London and Paris the second half of March, coinciding with national lockdowns in those countries.  
 
