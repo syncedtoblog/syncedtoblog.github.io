@@ -195,5 +195,5 @@ d3.tsv(region_fns[0], function (data){
 }
 
 
-
+runcharts()
 
