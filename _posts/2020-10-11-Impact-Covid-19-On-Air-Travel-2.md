@@ -8,7 +8,7 @@ img: images/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1.jpg
 
 Using crowdsourced flight tracking data, we quantified Covid-19's unprecedented disruption to air travel. In [Part 1](https://blog.synced.to/Impact-Covid-19-On-Air-Travel-1/) we showed how we did it using the OpenSky Network dataset, and now in **Part 2** we show what we found.
 
-![_config.yml]({{ site.baseurl }}/images/2020-09-27-Impact-Covid-19-On-Air-Travel-2-1.jpg)
+![_config.yml]({{ site.baseurl }}/images/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1.jpg)
 *by [Tomas Williams](https://unsplash.com/photos/CGf5m4OYKQE)*
 
 We looked at flights in and out of the following 12 airports worldwide, for which good data was available - and from 17th November 2019, when the first case of coronavirus was recorded, until late September 2020.
