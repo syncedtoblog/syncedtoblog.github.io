@@ -45,10 +45,6 @@ stroke: #000;
 shape-rendering: crispEdges;
 }
 
-.chart-1-container .x.axis path {
-display: none;
-}
-
 .chart-1-container .line {
 fill: none;
 stroke: steelblue;
@@ -125,10 +121,6 @@ font: 0.7em "Titillium Web", sans-serif;
 fill: none;
 stroke: #000;
 shape-rendering: crispEdges;
-}
-
-.chart-3-container .x.axis path {
-display: none;
 }
 
 .chart-3-container .line {
