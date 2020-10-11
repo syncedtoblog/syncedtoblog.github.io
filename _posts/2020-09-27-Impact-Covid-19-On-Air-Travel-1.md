@@ -102,6 +102,6 @@ This is just a tidbit of what we found in the data. **To see the rest, head on o
 
 
 
-[Sachin](https://www.linkedin.com/in/sachinvasudevan/) and [Rahman](https://www.linkedin.com/in/rahman-zane/)
+[Sachin](https://www.linkedin.com/in/sachinvasudevan/) and [Rahman](https://www.linkedin.com/in/rahman-zane/) - <team@synced.to>
 
 _Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._
