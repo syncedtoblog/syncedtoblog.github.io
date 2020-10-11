@@ -1,3 +1,5 @@
+var root = '/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-2/'
+
 var margin = {top: 30, right: 20, bottom: 20, left: 60},
     width = 150 - margin.left - margin.right,
     height = 120 - margin.top - margin.bottom;
@@ -68,7 +70,7 @@ var svg = d3.select(".chart-2-container").append("svg")
 .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top +")");
 
-d3.csv("data_eur", function(error, data) {
+d3.csv(root+"data_eur", function(error, data) {
 
 data.forEach(function(d) {
   d.EGLLscoreNov = +d.EGLLscoreNov
@@ -388,7 +390,7 @@ Eurbar33.append("text")
 });
 
 
-d3.csv("data_usa", function(error, data) {
+d3.csv(root+"data_usa", function(error, data) {
 
 data.forEach(function(d) {
   d.KJFKscoreNov = +d.KJFKscoreNov
@@ -701,7 +703,7 @@ USAbar33.append("text")
       });
 });
 
-d3.csv("data_asia", function(error, data) {
+d3.csv(root+"data_asia", function(error, data) {
 
 data.forEach(function(d) {
   d.WSSSscoreNov = +d.WSSSscoreNov
@@ -1113,7 +1115,7 @@ ASIAbar43.append("text")
       });
 });
 
-d3.csv("data_mid", function(error, data) {
+d3.csv(root+"data_mid", function(error, data) {
 
 data.forEach(function(d) {
   d.VIDPscoreNov = +d.VIDPscoreNov
