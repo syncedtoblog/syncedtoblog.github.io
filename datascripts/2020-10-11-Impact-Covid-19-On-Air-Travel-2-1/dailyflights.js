@@ -16,7 +16,9 @@ var chart = d3.select(".chart-1-container").append("svg")
     .attr("viewBox", "0 0 "+( width + margin.left + margin.right)*1+" "+(height + margin.top + margin.bottom)*4)
 
 var regions = ['Europe', 'USA', 'East Asia', 'Middle East/South Asia']
-var region_fns = ['flights_eur', 'flights_usa', 'flights_asia', 'flights_mid']
+
+var root = '/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1/'
+var region_fns = [root+'flights_eur', root+'flights_usa', root+'flights_asia', root+'flights_mid']
 var legends = [eur_legend, usa_legend, easia_legend, wasia_legend]
 var datasets = []
 
