@@ -34,7 +34,7 @@ Mode S is then a secondary surveillance radar process. It uses a unique 24-bit a
 
 Simply put, it's a way for planes to communicate their positions with each other and with air traffic control. And since Mode S is broadcast by radio on the 1090 MHz frequency band, it's possible to listen out for planes flying overhead with the right kit. We decided to give it a try ourselves.
 
-![_config.yml]({{ site.baseurl }}/images/2020-09-27-Impact-Covid-19-On-Air-Travel-1-3.png)
+![_config.yml]({{ site.baseurl }}/images/2020-09-27-Impact-Covid-19-On-Air-Travel-1-3.jpg)
 *Software Defined Radio Receiver (SDR) USB stick with banana for scale*
 
 We purchased a cheap Software Defined Radio Receiver USB stick and used a combination of the [Dump1090 software](https://github.com/antirez/dump1090) (written by antirez, yes of [Redis](https://redis.io/) fame) to retrieve the raw data of each nearby aircraft. Below shows an example of two aircraft within the receiver's range.
