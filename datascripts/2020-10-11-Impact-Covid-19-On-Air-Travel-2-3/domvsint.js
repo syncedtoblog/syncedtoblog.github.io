@@ -1,27 +1,3 @@
-var eur_legend = [['London - LHR','#2d7fb8'], ['Paris - CDG','#ff861c'], ['Italy - FCO','#32a03e']]
-var usa_legend = [['New York - JFK','#2d7fb8'], ['California - LAX','#ff861c'], ['Texas - DFW','#32a03e']]
-var easia_legend = [['Hong Kong - HKG','#32a03e'], ['Seoul - ICN','#ff861c'], ['Singapore - SIN','#2d7fb8']]
-var wasia_legend = [['New Delhi - DEL','#2d7fb8'], ['Dubai - DXB','#ff861c']]
-
-
-var margin = {top: 60, right: 100, bottom: 70, left: 80}
-    width = 500;
-    height = 250;
-
-
-
-var chart = d3.select(".chart-3-container").append("svg")
-    .attr('preserveAspectRatio', "xMinYMin meet")
-    .style("width", '100%')
-    .style("height", 'auto')
-    .attr("viewBox", "0 0 "+( width + margin.left + margin.right)*1+" "+(height + margin.top + margin.bottom)*4)
-
-var regions = ['Europe', 'USA', 'East Asia', 'Middle East/South Asia']
-var root = '/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-3/'
-var region_fns = [root+'dom_v_int_eur', root+'dom_v_int_usa', root+'dom_v_int_asia', root+'dom_v_int_mid']
-var legends = [eur_legend, usa_legend, easia_legend, wasia_legend]
-var datasets = []
-
 var plotcharts = function() {
     for (var i = 0; i < regions.length; i++){
 
@@ -161,6 +137,36 @@ var plotcharts = function() {
     }
 }
 
+
+
+function runcharts() {
+
+var eur_legend = [['London - LHR','#2d7fb8'], ['Paris - CDG','#ff861c'], ['Italy - FCO','#32a03e']]
+var usa_legend = [['New York - JFK','#2d7fb8'], ['California - LAX','#ff861c'], ['Texas - DFW','#32a03e']]
+var easia_legend = [['Hong Kong - HKG','#32a03e'], ['Seoul - ICN','#ff861c'], ['Singapore - SIN','#2d7fb8']]
+var wasia_legend = [['New Delhi - DEL','#2d7fb8'], ['Dubai - DXB','#ff861c']]
+
+
+var margin = {top: 60, right: 100, bottom: 70, left: 80}
+    width = 500;
+    height = 250;
+
+
+
+var chart = d3.select(".chart-3-container").append("svg")
+    .attr('preserveAspectRatio', "xMinYMin meet")
+    .style("width", '100%')
+    .style("height", 'auto')
+    .attr("viewBox", "0 0 "+( width + margin.left + margin.right)*1+" "+(height + margin.top + margin.bottom)*4)
+
+var regions = ['Europe', 'USA', 'East Asia', 'Middle East/South Asia']
+var root = '/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-3/'
+var region_fns = [root+'dom_v_int_eur', root+'dom_v_int_usa', root+'dom_v_int_asia', root+'dom_v_int_mid']
+var legends = [eur_legend, usa_legend, easia_legend, wasia_legend]
+var datasets = []
+
+
+
 d3.tsv(region_fns[0], function (data){ 
     
     datasets.push(data); 
@@ -184,6 +190,9 @@ d3.tsv(region_fns[0], function (data){
 })
 
 
+    
+    
+}
 
 
 
