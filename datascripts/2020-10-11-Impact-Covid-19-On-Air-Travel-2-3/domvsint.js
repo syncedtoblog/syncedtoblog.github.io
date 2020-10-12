@@ -4,6 +4,7 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
         var curr_topleft = {'left':0, 'top':0 + i*(margin.top+margin.bottom+height)}
 
         var subchart = chart.append("g")
+                            .attr("class","domvsint")
                             .attr("transform", "translate(" + curr_topleft.left + "," + curr_topleft.top + ")")
                             .style("width", "100%" )
                             .style("height", "25%" )
@@ -71,11 +72,11 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
 
         //add y axis with text
         subchart.append("g")
-            .attr("class", "y axis domvsint")
+            .attr("class", "y axis")
             .attr("transform", "translate("+margin.left+"," + margin.top + ")")
             .call(yAxis);
         
-        subchart.select(".y.axis.domvsint")
+        subchart.select(".y.axis")
                 .append("text")
                 .attr("transform", "rotate(-90)")
                 .attr("y", -margin.left*0.9)
