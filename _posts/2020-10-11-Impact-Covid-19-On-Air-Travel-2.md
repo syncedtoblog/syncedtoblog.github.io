@@ -97,7 +97,7 @@ The re-opening recovery period is quite varied amongst airports and regions. US 
 
 
 ### The Top Air Corridors for Different Airports before and during the Pandemic 
-We wondered if the flights still running were arriving from and going to the same places as pre-pandemic. So we extracted the top 3 most popular country destinations for each airport on a monthly basis, and calculated a popularity score, which is charted below. There are columns for  November 2019, April and September 2020. These are a snapshot of pre-pandemic, lockdown and re-opening. 
+We wondered if the flights still running were arriving from and going to the same places as pre-pandemic. So we extracted the top 3 most popular country routes for each airport on a monthly basis, and calculated a popularity score, which is charted below. There are columns for  November 2019, April and September 2020. These are a snapshot of pre-pandemic, lockdown and re-opening. 
 
 <style>
 
