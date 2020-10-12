@@ -73,13 +73,16 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
         subchart.append("g")
             .attr("class", "y axis")
             .attr("transform", "translate("+margin.left+"," + margin.top + ")")
-            .call(yAxis).append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("y", -margin.left*0.9)
-            .attr("x",-height/4+margin.top)
-            .attr("dy", ".7em")
-            .style("text-anchor", "end")
-            .text("domestic / international ratio");
+            .call(yAxis);
+        
+        subchart.selectAll(".x.axis")
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", -margin.left*0.9)
+                .attr("x",-height/4+margin.top)
+                .attr("dy", ".7em")
+                .style("text-anchor", "end")
+                .text("domestic / international ratio");
 
         //add title
         subchart.append("text")
