@@ -192,6 +192,6 @@ It comes as no surpise that the pandemic has hugely disrupted air traffic worldw
 
 And for a brief time Alaska had one of the world's busiest airports.
 
-[Sachin](https://www.linkedin.com/in/sachinvasudevan/) and [Rahman](https://www.linkedin.com/in/rahman-zane/) - <team@synced.to>
+[Rahman](https://www.linkedin.com/in/rahman-zane/) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/) - <team@synced.to>
 
 _Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._
