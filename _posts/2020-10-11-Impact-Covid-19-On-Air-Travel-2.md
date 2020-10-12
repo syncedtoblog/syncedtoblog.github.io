@@ -11,6 +11,27 @@ Using crowdsourced flight tracking data, we quantified Covid-19's unprecedented 
 
 We looked at flights in and out of the following 12 airports worldwide, for which good data was available - and from 17th November 2019, when the first case of coronavirus was recorded, until late September 2020.
 
+<style>
+table {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: 0.7em "Titillium Web", sans-serif;
+}
+th {
+    border: 0;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+tbody td {
+    border: 0;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+</style>
+
 
 | Europe       | USA                | East Asia        | Middle East/South Asia |
 |--------------|--------------------|------------------|------------------------|
