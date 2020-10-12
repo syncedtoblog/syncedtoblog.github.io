@@ -1,7 +1,8 @@
 var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height,  regions, region_fns, legends, datasets) {
-    for (var i = 0; i < regions.length; i++){
 
-        var chart = d3.select(".chart-domvsint")
+    var chart = d3.select(".chart-domvsint")
+    
+    for (var i = 0; i < regions.length; i++){
         
         var curr_topleft = {'left':0, 'top':0 + i*(margin.top+margin.bottom+height)}
 
@@ -11,6 +12,8 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
                             .style("height", "25%" )
                             .attr("font-size", "16")
 
+        console.log(subchart)
+        
         var fname = region_fns[i]
         var region = regions[i]
         var legend = legends[i]
