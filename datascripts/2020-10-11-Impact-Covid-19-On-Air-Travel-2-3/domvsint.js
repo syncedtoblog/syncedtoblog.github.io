@@ -71,11 +71,11 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
 
         //add y axis with text
         subchart.append("g")
-            .attr("class", "y axis")
+            .attr("class", "y axis domvsint")
             .attr("transform", "translate("+margin.left+"," + margin.top + ")")
             .call(yAxis);
         
-        subchart.select(".y.axis")
+        subchart.select(".y.axis.domvsint")
                 .append("text")
                 .attr("transform", "rotate(-90)")
                 .attr("y", -margin.left*0.9)
