@@ -17,12 +17,15 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     font: 0.7em "Titillium Web", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 th {
     border: 0;
     padding: 10px;
     text-align: left;
     text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
 }
 tbody td {
     border: 0;
@@ -33,7 +36,7 @@ tbody td {
 </style>
 
 
-| Europe       | USA                | East Asia        | Middle East/South Asia |
+| Europe       | USA                | East Asia        | Mid East/South Asia    |
 |--------------|--------------------|------------------|------------------------|
 | London (LHR) | New York (KJFK)    | Singapore (WSSS) | New Delhi (VIDP)       |
 | Paris (LFPG) | Los Angeles (KLAX) | Seoul (RKSI)     | Dubai (OMDB)           |
