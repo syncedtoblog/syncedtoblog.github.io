@@ -40,10 +40,10 @@ tbody td {
 |--------------|--------------------|------------------|------------------------|
 | London (LHR) | New York (KJFK)    | Singapore (WSSS) | New Delhi (VIDP)       |
 | Paris (LFPG) | Los Angeles (KLAX) | Seoul (RKSI)     | Dubai (OMDB)           |
-| Rome (LIRF)  | Dallas (KDFW)      | Hong Kong (VHHH) | Tokyo (RJTT)           |
+| Rome (LIRF)  | Dallas (KDFW)      | Hong Kong (VHHH) |                        |
+|              |                    | Tokyo (RJTT)     |                        |
 
-*Unfortunately airports in mainland China didn't have enough data to include any.* 
-*For Tokyo we used Haneda as Narita had patchy data.*
+*Unfortunately airports in mainland China didn't have enough data, and for Tokyo we used Haneda as Narita had patchy data.*
 
 
 ### Changes in the number of flights 
@@ -97,9 +97,7 @@ The re-opening recovery period is quite varied amongst airports and regions. US 
 
 
 ### The Top Air Corridors for Different Airports before and during the Pandemic 
-We wondered if the flights still running were arriving from and going to the same places as pre-pandemic. So we extracted the top 3 most popular country destinations for each airport on a monthly basis. 
-
-For each airport, we ranked the top three most popular destinations and calculated a popularity score, which we charted below. There are columns for  November 2019, April and September 2020. These are a snapshot of pre-pandemic, lockdown and re-opening. 
+We wondered if the flights still running were arriving from and going to the same places as pre-pandemic. So we extracted the top 3 most popular country destinations for each airport on a monthly basis, and calculated a popularity score, which is charted below. There are columns for  November 2019, April and September 2020. These are a snapshot of pre-pandemic, lockdown and re-opening. 
 
 <style>
 
@@ -135,7 +133,7 @@ Another quirk in the data was Bermuda becoming the second most popular airport f
 
 ### The Ratio of Domestic to International Flights 
 
-Lastly we wanted to see whether the drops in air traffic were coming international or domestic flights (or both).
+Lastly we wanted to see whether the drops in air traffic were from reducing international or domestic flights (or both).
 
 <style>
 
@@ -177,13 +175,13 @@ opacity:0.8;}
 
 
 
-Italy was first in Europe to be hit by Coronavirus and it was hit hard. This is reflected in the large spike in Rome's domestic:international flight ratio over the March-July period. At its peak, this ratio jumped four-fold on its pre-March trend levels (i.e. many more domestic flights relative to international). The sharp rise could be attributed to other countries placing travel restrictions on flights to and from Italy. Another contributor could be Italians traveling to their hometowns and be with their families during the period. There were also smaller jumps for London and Paris the second half of March, coinciding with national lockdowns in those countries.  
+Italy was first in Europe to be hit by Coronavirus and it was hit hard. This is reflected in the large spike in Rome's *domestic:international* flight ratio over the March-July period. At its peak, this ratio jumped four-fold on its pre-March trend levels (i.e. many more domestic flights relative to international). The sharp rise could be attributed to other countries placing travel restrictions on flights to and from Italy. There were also smaller jumps for London and Paris in the second half of March, coinciding with national lockdowns in those countries.  
 
 In the US we see jumps in the ratio of domestic flights for Los Angeles and New York, followed by a trough. We wonder if the trough is due to the subsequent cancellation of domestic flights, perhaps combined with a jump in cargo and repatriation flights. Interestingly Dallas appears to have remained largely unchanged in its ratio throughout.
 
-For East Asia we excluded Tokyo because its two airports Haneda and Narita have quite different ratios - but Narita, traditionally main airport, had patchy data. Singapore's airport also had somewhat patchy data to discern domestic vs international flights. Hong Kong's ratio appears less affected than Seoul. It appears as if Seoul reduced international air traffic from mid-Feb and it has not yet returned to a more normal state. 
+For East Asia we excluded Tokyo because Haneda isn't Tokyo's main aiport and its ratio is very skewed to deomestic flights. Narita, traditionally Tokyo's main international airport, had patchy data. Singapore's airport also had somewhat patchy data to discern domestic vs international flights. Hong Kong's ratio appears less affected than Seoul. It appears as if Seoul reduced international air traffic from mid-Feb and it has not yet returned to a more normal state. 
 
-Looking at Dubai, though not clearly visible due to the scaling with New Delhi, there was a huge spike (visible as a bump) towards the end of March as Europe and Asia stopped allowing commercial international flights. This resulted in a short drastic reduction in international flights in an out of Dubai, which is a transit hub. For New Delhi we see a familiar spike as international flights were cancelled. The trough after from April to mid-May we suspect is a combination of cancelling domestic flights (with the nation under lockdown), starting repatriation flights and perhaps more cargo flights.
+Looking at Dubai, though not clearly visible due to the scaling with New Delhi, there was a huge spike (visible as a bump) towards the end of March, as Europe and Asia stopped allowing commercial international flights. This resulted in a short drastic reduction in international flights in an out of Dubai, which is a transit hub. For New Delhi we see a familiar spike as international flights were cancelled. The trough after from April to mid-May we suspect is a combination of cancelling domestic flights (with the nation under lockdown), starting repatriation flights and perhaps more cargo flights.
 
 The large changes in the balance of domestic versus international travel we've observed, along with being driven by policy, could also be driven by a lack of consumer demand. Who wants to go on holiday abroad when you have to quarantine for two weeks at the other end?
 
