@@ -4,7 +4,6 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
         var curr_topleft = {'left':0, 'top':0 + i*(margin.top+margin.bottom+height)}
 
         var subchart = chart.append("g")
-                            .attr("class","domvsint")
                             .attr("transform", "translate(" + curr_topleft.left + "," + curr_topleft.top + ")")
                             .style("width", "100%" )
                             .style("height", "25%" )
@@ -157,6 +156,7 @@ var margin = {top: 60, right: 100, bottom: 70, left: 80}
 
 
 var chart = d3.select(".chart-3-container").append("svg")
+    .attr("class","domvsint")
     .attr('preserveAspectRatio', "xMinYMin meet")
     .style("width", '100%')
     .style("height", 'auto')
