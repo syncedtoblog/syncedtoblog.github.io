@@ -75,7 +75,7 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
             .attr("transform", "translate("+margin.left+"," + margin.top + ")")
             .call(yAxis);
         
-        subchart.selectAll(".y.axis")
+        subchart.select(".y.axis")
                 .append("text")
                 .attr("transform", "rotate(-90)")
                 .attr("y", -margin.left*0.9)
