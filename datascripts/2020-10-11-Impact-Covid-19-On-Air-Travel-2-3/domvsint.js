@@ -1,6 +1,5 @@
-var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height,  regions, region_fns, legends, datasets) {
+var plotcharts_domvsint = function(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height,chart,  regions, region_fns, legends, datasets) {
 
-    var chart = d3.select(".chart-domvsint")
     
     for (var i = 0; i < regions.length; i++){
         
@@ -164,7 +163,6 @@ var margin = {top: 60, right: 100, bottom: 70, left: 80}
 
 
 var chart = d3.select(".chart-3-container").append("svg")
-    .attr("class","chart-domvsint")
     .attr('preserveAspectRatio', "xMinYMin meet")
     .style("width", '100%')
     .style("height", 'auto')
@@ -190,7 +188,7 @@ d3.tsv(region_fns[0], function (data){
           d3.tsv(region_fns[3], function (data3){ 
               
               datasets.push(data3);
-              plotcharts(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height, regions, region_fns, legends, datasets)
+              plotcharts_domvsint(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height, chart, regions, region_fns, legends, datasets)
 
           })
               
