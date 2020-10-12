@@ -19,6 +19,9 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
         var legend = legends[i]
         var data = datasets[i]
 
+        console.log("data")
+        console.log(data)
+        
         var parseDate = d3.time.format("%Y%m%d").parse;
 
         var x = d3.time.scale()
