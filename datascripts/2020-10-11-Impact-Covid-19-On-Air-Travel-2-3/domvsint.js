@@ -11,7 +11,7 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
                             .style("width", "100%" )
                             .style("height", "25%" )
                             .attr("font-size", "16")
-
+        console.log("subchart")
         console.log(subchart)
         
         var fname = region_fns[i]
