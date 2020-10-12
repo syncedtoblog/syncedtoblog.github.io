@@ -4,7 +4,7 @@ title: Charting the Impact of Covid-19 on Air Travel Using ADS-B Data (Part 2)
 img: images/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1.jpg
 ---
 
-Using crowdsourced flight tracking data, we quantified Covid-19's unprecedented disruption to air travel. In [Part 1](https://blog.synced.to/Impact-Covid-19-On-Air-Travel-1/) we showed how we did it using the OpenSky Network dataset, and now in **Part 2** we show what we found.
+Using crowdsourced flight tracking data, we quantified Covid-19's unprecedented disruption to air travel. In [Part 1](https://blog.synced.to/Impact-Covid-19-On-Air-Travel-1/) we showed how we did it using the [OpenSky Network](https://opensky-network.org/ "OpenSky Network Homepage") dataset, and now in **Part 2** we show what we found.
 
 ![_config.yml]({{ site.baseurl }}/images/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1.jpg)
 *by [Tomas Williams](https://unsplash.com/photos/CGf5m4OYKQE)*
