@@ -10,16 +10,11 @@ var plotcharts_domvsint = function(eur_legend, usa_legend, easia_legend, wasia_l
                             .style("width", "100%" )
                             .style("height", "25%" )
                             .attr("font-size", "16")
-        console.log("subchart")
-        console.log(subchart)
         
         var fname = region_fns[i]
         var region = regions[i]
         var legend = legends[i]
         var data = datasets[i]
-
-        console.log("data")
-        console.log(data)
         
         var parseDate = d3.time.format("%Y%m%d").parse;
 
