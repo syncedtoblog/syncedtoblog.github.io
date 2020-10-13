@@ -25,7 +25,7 @@ We initially thought the data was somehow obtained from airports themselves. But
 [Anyone can add to the dataset](https://opensky-network.org/contribute/improve-coverage) with information about flight traffic near them - and tracking the planes flying overhead is surprisingly simple and cheap. It all comes down to the Automatic Dependent Surveillance-Broadcast (ADS-B) system and Mode S.
 
 ### ADS-B & Mode S
-Automatic dependent surveillance-broadcast is a primary surveillance technology found in aircrafts that determines their position via satellite navigation and periodically broadcasts it. 
+Automatic dependent surveillance-broadcast is a primary surveillance technology found in aircraft that determines their position via satellite navigation and periodically broadcasts it. 
 
 Mode S is then a secondary surveillance radar process. It uses a unique 24-bit address for each aircraft to allow selective interrogation of the aircraft. These signals can be be picked up using software defined radio receiver (SDR receiver).
 
@@ -49,7 +49,7 @@ Below shows an animation of how a RyanAir Boeing 737 makes it way from London He
 ![_config.yml]({{ site.baseurl }}/images/2020-09-27-Impact-Covid-19-On-Air-Travel-1-5.gif)
 *GUI output of Dump1090*
 
-An OpenSky Network contributor would keep monitoring this radio data, and would then upload it to the OpenSky Network database. Many thousands of other contributors around the world also doing this creates a dataset of worldwide air traffic that is nbeing used to track the pandemic and to measure its secondary effects.
+An OpenSky Network contributor would keep monitoring this radio data, and would then upload it to the OpenSky Network database. Many thousands of other contributors around the world also doing this creates a dataset of worldwide air traffic that is being used to track the pandemic and to measure its secondary effects.
 
 OpenSky Network has released a special [Covid-19 dataset](https://zenodo.org/record/3901482#.X0aDe5NKjlw), which has proved invaluable to researchers from a multitude of fields. For example the Bank of England has been using the flight data for some of its [Covid-19 economic indicators](https://www.bankofengland.co.uk/report/2020/monetary-policy-report-financial-stability-report-may-2020).
 
