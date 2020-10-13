@@ -125,11 +125,11 @@ display: none;
 <script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-2/combined.js"></script>
 
 
-Much of the data is as expected. We see in Europe that there are small fluctuations between the different months and that most flights are to surrounding European countries or to the US. There's not many surprises with Dubai and New Delhi either.
+Much of the data is as expected, and the picture was similar to the months we didn't show. In Europe there were small fluctuations between the different months and most flights were to surrounding European countries or to the US. There's not many surprises with Dubai and New Delhi either.
 
-With the United States and East Asia, we were confused to see Alaska (AK) making an appearance multiple times on both charts. We dug around and found that over the course of the pandemic, with passenger traffic down by over 90% at the worst points and cargo demand on the rise, Alaska's [Anchorage International Airport became a hub for the international transport of critical medical goods](https://edition.cnn.com/travel/article/anchorage-airport-world-busiest/index.html). With the geographical advantage of being at most a 9.5hr flight from 90% of the industrialised world, Anchorage rose from being to the fifth busiest cargo airport to claiming its place at the top spot.
+With the United States and East Asia, we were confused to see Alaska (AK) making an appearance multiple times on both charts. We dug around and found that over the course of the pandemic, with passenger traffic down by over 90% at the worst points and cargo demand on the rise, Alaska's [Anchorage International Airport became a hub for the international transport of critical medical goods](https://edition.cnn.com/travel/article/anchorage-airport-world-busiest/index.html). With the geographical advantage of being at most a 9.5hr flight from 90% of the industrialised world, Anchorage rose from being to the fifth busiest cargo airport to claiming top spot.
 
-Another quirk in the data was Bermuda becoming the second most popular airport for Texas. We went back to digging for a reason, however we didn't unearth any clear answer. Perhaps with a large drop in prices, Texans jumped on the opportunity to go on this holiday at such a low price.  
+Another quirk in the data was Bermuda becoming the second most popular airport for Texas. We went back to digging for a reason, however we didn't unearth any clear answer. Perhaps with a large drop in prices, Texans jumped on the opportunity to go to a popular holiday at such a low price.  
 
 ### The Ratio of Domestic to International Flights 
 
