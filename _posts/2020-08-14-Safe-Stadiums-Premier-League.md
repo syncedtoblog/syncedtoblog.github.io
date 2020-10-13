@@ -15,7 +15,7 @@ We decided to focus on Premier League stadiums, and for the period over the 2018
 
 **Comparing On-Season Crime Stats to Off-Season**
 
-We started by analysing  public data available from the [UK police](https://data.police.uk/). The first thing we did (after much data cleaning), was to look at the in-season crime severity across the Premier League's stadiums. 
+We started by analysing  [public data](https://data.police.uk/) available from the UK police. The first thing we did (after much data cleaning), was to look at the in-season crime severity across the Premier League's stadiums. 
 
 This was done by breaking the number of crimes in an area down into different classes, such as theft, anti-social behaviour, etc. before multiplying the number of each of these by a crime severity factor (as suggested by the ONS). By averaging these results over the time period for which the crimes were collected, we obtained a monthly crime score for both the on and off  season, for every stadium in the Premier League.
 
