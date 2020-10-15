@@ -10,11 +10,10 @@ Using crowdsourced flight tracking data, we quantified Covid-19's unprecedented 
 *by [Markus Winkler](https://unsplash.com/photos/XGKpAZxUE8o)*
 
 ### Covid-19 as seen through geospatial data
-Air travel has been drastically affected by Covid-19, and although some air corridors have started to re-open, normal service seems far from resuming. We're all about helping people explore meaningful places, near and far, so we wanted to quantify the impact on people's ability to travel to those faraway places. 
-
+Air travel has been drastically affected by Covid-19, and although some air corridors have started to re-open, normal service seems far from resuming. We wondered if we could crunch some data to see how far from normal worldwide air traffic actually is. 
 
 ### The OpenSky Network
-We searched for a data source that might be able to answer these questions, and came across the [OpenSky Network](https://opensky-network.org/ "OpenSky Network Homepage"), an API providing flight data for airports across the world.
+We searched for a data source that might be able to answer this question, and came across the [OpenSky Network](https://opensky-network.org/ "OpenSky Network Homepage"), an API providing flight data for airports across the world.
 
 After fetching some data from the API (which was very user-friendly), we noticed not all airports are covered, e.g. a search for flights in and out of Wuhan Tainhe International Airport gave us nothing. In trying to find out why, we dug deeper into how the OpenSky Network dataset is generated, and realised it's a great story in itself.
 
@@ -51,7 +50,7 @@ Below shows an animation of how a RyanAir Boeing 737 makes it way from London He
 
 An OpenSky Network contributor would keep monitoring this radio data, and would then upload it to the OpenSky Network database. Many thousands of other contributors around the world also doing this creates a dataset of worldwide air traffic that is being used to track the pandemic and to measure its secondary effects.
 
-OpenSky Network has released a special [Covid-19 dataset](https://zenodo.org/record/3901482#.X0aDe5NKjlw), which has proved invaluable to researchers from a multitude of fields. For example the Bank of England has been using the flight data for some of its [Covid-19 economic indicators](https://www.bankofengland.co.uk/report/2020/monetary-policy-report-financial-stability-report-may-2020).
+OpenSky Network has released a special [Covid-19 dataset](https://zenodo.org/record/3901482#.X0aDe5NKjlw), which has proven invaluable to researchers from a multitude of fields. For example the Bank of England has been using the flight data for some of its [Covid-19 economic indicators](https://www.bankofengland.co.uk/report/2020/monetary-policy-report-financial-stability-report-may-2020).
 
 ### So what does the data show?
 Below is a plot of air traffic in and out of various airports in Europe.
