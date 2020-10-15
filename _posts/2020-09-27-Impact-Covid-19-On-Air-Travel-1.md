@@ -19,7 +19,7 @@ After fetching some data from the API (which was very user-friendly), we noticed
 
 The OpenSky Network is a non-profit association founded in 2012 as a research project between Armasuisse (Switzerland), University of Kaiserslautern (Germany), and University of Oxford (UK). Its aim is to improve the security, reliability and efficiency of air space usage by providing open access of real-world air traffic control data. 
 
-We initially thought the data was somehow obtained from airports themselves. But it turns out, the data is crowdsourced from a plethora of sensors connected to the Internet by private volunteers, industrial supporters, and academic/governmental organizations. The collected data is then archived in a large historical database. This also explains why not every airport is covered yet.
+We initially thought the data was somehow obtained from airports themselves. But it turns out the data is crowdsourced from a plethora of sensors connected to the Internet by private volunteers, industrial supporters, and academic/governmental organizations. The collected data is then archived in a large historical database. This also explains why not every airport is covered yet.
 
 [Anyone can add to the dataset](https://opensky-network.org/contribute/improve-coverage) with information about flight traffic near them - and tracking the planes flying overhead is surprisingly simple and cheap. It all comes down to the Automatic Dependent Surveillance-Broadcast (ADS-B) system and Mode S.
 
