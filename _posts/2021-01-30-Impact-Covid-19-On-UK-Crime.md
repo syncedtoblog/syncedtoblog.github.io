@@ -1,16 +1,26 @@
 ---
 layout: post
-title: Charting the Impact of Covid-19 on Air Travel Using ADS-B Data (Part 2)
-img: images/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1.jpg
+title: What Happened to Crime During the UK Lockdown?
+img: images/2021-01-30-Impact-Covid-19-On-UK-Crime-1.jpg
 draft: 1
 ---
 
+
+
+Using the UK police's crime dataset we 
+
+
+
 Using crowdsourced flight tracking data, we quantified Covid-19's unprecedented disruption to air travel. In [Part 1](https://blog.synced.to/Impact-Covid-19-On-Air-Travel-1/) we showed how we did it using the [OpenSky Network](https://opensky-network.org/ "OpenSky Network Homepage") dataset, and now in **Part 2** we show what we found.
 
-![_config.yml]({{ site.baseurl }}/images/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1.jpg)
-*by [Tomas Williams](https://unsplash.com/photos/CGf5m4OYKQE)*
+![_config.yml]({{ site.baseurl }}/images/2021-01-30-Impact-Covid-19-On-UK-Crime-1.jpg)
+*by [Mark Timberlake](https://unsplash.com/photos/LIrbNMnQ-jc)*
 
-We looked at flights in and out of the following 12 airports worldwide, for which good data was available - and from 17th November 2019, when the first case of coronavirus was recorded, until late September 2020.
+
+ 
+We scanned crimes over a 100km squared area in 2020, 2019 and 2018 in five of the largest cities in the UK: London, Leeds, Birmingham, Bristol and Liverpool. We then normalised these raw crime scores by the population of these cities and our findings below depict the mean of these results.
+
+The Crime Severity Score, devised by the Office for National Statistics, weighs different crimes to attribute a single crime severity score to a certain area.
 
 <style>
 table {
@@ -36,155 +46,68 @@ tbody td {
 }
 </style>
 
-
-| Europe       | USA                | East Asia        | Mid East/South Asia    |
-|--------------|--------------------|------------------|------------------------|
-| London (LHR) | New York (KJFK)    | Singapore (WSSS) | New Delhi (VIDP)       |
-| Paris (LFPG) | Los Angeles (KLAX) | Seoul (RKSI)     | Dubai (OMDB)           |
-| Rome (LIRF)  | Dallas (KDFW)      | Hong Kong (VHHH) |                        |
-|              |                    | Tokyo (RJTT)     |                        |
-
-*Unfortunately airports in mainland China didn't have enough data, and for Tokyo we used Haneda as Narita had patchy data.*
-
-
-### Changes in the number of flights 
-We tracked the number of daily flights (arrivals and departures) at each of our airports.
-
-
 <script src="https://d3js.org/d3.v3.js"></script>
 
-
-
-
 <style>
-
 .chart-1-container {
-font: 0.7em "Titillium Web", sans-serif;
+    font: 0.7em "Titillium Web", sans-serif;
 }
 
-
-.chart-1-container .axis path,
-.chart-1-container .axis line {
-fill: none;
-stroke: #000;
-shape-rendering: crispEdges;
+.chart-1-container .axis path, .chart-1-container .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
 }
 
 .chart-1-container .x.axis path {
-display: none;
+    display: none;
 }
 
 .chart-1-container .line {
-fill: none;
-stroke: steelblue;
-stroke-width: 1.5px;
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
 }
 
 .chart-1-container .legend rect {
-fill:white;
-stroke:black;
-opacity:0.8;}
-
+    fill:white;
+    stroke:black;
+    opacity:0.8;
+}
 </style>
 
 <div class="d3-chart-container chart-1-container"></div>
-*Air traffic late 2019 through 2020*
+*Crime severity score over lockdown period compared to previous years*
 
-<script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-1/dailyflights.js"></script>
-
-As expected we see significant drops between March and April, corresponding to national lockdowns, followed by a recovery in flight numbers. 
-
-The re-opening recovery period is quite varied amongst airports and regions. US airports had a sharp bounce back in flights numbers in July, while in Asia most airports appear to have followed a very smooth and gradual re-opening. Europe sits in between. Paris had the sharpest recovery in Europe, but it looks to be reversing as a second wave emerges. On a casual look the sharpness of the airport recovery curve correlated strongly to infection rates in that region.
+<script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crimescores.js"></script>
 
 
-### The Top Air Corridors for Different Airports before and during the Pandemic 
-We wondered if the flights still running were arriving from and going to the same places as pre-pandemic. So we extracted the top 3 most popular country routes for each airport on a monthly basis, and calculated a popularity score, which is charted below. There are columns for  November 2019, April and September 2020. These are a snapshot of pre-pandemic, lockdown and re-opening. 
+We looked at flights in and out of the following 12 airports worldwide, for which good data was available - and from 17th November 2019, when the first case of coronavirus was recorded, until late September 2020.
+
+
+
+blah blah 
 
 <style>
-
 .chart-2-container {
-font: 10px "Titillium Web", sans-serif;
+  font: 11px sans-serif;
 }
 
-
-.chart-2-container .axis path,
-.chart-2-container .axis line {
-fill: none;
-stroke: #000;
-shape-rendering: crispEdges;
+.chart-2-container .axis path, .chart-2-container .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
 }
 
 .chart-2-container .x.axis {
-display: none;
+  display: none;
 }
-
 </style>
 
 <div class="d3-chart-container chart-2-container"></div>
-*most popular countries by airport and month*
+*Crime breakdown by type*
 
-<script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-2/combined.js"></script>
-
-
-Much of the data is as expected, and the picture was similar to the months we didn't show. In Europe there were small fluctuations between the different months and most flights were to surrounding European countries or to the US. There's not many surprises with Dubai and New Delhi either.
-
-With the United States and East Asia, we were confused to see Alaska (AK) making an appearance multiple times on both charts. We dug around and found that over the course of the pandemic, with passenger traffic down by over 90% at the worst points and cargo demand on the rise, Alaska's [Anchorage International Airport became a hub for the international transport of critical medical goods](https://edition.cnn.com/travel/article/anchorage-airport-world-busiest/index.html). With the geographical advantage of being at most a 9.5hr flight from 90% of the industrialised world, Anchorage rose from being to the fifth busiest cargo airport to claiming top spot.
-
-Another quirk in the data was Bermuda becoming the second most popular airport for Texas. We went back to digging for a reason, however we didn't unearth any clear answer. Perhaps with a large drop in prices, Texans jumped on the opportunity to go to a popular holiday at such a low price.  
-
-### The Ratio of Domestic to International Flights 
-
-Lastly we wanted to see whether the drops in air traffic were from reducing international or domestic flights (or both).
-
-<style>
-
-.chart-3-container {
-font: 0.7em "Titillium Web", sans-serif;
-}
-
-
-.chart-3-container .axis path,
-.chart-3-container .axis line {
-fill: none;
-stroke: #000;
-shape-rendering: crispEdges;
-}
-
-.chart-3-container .x.axis path {
-display: none;
-}
-
-.chart-3-container .line {
-fill: none;
-stroke: steelblue;
-stroke-width: 1.5px;
-}
-
-.chart-3-container .legend rect {
-fill:white;
-stroke:black;
-opacity:0.8;}
-
-</style>
-
-
-
-<div class="d3-chart-container chart-3-container"></div>
-*ratio of domestic flights to international (higher means more domestic)*
-
-<script src="https://blog.synced.to/datascripts/2020-10-11-Impact-Covid-19-On-Air-Travel-2-3/domvsint.js"></script>
-
-
-
-Italy was first in Europe to be hit by Coronavirus and it was hit hard. This is reflected in the large spike in Rome's *domestic:international* flight ratio over the March-July period. At its peak, this ratio jumped four-fold on its pre-March trend levels (i.e. many more domestic flights relative to international). The sharp rise could be attributed to other countries placing travel restrictions on flights to and from Italy. There were also smaller jumps for London and Paris in the second half of March, coinciding with national lockdowns in those countries.  
-
-In the US we see jumps in the ratio of domestic flights for Los Angeles and New York, followed by a trough. We wonder if the trough is due to the subsequent cancellation of domestic flights, perhaps combined with a jump in cargo and repatriation flights. Interestingly Dallas appears to have remained largely unchanged in its ratio throughout.
-
-For East Asia we excluded Tokyo because Haneda isn't Tokyo's main aiport and its ratio is very skewed to deomestic flights. Narita, traditionally Tokyo's main international airport, had patchy data. Singapore's airport also had somewhat patchy data to discern domestic vs international flights. Hong Kong's ratio appears less affected than Seoul. It appears as if Seoul reduced international air traffic from mid-Feb and it has not yet returned to a more normal state. 
-
-Looking at Dubai, though not clearly visible due to the scaling with New Delhi, there was a huge spike (visible as a bump) towards the end of March, as Europe and Asia stopped allowing commercial international flights. This resulted in a short drastic reduction in international flights in an out of Dubai, which is a transit hub. For New Delhi we see a familiar spike as international flights were cancelled. The trough after from April to mid-May we suspect is a combination of cancelling domestic flights (with the nation under lockdown), starting repatriation flights and perhaps more cargo flights.
-
-The large changes in the balance of domestic versus international travel we've observed, along with being driven by policy, could also be driven by a lack of consumer demand. Who wants to go on holiday abroad when you have to quarantine for two weeks at the other end?
+<script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crimebreakdown.js"></script>
 
 
 ### Summary
