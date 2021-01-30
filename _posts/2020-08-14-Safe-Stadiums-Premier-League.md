@@ -15,7 +15,7 @@ We decided to focus on Premier League stadiums, and for the period over the 2018
 
 **Comparing On-Season Crime Stats to Off-Season**
 
-We started by analysing  public data available from the UK police. The first thing we did (after much data cleaning), was to look at the in-season crime severity across the Premier League's stadiums. 
+We started by analysing  [public data](https://data.police.uk/) available from the UK police. The first thing we did (after much data cleaning), was to look at the in-season crime severity across the Premier League's stadiums. 
 
 This was done by breaking the number of crimes in an area down into different classes, such as theft, anti-social behaviour, etc. before multiplying the number of each of these by a crime severity factor (as suggested by the ONS). By averaging these results over the time period for which the crimes were collected, we obtained a monthly crime score for both the on and off  season, for every stadium in the Premier League.
 
@@ -169,6 +169,6 @@ The general theme that we have been seeing throughout is that match day crimes a
 To sum up, Premier League football matches are very safe and fun for all the family, with on average just 3 arrests at matches per 100,000 fans. This is a credit to the clubs, the local councils, police and to the fans. We looked at making a ranking or football stadium safety, and also considered stadium capacity in those calculations. But a ranking would obscure the true conclusion that matchday is a very safe experience at each club.
 
 
-[Rahman](https://www.linkedin.com/in/rahman-zane/) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/)
+[Rahman](https://www.linkedin.com/in/rahman-zane/) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/) - <team@synced.to>
 
 _Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._

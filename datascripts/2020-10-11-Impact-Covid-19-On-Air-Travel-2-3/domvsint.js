@@ -1,6 +1,8 @@
-var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height, chart, regions, region_fns, legends, datasets) {
-    for (var i = 0; i < regions.length; i++){
+var plotcharts_domvsint = function(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height,chart,  regions, region_fns, legends, datasets) {
 
+    
+    for (var i = 0; i < regions.length; i++){
+        
         var curr_topleft = {'left':0, 'top':0 + i*(margin.top+margin.bottom+height)}
 
         var subchart = chart.append("g")
@@ -8,12 +10,12 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
                             .style("width", "100%" )
                             .style("height", "25%" )
                             .attr("font-size", "16")
-
+        
         var fname = region_fns[i]
         var region = regions[i]
         var legend = legends[i]
         var data = datasets[i]
-
+        
         var parseDate = d3.time.format("%Y%m%d").parse;
 
         var x = d3.time.scale()
@@ -73,14 +75,16 @@ var plotcharts = function(eur_legend, usa_legend, easia_legend, wasia_legend, ma
         subchart.append("g")
             .attr("class", "y axis")
             .attr("transform", "translate("+margin.left+"," + margin.top + ")")
-            .call(yAxis)
-          .append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("y", -margin.left*0.9)
-            .attr("x",-height/4+margin.top)
-            .attr("dy", ".7em")
-            .style("text-anchor", "end")
-            .text("domestic / international ratio");
+            .call(yAxis);
+        
+        subchart.select(".y.axis")
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", -margin.left*0.9)
+                .attr("x",-height/4+margin.top)
+                .attr("dy", ".7em")
+                .style("text-anchor", "end")
+                .text("domestic / international ratio");
 
         //add title
         subchart.append("text")
@@ -179,7 +183,7 @@ d3.tsv(region_fns[0], function (data){
           d3.tsv(region_fns[3], function (data3){ 
               
               datasets.push(data3);
-              plotcharts(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height, chart, regions, region_fns, legends, datasets)
+              plotcharts_domvsint(eur_legend, usa_legend, easia_legend, wasia_legend, margin, width, height, chart, regions, region_fns, legends, datasets)
 
           })
               
