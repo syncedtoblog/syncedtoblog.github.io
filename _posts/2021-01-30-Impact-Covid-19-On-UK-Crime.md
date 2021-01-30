@@ -2,7 +2,6 @@
 layout: post
 title: What Happened to Crime During the UK Lockdown?
 img: images/2021-01-30-Impact-Covid-19-On-UK-Crime-1.jpg
-draft: 1
 ---
 
 
