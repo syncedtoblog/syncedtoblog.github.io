@@ -47,6 +47,7 @@ tbody td {
 </style>
 
 <script src="https://d3js.org/d3.v3.js"></script>
+<script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/datascripts/d3.legend.js"></script>
 
 <style>
 .chart-1-container {
@@ -79,7 +80,7 @@ tbody td {
 <div class="d3-chart-container chart-1-container"></div>
 *Crime severity score over lockdown period compared to previous years*
 
-<script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crimescores.js"></script>
+<script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/datascripts/crimescores.js"></script>
 
 What we notice immediately from this graph is that there is a substantial drop in the mean crime score in April 2020. This diverges from the trend of the previous two years. This, of course,  corresponds with the national lockdown and from this we can infer that the severity of crimes on the whole drastically fell as a result. When looking at the May data we also see a bit of a bounce back which coincides with the easing of some aspects of the lockdown and this increase in crime severity is greater that that of 2018 and 2019.
 
@@ -107,7 +108,7 @@ Another interesting point we can glean from this chart is that, out of the three
 <div class="d3-chart-container chart-2-container"></div>
 *Crime breakdown by type*
 
-<script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crimebreakdown.js"></script>
+<script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/datascripts/crimebreakdown.js"></script>
 
 
 ### Summary
