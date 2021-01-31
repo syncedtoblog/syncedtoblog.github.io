@@ -1,8 +1,8 @@
 
 
 var margin = {top: 20, right: 80, bottom: 30, left: 50},
-  width = 500 - margin.left - margin.right,
-  height = 300 - margin.top - margin.bottom;
+var width = 500 - margin.left - margin.right,
+var height = 300 - margin.top - margin.bottom;
 
 var parseDate = d3.time.format("%m%d").parse;
 
@@ -89,7 +89,7 @@ var city = svg.selectAll(".city")
 
 city.append("path")
     .attr("class", "line")
-    .attr("d", function(d) { console.log(d.values); return line(d.values); })
+    .attr("d", function(d) { console.log(line(d.values)); return line(d.values); })
     .attr("data-legend",function(d) { return d.name})
     .style("stroke", function(d) { return color(d.name); });
 
