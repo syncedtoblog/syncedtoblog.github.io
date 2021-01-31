@@ -78,7 +78,7 @@ tbody td {
 </style>
 
 <div class="d3-chart-container chart-1-container"></div>
-*Crime severity score over lockdown period compared to previous years*
+*Crime severity score over lockdown period compared to previous years, mean of London, Leeds, Birmingham, Bristol and Liverpool*
 
 <script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crimescores.js"></script>
 
