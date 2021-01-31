@@ -102,7 +102,7 @@ function load_chart_1() {
 
     legend = svg.append("g")
       .attr("class","legend")
-      .attr("transform","translate(360,30)")
+      .attr("transform","translate(360,100)")
       .style("font-size","12px")
       .call(d3.legend)
     });

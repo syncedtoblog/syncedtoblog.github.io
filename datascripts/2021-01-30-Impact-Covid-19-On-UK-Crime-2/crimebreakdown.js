@@ -458,7 +458,7 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar31.selectAll("text") //label area
-      .data(["2019"])
+      .data(["2020"])
       .enter().append("text")
       .attr("x", -(margin.left-70))
       .attr("y", height/2 + height*2)

@@ -52,7 +52,7 @@ tbody td {
 
 <style>
 .chart-1-container {
-    font: 0.7em "Titillium Web", sans-serif;
+    font: 0.6em "Titillium Web", sans-serif;
 }
 
 .chart-1-container .axis path, .chart-1-container .axis line {
@@ -93,7 +93,7 @@ Another interesting point we can glean from this chart is that, out of the three
 
 <style>
 .chart-2-container {
-  font: 11px sans-serif;
+  font: 11px "Titillium Web", sans-serif;
 }
 
 .chart-2-container .axis path, .chart-2-container .axis line {
