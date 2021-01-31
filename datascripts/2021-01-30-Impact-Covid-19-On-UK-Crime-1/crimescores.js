@@ -10,7 +10,7 @@ var x = d3.time.scale()
   .range([0, width]);
 
 var y = d3.scale.linear()
-  .range([height, 0]);
+  .range([0, height]);
 
 var color = d3.scale.category10();
 
