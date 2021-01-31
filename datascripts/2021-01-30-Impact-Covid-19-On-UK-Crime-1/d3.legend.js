@@ -7,7 +7,7 @@ d3.legend = function(g) {
   g.each(function() {
     var g= d3.select(this),
         items = {},
-        svg = d3.select(g.property("nearestViewportElement")),
+        svg_for_legend = d3.select(g.property("nearestViewportElement")),
         legendPadding = g.attr("data-style-padding") || 5,
         lb = g.selectAll(".legend-box").data([true]),
         li = g.selectAll(".legend-items").data([true])
@@ -15,7 +15,7 @@ d3.legend = function(g) {
     lb.enter().append("rect").classed("legend-box",true)
     li.enter().append("g").classed("legend-items",true)
 
-    svg.selectAll("[data-legend]").each(function() {
+    svg_for_legend.selectAll("[data-legend]").each(function() {
         var self = d3.select(this)
         items[self.attr("data-legend")] = {
           pos : self.attr("data-legend-pos") || this.getBBox().y,
