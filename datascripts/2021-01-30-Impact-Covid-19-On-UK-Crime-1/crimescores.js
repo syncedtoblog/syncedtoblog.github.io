@@ -89,7 +89,7 @@ var city = svg.selectAll(".city")
 
 city.append("path")
     .attr("class", "line")
-    .attr("d", function(d) { return line(d.values); })
+    .attr("d", function(d) { console.log(d.values); return line(d.values); })
     .attr("data-legend",function(d) { return d.name})
     .style("stroke", function(d) { return color(d.name); });
 
