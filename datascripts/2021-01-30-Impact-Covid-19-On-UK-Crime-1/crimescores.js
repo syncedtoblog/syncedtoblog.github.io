@@ -27,7 +27,7 @@ var yAxis = d3.svg.axis()
 var line = d3.svg.line()
   .interpolate("linear")
   .x(function(d) { return x(d.date); })
-  .y(function(d) { return y(d.temperature); });
+  .y(function(d) { console.log(y(d.temperature)) return y(d.temperature); });
 
 var svg = d3.select(".chart-1-container").append("svg")
   .attr("width", width + margin.left + margin.right)
