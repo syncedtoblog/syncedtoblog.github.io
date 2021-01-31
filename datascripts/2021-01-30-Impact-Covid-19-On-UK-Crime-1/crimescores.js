@@ -6,11 +6,9 @@ var height = 300 - margin.top - margin.bottom;
 
 var parseDate = d3.time.format("%m%d").parse;
 
-var x = d3.time.scale()
-  .range([0, width]);
+var x = d3.time.scale().range([0, width]);
 
-var y = d3.scale.linear()
-  .range([0, height]);
+var y = d3.scale.linear().range([height,0]);
 
 var color = d3.scale.category10();
 
