@@ -86,7 +86,11 @@ tbody td {
 ### Case Study - London
 Digging into the datasets for each city, we saw it wasn't just a clear-cut case of crime falling across the board. Some types of crime actually rose during lockdown! As an illustrative example, we grouped all the crimes the the 10km x 10km squared area around London in the chart below.
 
-During 2020's lockdown London saw more anti-social behaviour than in previous years. 
+During 2020's lockdown London saw more anti-social behaviour than in previous years. This would likely be instances of people defying the lockdown measures. We were also told by a serving police office that repeat offenders also used the lockdown and school closures as an opportunity to add to the anti-social behaviour statistics. 
+
+On the other hand instances of theft fell sharply during lockdown. With much fewer people out and about, muggings and pickpocketing were less frequent. Plus many burglaries are opportunistic and with people sat at home it's harder for burglars to operate. 
+
+The violence against the person category paints a mixed picture. Perhaps there were fewer pub fights, but the was an increase in domestic violence. We didn't really have the fine-grained data to unpick this.
 
 <style>
 .chart-2-container {
@@ -105,14 +109,14 @@ During 2020's lockdown London saw more anti-social behaviour than in previous ye
 </style>
 
 <div class="d3-chart-container chart-2-container"></div>
-*Crime breakdown by type, 100km^2 square around London. (ASB - anti-social behaviour, ARS - arson, DRG - drug offences, WPN - weapons offences, VEH - vehicle offences, VIO - violent crime, THF - theft)*
+*Number of crimes by type, 100km^2 square around London. (ASB - anti-social behaviour, ARS - arson, DRG - drug offences, WPN - weapons offences, VEH - vehicle offences, VIO - violent crime, THF - theft)*
 
 <script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/crimebreakdown.js"></script>
 
 
 ### Summary
+The overall picture during the UK's lockdown is that while less severe crimes may have increased, more severe crime saw a decrease. The net result was a sharp decrease in overall crime severity.  
 
-Summary goes here
 
 [Sachin](https://www.linkedin.com/in/sachinvasudevan/) and [Rahman](https://www.linkedin.com/in/rahman-zane/) - <team@synced.to>
 
