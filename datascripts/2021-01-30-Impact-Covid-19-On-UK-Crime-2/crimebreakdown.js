@@ -34,7 +34,7 @@ var svg = d3.select(".chart-2-container").append("svg")
 .append("g")
   .attr("transform", "translate(40,20)");
 
-d3.csv("breakdown2018.csv", function(error, data) {
+d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2018.csv", function(error, data) {
 
 data.forEach(function(d) {
   d.Jan = +d.Jan
@@ -235,7 +235,7 @@ bar16.append("text")
       });
 });
 
-d3.csv("breakdown2019.csv", function(error, data) {
+d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2019.csv", function(error, data) {
 
 data.forEach(function(d) {
   d.Jan = +d.Jan
@@ -427,7 +427,7 @@ bar26.append("text")
       });
 });
 
-d3.csv("breakdown2020.csv", function(error, data) {
+d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2020.csv", function(error, data) {
 
 data.forEach(function(d) {
   d.Jan = +d.Jan

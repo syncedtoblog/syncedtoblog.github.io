@@ -17,10 +17,11 @@ Using crowdsourced flight tracking data, we quantified Covid-19's unprecedented 
 *by [Mark Timberlake](https://unsplash.com/photos/LIrbNMnQ-jc)*
 
 
- 
-We scanned crimes over a 100km squared area in 2020, 2019 and 2018 in five of the largest cities in the UK: London, Leeds, Birmingham, Bristol and Liverpool. We then normalised these raw crime scores by the population of these cities and our findings below depict the mean of these results.
+The Crime Severity Score, devised by the Office for National Statistics, weighs different crimes to attribute a single crime severity score to a certain area. We scanned crimes over a 100km squared area in 2020, 2019 and 2018 in five of the largest cities in the UK: London, Leeds, Birmingham, Bristol and Liverpool. 
 
-The Crime Severity Score, devised by the Office for National Statistics, weighs different crimes to attribute a single crime severity score to a certain area.
+For each city we then created crime scores from the raw crimes and normalised them by the city's population. 
+
+
 
 <style>
 table {
@@ -47,6 +48,7 @@ tbody td {
 </style>
 
 <script src="https://d3js.org/d3.v3.js"></script>
+<script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/d3.legend.js"></script>
 
 <style>
 .chart-1-container {
@@ -82,11 +84,12 @@ tbody td {
 <script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crimescores.js"></script>
 
 
-We looked at flights in and out of the following 12 airports worldwide, for which good data was available - and from 17th November 2019, when the first case of coronavirus was recorded, until late September 2020.
+What we notice immediately from this graph is that there is a substantial drop in the mean crime score in April 2020. This diverges from the trend of the previous two years. This, of course,  corresponds with the national lockdown and from this we can infer that the severity of crimes on the whole drastically fell as a result. When looking at the May data we also see a bit of a bounce back which coincides with the easing of some aspects of the lockdown and this increase in crime severity is greater that that of 2018 and 2019.
+
+Another interesting point we can glean from this chart is that, out of the three years, 2020 is the only year not to see a rise in crime severity between Feburary and March. While both 2018 and 2019 saw the largest increase in crime severity between these months out of the six months we searched over, 2020 actually saw a decrease in this period. We believe this can be attributed to the impact of the lockdown being implemented mid-way through March which had a significant effect on the score for the month and dampened out other factors which normally contribute to a rise in the crime score between these months.
 
 
 
-blah blah 
 
 <style>
 .chart-2-container {
@@ -107,15 +110,13 @@ blah blah
 <div class="d3-chart-container chart-2-container"></div>
 *Crime breakdown by type*
 
-<script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crimebreakdown.js"></script>
+<script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/crimebreakdown.js"></script>
 
 
 ### Summary
 
-It comes as no surpise that the pandemic has hugely disrupted air traffic worldwide. What's been interesting are the similarities and differences in the approaches cities adopted. Following the initial shutdown to air travel, which was worldwide and almost simultaneous (over weeks), cities have been returning to normal at different paces. From cavalier Dallas through to cautious Seoul. 
+Summary goes here
 
-And for a brief time Alaska had one of the world's busiest airports.
-
-[Rahman](https://www.linkedin.com/in/rahman-zane/) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/) - <team@synced.to>
+[Sachin](https://www.linkedin.com/in/sachinvasudevan/) and [Rahman](https://www.linkedin.com/in/rahman-zane/) - <team@synced.to>
 
 _Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._
