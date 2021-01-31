@@ -20,7 +20,7 @@ Luckily for us the Office for National Statistics (ONS) had already devised The 
 
 So, for example, possession of cannabis (weight of 3) is at the bottom end of the scale, along with e.g. dishonest use of electricity (weight of 7). Whilst homicide has the highest weight of 7,979. For each city and each year, we collected the crimes, multiplied each crime by the severity score for its category and them summed them, finally dividing by the population. 
 
-We've plotted the results below, aggregating the city scores for each year by taking the mean. The results show a very pronouned drop in crime serverity from March to June. It probably reinforces your intuition that lockdown would result in less crime. We dug into the data a little more and found some nuances, which we'll show, using London as a case study.
+We've plotted the results below, aggregating the city scores for each year by taking the mean. The results show a very pronouned drop in crime serverity from March to June. It probably reinforces your intuition that lockdown would result in less crime. We dug into the data a little more and found some nuances, which we'll show next, using London as a case study.
 
 <style>
 table {
