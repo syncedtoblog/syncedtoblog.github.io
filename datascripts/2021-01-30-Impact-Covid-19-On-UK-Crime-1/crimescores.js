@@ -36,7 +36,12 @@ var svg = d3.select(".chart-1-container").append("svg")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.tsv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crime_data.tsv", function(error, data) {
+    
 color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
+
+console.log("data")
+console.log(data)
+
 
 data.forEach(function(d) {
   d.date = parseDate(d.date);
