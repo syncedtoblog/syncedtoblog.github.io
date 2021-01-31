@@ -90,7 +90,7 @@ During 2020's lockdown London saw more anti-social behaviour than in previous ye
 
 On the other hand instances of theft fell sharply during lockdown. With much fewer people out and about, muggings and pickpocketing were less frequent. Plus many burglaries are opportunistic and with people sat at home it's harder for burglars to operate. 
 
-The violence against the person category paints a mixed picture. Perhaps there were fewer pub fights, but the was an increase in domestic violence. We didn't really have the fine-grained data to unpick this.
+The violence against the person category paints a mixed picture. Perhaps there were fewer pub fights, but there was also an increase in domestic violence. We didn't really have the fine-grained data to unpick this.
 
 <style>
 .chart-2-container {
