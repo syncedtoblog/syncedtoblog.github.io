@@ -58,6 +58,9 @@ y.domain([500,850
   //d3.max(cities, function(c) { return d3.max(c.values, function(v) { return v.temperature; }); })
 ]);
 
+console.log("cities")
+console.log(cities)
+
 svg.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + height + ")")
