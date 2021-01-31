@@ -5,19 +5,20 @@ img: images/2021-01-30-Impact-Covid-19-On-UK-Crime-1.jpg
 draft: 1
 ---
 
+Using the UK police's crime dataset we looked at how crime changed in the UK's cities during the nationwide lockdown. 
 
-
-Using the UK police's crime dataset we 
-
-
-
-Using crowdsourced flight tracking data, we quantified Covid-19's unprecedented disruption to air travel. In [Part 1](https://blog.synced.to/Impact-Covid-19-On-Air-Travel-1/) we showed how we did it using the [OpenSky Network](https://opensky-network.org/ "OpenSky Network Homepage") dataset, and now in **Part 2** we show what we found.
 
 ![_config.yml]({{ site.baseurl }}/images/2021-01-30-Impact-Covid-19-On-UK-Crime-1.jpg)
 *by [Mark Timberlake](https://unsplash.com/photos/LIrbNMnQ-jc)*
 
 
-The Crime Severity Score, devised by the Office for National Statistics, weighs different crimes to attribute a single crime severity score to a certain area. We scanned crimes over a 100km squared area in 2020, 2019 and 2018 in five of the largest cities in the UK: London, Leeds, Birmingham, Bristol and Liverpool. 
+We scanned crimes over a 100km squared area in 2020, 2019 and 2018 in five of the largest cities in the UK (London, Leeds, Birmingham, Bristol and Liverpool). --- a difference in 2020's Crime Data 
+
+The Crime Severity Score, devised by the Office for National Statistics (ONS), is a way of assigning a single score for the crime level in an area. The ONS has given each type of crime a [weight](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/crimeseverityscoredatatool), using a broadly sentencing-based methodology:
+
+> Sentencing data, sourced from the Ministry of Justice (MoJ) have been used as the primary source for calculating offence weights. It was decided that sentencing would provide an appropriate metric for determining the seriousness of offences. It can be argued that sentencing is an objective measure, reflecting how society views crimes differently, given that it is based on legislation set by Parliament on behalf of the public. [(source)](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/researchoutputsdevelopingacrimeseverityscoreforenglandandwalesusingdataoncrimesrecordedbythepolice/2016-11-29)
+
+So, for example, possession of cannabis (weighted 3) is at the bottom end of the scale, along with e.g. dishonest use of electricity (weighted 7). While homicide has the highest weight of 7,979. We multiplied each crim 
 
 For each city we then created crime scores from the raw crimes and normalised them by the city's population. 
 
@@ -92,8 +93,7 @@ What we notice immediately from this graph is that there is a substantial drop i
 
 Another interesting point we can glean from this chart is that, out of the three years, 2020 is the only year not to see a rise in crime severity between Feburary and March. While both 2018 and 2019 saw the largest increase in crime severity between these months out of the six months we searched over, 2020 actually saw a decrease in this period. We believe this can be attributed to the impact of the lockdown being implemented mid-way through March which had a significant effect on the score for the month and dampened out other factors which normally contribute to a rise in the crime score between these months.
 
-
-
+Digging into the datasets for each city, we saw it wasn't just a clear-cut case of crime falling across the board. 
 
 <style>
 .chart-2-container {
