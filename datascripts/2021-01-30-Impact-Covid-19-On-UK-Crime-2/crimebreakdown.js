@@ -32,7 +32,7 @@ function load_chart_2(){
       //.attr("width", (width + margin.left + margin.right)*6)
       //.attr("height", height*3 + margin.top + margin.bottom)
       .attr('preserveAspectRatio', "xMinYMin meet")
-      .attr("viewBox", "0 0 "+(width*6 + (margin.left+margin.right)*5-40)+" "+(height*3 + margin.left+margin.left))
+      .attr("viewBox", "0 0 "+(width*6 + (margin.left+margin.right)*5-40)+" "+(height*3 + margin.top+margin.bottom))
       .append("g")
       .attr("transform", "translate(40,20)");
 
