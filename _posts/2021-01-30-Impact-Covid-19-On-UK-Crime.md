@@ -5,7 +5,7 @@ img: images/2021-01-30-Impact-Covid-19-On-UK-Crime-1.jpg
 draft: 1
 ---
 
-Using the UK police's crime dataset we looked at how crime changed in the UK's cities during its first nationwide lockdown. 
+Using the UK police's crime dataset we looked at how crime changed in the UK's cities during 2020's first nationwide lockdown. 
 
 
 ![_config.yml]({{ site.baseurl }}/images/2021-01-30-Impact-Covid-19-On-UK-Crime-1.jpg)
