@@ -29,9 +29,9 @@ function load_chart_1() {
       .y(function(d) { console.log(d.temperature); return y(d.temperature); });
 
     var svg = d3.select(".chart-1-container").append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-    .append("g")
+      .attr('preserveAspectRatio', "xMinYMin meet")
+      .attr("viewBox", "0 0 "+(width + margin.left + margin.right)+" "+(height + margin.top + margin.bottom))
+      .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     d3.tsv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crime_data.tsv", function(error, data) {
@@ -102,7 +102,7 @@ function load_chart_1() {
 
     legend = svg.append("g")
       .attr("class","legend")
-      .attr("transform","translate(360,100)")
+      .attr("transform","translate(360,150)")
       .style("font-size","12px")
       .call(d3.legend)
     });

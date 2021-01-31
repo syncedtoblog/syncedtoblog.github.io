@@ -33,7 +33,7 @@ function load_chart_2(){
       //.attr("height", height*3 + margin.top + margin.bottom)
       .attr('preserveAspectRatio', "xMinYMin meet")
       .attr("viewBox", "0 0 "+(width*6 + (margin.left+margin.right)*5-40)+" "+(height*3 + margin.left+margin.left))
-    .append("g")
+      .append("g")
       .attr("transform", "translate(40,20)");
 
     d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2018.csv", function(error, data) {
