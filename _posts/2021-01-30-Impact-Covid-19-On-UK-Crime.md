@@ -18,7 +18,7 @@ The Crime Severity Score, devised by the Office for National Statistics (ONS), i
 
 > Sentencing data, sourced from the Ministry of Justice (MoJ) have been used as the primary source for calculating offence weights. It was decided that sentencing would provide an appropriate metric for determining the seriousness of offences. It can be argued that sentencing is an objective measure, reflecting how society views crimes differently, given that it is based on legislation set by Parliament on behalf of the public. [(source)](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/researchoutputsdevelopingacrimeseverityscoreforenglandandwalesusingdataoncrimesrecordedbythepolice/2016-11-29)
 
-So, for example, possession of cannabis (weighted 3) is at the bottom end of the scale, along with e.g. dishonest use of electricity (weighted 7). While homicide has the highest weight of 7,979. We multiplied each crim 
+So, for example, possession of cannabis (weighted 3) is at the bottom end of the scale, along with e.g. dishonest use of electricity (weighted 7). Whilst homicide has the highest weight of 7,979. We multiplied each crim 
 
 For each city we then created crime scores from the raw crimes and normalised them by the city's population. 
 
