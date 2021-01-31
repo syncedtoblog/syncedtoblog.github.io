@@ -83,12 +83,6 @@ tbody td {
 <script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crimescores.js"></script>
 
 
-
-What we notice immediately from this graph is that there is a substantial drop in the mean crime score in April 2020. This diverges from the trend of the previous two years. This, of course,  corresponds with the national lockdown and from this we can infer that the severity of crimes on the whole drastically fell as a result. When looking at the May data we also see a bit of a bounce back which coincides with the easing of some aspects of the lockdown and this increase in crime severity is greater that that of 2018 and 2019.
-
-Another interesting point we can glean from this chart is that, out of the three years, 2020 is the only year not to see a rise in crime severity between Feburary and March. While both 2018 and 2019 saw the largest increase in crime severity between these months out of the six months we searched over, 2020 actually saw a decrease in this period. We believe this can be attributed to the impact of the lockdown being implemented mid-way through March which had a significant effect on the score for the month and dampened out other factors which normally contribute to a rise in the crime score between these months.
-
-
 ### Case Study - London
 Digging into the datasets for each city, we saw it wasn't just a clear-cut case of crime falling across the board. Some types of crime actually rose during lockdown! As an illustrative example, we grouped all the crimes the the 10km x 10km squared area around London in the chart below.
 
