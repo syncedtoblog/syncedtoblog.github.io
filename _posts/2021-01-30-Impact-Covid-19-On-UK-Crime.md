@@ -12,7 +12,7 @@ Using the UK police's crime dataset we looked at how crime changed in the UK's c
 *by [Mark Timberlake](https://unsplash.com/photos/LIrbNMnQ-jc)*
 
 
-We scanned crimes over a 100km squared area in 2020, 2019 and 2018 in five of the largest cities in the UK (London, Leeds, Birmingham, Bristol and Liverpool). We were looking for differences in crimes committed between the 2020 lockdown period (23rd March to Early June ) and the same period in 2018 and 2019. We didn't extend further back in time because of incomplete data. Once we'd retrieved the crime data, we wanted to convert it into single scores for each city in each year. 
+We scanned crimes over a 100km squared area in five of the largest cities in the UK (London, Leeds, Birmingham, Bristol and Liverpool) during 2018, 2019 and 2020. We were looking for differences in crimes committed between the 2020 lockdown period (23rd March to Early June ) and the same period in 2018 and 2019. We didn't extend further back in time because of incomplete data. Once we'd retrieved the crime data, we wanted to convert it into single scores for each city in each year. 
 
 Luckily for us the Office for National Statistics (ONS) had already devised The Crime Severity Score. It is a way of assigning a single score for the crime level in an area. The ONS has given each type of crime a [weight](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/crimeseverityscoredatatool), using a broadly sentencing-based methodology:
 
