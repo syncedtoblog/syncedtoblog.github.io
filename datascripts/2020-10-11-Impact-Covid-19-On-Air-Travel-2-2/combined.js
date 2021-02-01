@@ -142,10 +142,10 @@ Eurbar11.append("text").attr("x",margin.left*3 + (width-margin.left)/2 + width*2
 
 
 Eurbar11.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y11(d.EGLLNov); })
     .attr("height", y11.rangeBand())
-    .attr("width", function(d) { return x11(d.EGLLscoreNov) + 25; })
+    .attr("width", function(d) { return x11(d.EGLLscoreNov); })
     .style("fill","#f65635");
 
 Eurbar11.append("text")
@@ -168,10 +168,10 @@ var Eurbar12 = svg.selectAll(".Eurbar12")
     .attr("class", "Eurbar");
 
 Eurbar12.append("rect")
-    .attr("x",width + margin.left)
+    .attr("x",width + margin.left + 25)
     .attr("y", function(d) { return y12(d.EGLLApr); })
     .attr("height", y12.rangeBand())
-    .attr("width", function(d) { return x12(d.EGLLscoreApr) + 25; })
+    .attr("width", function(d) { return x12(d.EGLLscoreApr); })
     .style("fill","#f65635");
 
 Eurbar12.append("text")
@@ -194,10 +194,10 @@ var Eurbar13 = svg.selectAll(".Eurbar13")
     .attr("class", "Eurbar");
 
 Eurbar13.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y13(d.EGLLSep); })
     .attr("height", y13.rangeBand())
-    .attr("width", function(d) { return x13(d.EGLLscoreSep) + 25; })
+    .attr("width", function(d) { return x13(d.EGLLscoreSep); })
     .style("fill","#f65635");
 
 Eurbar13.append("text")
@@ -230,10 +230,10 @@ Eurbar21.selectAll("text") //label area
   .text(String);
 
 Eurbar21.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y21(d.LFPGNov) + height; })
     .attr("height", y21.rangeBand())
-    .attr("width", function(d) { return x21(d.LFPGscoreNov) + 25; })
+    .attr("width", function(d) { return x21(d.LFPGscoreNov); })
     .style("fill","#e84b70");
 
 Eurbar21.append("text")
@@ -256,10 +256,10 @@ var Eurbar22 = svg.selectAll(".Eurbar22")
     .attr("class", "Eurbar");
 
 Eurbar22.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y22(d.LFPGApr) + height; })
     .attr("height", y22.rangeBand())
-    .attr("width", function(d) { return x22(d.LFPGscoreApr) + 25; })
+    .attr("width", function(d) { return x22(d.LFPGscoreApr); })
     .style("fill","#e84b70");
 
 Eurbar22.append("text")
@@ -282,10 +282,10 @@ var Eurbar23 = svg.selectAll(".Eurbar23")
     .attr("class", "Eurbar");
 
 Eurbar23.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y23(d.LFPGSep)  + height; })
     .attr("height", y23.rangeBand())
-    .attr("width", function(d) { return x23(d.LFPGscoreSep) + 25; })
+    .attr("width", function(d) { return x23(d.LFPGscoreSep); })
     .style("fill","#e84b70");
 
 Eurbar23.append("text")
@@ -318,10 +318,10 @@ Eurbar31.selectAll("text") //label area
   .text(String);
 
 Eurbar31.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y31(d.LIRFNov) + height*2; })
     .attr("height", y31.rangeBand())
-    .attr("width", function(d) { return x31(d.LIRFscoreNov) + 25; })
+    .attr("width", function(d) { return x31(d.LIRFscoreNov); })
     .style("fill","#bf4d96");
 
 Eurbar31.append("text")
@@ -344,10 +344,10 @@ var Eurbar32 = svg.selectAll(".Eurbar32")
     .attr("class", "Eurbar");
 
 Eurbar32.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y32(d.LIRFApr) + height*2; })
     .attr("height", y32.rangeBand())
-    .attr("width", function(d) { return x32(d.LIRFscoreApr) + 25; })
+    .attr("width", function(d) { return x32(d.LIRFscoreApr); })
     .style("fill","#bf4d96");
 
 Eurbar32.append("text")
@@ -370,10 +370,10 @@ var Eurbar33 = svg.selectAll(".Eurbar33")
     .attr("class", "Eurbar");
 
 Eurbar33.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y33(d.LIRFSep) + height*2; })
     .attr("height", y33.rangeBand())
-    .attr("width", function(d) { return x33(d.LIRFscoreSep) + 25; })
+    .attr("width", function(d) { return x33(d.LIRFscoreSep); })
     .style("fill","#bf4d96");
 
 Eurbar33.append("text")
@@ -451,10 +451,10 @@ USAbar11.selectAll("text") //label area
   .text(String);
 
 USAbar11.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y11(d.KJFKNov) +height*3 + margin.top; })
     .attr("height", y11.rangeBand())
-    .attr("width", function(d) { return x11(d.KJFKscoreNov) + 25; })
+    .attr("width", function(d) { return x11(d.KJFKscoreNov); })
     .style("fill","#e6de58");
 
 USAbar11.append("text")
@@ -482,10 +482,10 @@ var USAbar12 = svg.selectAll(".USAbar12")
     .attr("class", "USAbar");
 
 USAbar12.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y12(d.KJFKApr)+height*3 + margin.top; })
     .attr("height", y12.rangeBand())
-    .attr("width", function(d) { return x12(d.KJFKscoreApr) + 25; })
+    .attr("width", function(d) { return x12(d.KJFKscoreApr); })
     .style("fill","#e6de58");
 
 USAbar12.append("text")
@@ -508,10 +508,10 @@ var USAbar13 = svg.selectAll(".USAbar13")
     .attr("class", "USAbar");
 
 USAbar13.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y13(d.KJFKSep)+height*3 + margin.top; })
     .attr("height", y13.rangeBand())
-    .attr("width", function(d) { return x13(d.KJFKscoreSep) + 25; })
+    .attr("width", function(d) { return x13(d.KJFKscoreSep); })
     .style("fill","#e6de58");
 
 USAbar13.append("text")
@@ -544,10 +544,10 @@ USAbar21.selectAll("text") //label area
   .text(String);
 
 USAbar21.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y21(d.KLAXNov) + height+height*3 + margin.top; })
     .attr("height", y21.rangeBand())
-    .attr("width", function(d) { return x21(d.KLAXscoreNov) + 25; })
+    .attr("width", function(d) { return x21(d.KLAXscoreNov); })
     .style("fill","#5cd343");
 
 USAbar21.append("text")
@@ -570,10 +570,10 @@ var USAbar22 = svg.selectAll(".USAbar22")
     .attr("class", "USAbar");
 
 USAbar22.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y22(d.KLAXApr) + height+height*3 + margin.top; })
     .attr("height", y22.rangeBand())
-    .attr("width", function(d) { return x22(d.KLAXscoreApr) + 25; })
+    .attr("width", function(d) { return x22(d.KLAXscoreApr); })
     .style("fill","#5cd343");
 
 USAbar22.append("text")
@@ -596,10 +596,10 @@ var USAbar23 = svg.selectAll(".USAbar23")
     .attr("class", "USAbar");
 
 USAbar23.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y23(d.KLAXSep)  + height+height*3 + margin.top; })
     .attr("height", y23.rangeBand())
-    .attr("width", function(d) { return x23(d.KLAXscoreSep) + 25; })
+    .attr("width", function(d) { return x23(d.KLAXscoreSep); })
     .style("fill","#5cd343");
 
 USAbar23.append("text")
@@ -632,10 +632,10 @@ USAbar31.selectAll("text") //label area
   .text(String);
 
 USAbar31.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y31(d.KDFWNov) + height*2+height*3 + margin.top; })
     .attr("height", y31.rangeBand())
-    .attr("width", function(d) { return x31(d.KDFWscoreNov) + 25; })
+    .attr("width", function(d) { return x31(d.KDFWscoreNov); })
     .style("fill","#1a9850");
 
 USAbar31.append("text")
@@ -658,10 +658,10 @@ var USAbar32 = svg.selectAll(".USAbar32")
     .attr("class", "USAbar");
 
 USAbar32.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y32(d.KDFWApr) + height*2+height*3 + margin.top; })
     .attr("height", y32.rangeBand())
-    .attr("width", function(d) { return x32(d.KDFWscoreApr) + 25; })
+    .attr("width", function(d) { return x32(d.KDFWscoreApr); })
     .style("fill","#1a9850");
 
 USAbar32.append("text")
@@ -684,10 +684,10 @@ var USAbar33 = svg.selectAll(".USAbar33")
     .attr("class", "USAbar");
 
 USAbar33.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y33(d.KDFWSep) + height*2+height*3 + margin.top; })
     .attr("height", y33.rangeBand())
-    .attr("width", function(d) { return x33(d.KDFWscoreSep) + 25; })
+    .attr("width", function(d) { return x33(d.KDFWscoreSep); })
     .style("fill","#1a9850");
 
 USAbar33.append("text")
@@ -775,10 +775,10 @@ ASIAbar11.selectAll("text") //label area
   .text(String);
 
 ASIAbar11.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y11(d.WSSSNov)+ height*6 + margin.top*2; })
     .attr("height", y11.rangeBand())
-    .attr("width", function(d) { return x11(d.WSSSscoreNov) + 25; })
+    .attr("width", function(d) { return x11(d.WSSSscoreNov); })
     .style("fill","#8aebed");
 
 ASIAbar11.append("text")
@@ -806,10 +806,10 @@ var ASIAbar12 = svg.selectAll(".ASIAbar12")
     .attr("class", "ASIAbar");
 
 ASIAbar12.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y12(d.WSSSApr)+ height*6 + margin.top*2; })
     .attr("height", y12.rangeBand())
-    .attr("width", function(d) { return x12(d.WSSSscoreApr) + 25; })
+    .attr("width", function(d) { return x12(d.WSSSscoreApr); })
     .style("fill","#8aebed");
 
 ASIAbar12.append("text")
@@ -832,10 +832,10 @@ var ASIAbar13 = svg.selectAll(".ASIAbar13")
     .attr("class", "ASIAbar");
 
 ASIAbar13.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y13(d.WSSSSep)+ height*6 + margin.top*2; })
     .attr("height", y13.rangeBand())
-    .attr("width", function(d) { return x13(d.WSSSscoreSep) + 25; })
+    .attr("width", function(d) { return x13(d.WSSSscoreSep); })
     .style("fill","#8aebed");
 
 ASIAbar13.append("text")
@@ -868,10 +868,10 @@ ASIAbar21.selectAll("text") //label area
   .text(String);
 
 ASIAbar21.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y21(d.RKSINov) + height+ height*6 + margin.top*2; })
     .attr("height", y21.rangeBand())
-    .attr("width", function(d) { return x21(d.RKSIscoreNov) + 25; })
+    .attr("width", function(d) { return x21(d.RKSIscoreNov); })
     .style("fill","#00c8fe");
 
 ASIAbar21.append("text")
@@ -894,10 +894,10 @@ var ASIAbar22 = svg.selectAll(".ASIAbar22")
     .attr("class", "ASIAbar");
 
 ASIAbar22.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y22(d.RKSIApr) + height+ height*6 + margin.top*2; })
     .attr("height", y22.rangeBand())
-    .attr("width", function(d) { return x22(d.RKSIscoreApr) + 25; })
+    .attr("width", function(d) { return x22(d.RKSIscoreApr); })
     .style("fill","#00c8fe");
 
 ASIAbar22.append("text")
@@ -920,10 +920,10 @@ var ASIAbar23 = svg.selectAll(".ASIAbar23")
     .attr("class", "ASIAbar");
 
 ASIAbar23.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y23(d.RKSISep)  + height+ height*6 + margin.top*2; })
     .attr("height", y23.rangeBand())
-    .attr("width", function(d) { return x23(d.RKSIscoreSep) + 25; })
+    .attr("width", function(d) { return x23(d.RKSIscoreSep); })
     .style("fill","#00c8fe");
 
 ASIAbar23.append("text")
@@ -956,10 +956,10 @@ ASIAbar31.selectAll("text") //label area
   .text(String);
 
 ASIAbar31.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y31(d.VHHHNov) + height*2+ height*6 + margin.top*2; })
     .attr("height", y31.rangeBand())
-    .attr("width", function(d) { return x31(d.VHHHscoreNov) + 25; })
+    .attr("width", function(d) { return x31(d.VHHHscoreNov); })
     .style("fill","#407cff");
 
 ASIAbar31.append("text")
@@ -982,10 +982,10 @@ var ASIAbar32 = svg.selectAll(".ASIAbar32")
     .attr("class", "ASIAbar");
 
 ASIAbar32.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y32(d.VHHHApr) + height*2+ height*6 + margin.top*2; })
     .attr("height", y32.rangeBand())
-    .attr("width", function(d) { return x32(d.VHHHscoreApr) + 25; })
+    .attr("width", function(d) { return x32(d.VHHHscoreApr); })
     .style("fill","#407cff");
 
 ASIAbar32.append("text")
@@ -1008,10 +1008,10 @@ var ASIAbar33 = svg.selectAll(".ASIAbar33")
     .attr("class", "ASIAbar");
 
 ASIAbar33.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y33(d.VHHHSep) + height*2+ height*6 + margin.top*2; })
     .attr("height", y33.rangeBand())
-    .attr("width", function(d) { return x33(d.VHHHscoreSep) + 25; })
+    .attr("width", function(d) { return x33(d.VHHHscoreSep); })
     .style("fill","#407cff");
 
 ASIAbar33.append("text")
@@ -1044,10 +1044,10 @@ ASIAbar41.selectAll("text") //label area
   .text(String);
 
 ASIAbar41.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y41(d.RJTTNov) + height*3+ height*6 + margin.top*2; })
     .attr("height", y41.rangeBand())
-    .attr("width", function(d) { return x41(d.RJTTscoreNov) + 25; })
+    .attr("width", function(d) { return x41(d.RJTTscoreNov); })
     .style("fill","#6f73c0");
 
 ASIAbar41.append("text")
@@ -1070,10 +1070,10 @@ var ASIAbar42 = svg.selectAll(".ASIAbar32")
     .attr("class", "ASIAbar");
 
 ASIAbar42.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y42(d.RJTTApr) + height*3+ height*6 + margin.top*2; })
     .attr("height", y42.rangeBand())
-    .attr("width", function(d) { return x42(d.RJTTscoreApr) + 25; })
+    .attr("width", function(d) { return x42(d.RJTTscoreApr); })
     .style("fill","#6f73c0");
 
 ASIAbar42.append("text")
@@ -1096,10 +1096,10 @@ var ASIAbar43 = svg.selectAll(".ASIAbar33")
     .attr("class", "ASIAbar");
 
 ASIAbar43.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y43(d.RJTTSep) + height*3+ height*6 + margin.top*2; })
     .attr("height", y43.rangeBand())
-    .attr("width", function(d) { return x43(d.RJTTscoreSep) + 25; })
+    .attr("width", function(d) { return x43(d.RJTTscoreSep); })
     .style("fill","#6f73c0");
 
 ASIAbar43.append("text")
@@ -1163,10 +1163,10 @@ MIDbar11.selectAll("text") //label area
   .text(String);
 
 MIDbar11.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y11(d.VIDPNov) + height*10 + margin.top*3; })
     .attr("height", y11.rangeBand())
-    .attr("width", function(d) { return x11(d.VIDPscoreNov) + 25; })
+    .attr("width", function(d) { return x11(d.VIDPscoreNov); })
     .style("fill","#cb4787");
 
 MIDbar11.append("text")
@@ -1189,10 +1189,10 @@ var MIDbar12 = svg.selectAll(".MIDbar12")
     .attr("class", "MIDbar");
 
 MIDbar12.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y12(d.VIDPApr) + height*10 + margin.top*3; })
     .attr("height", y12.rangeBand())
-    .attr("width", function(d) { return x12(d.VIDPscoreApr) + 25; })
+    .attr("width", function(d) { return x12(d.VIDPscoreApr); })
     .style("fill","#cb4787");
 
 MIDbar12.append("text")
@@ -1215,10 +1215,10 @@ var MIDbar13 = svg.selectAll(".MIDbar13")
     .attr("class", "MIDbar");
 
 MIDbar13.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y13(d.VIDPSep) + height*10 + margin.top*3; })
     .attr("height", y13.rangeBand())
-    .attr("width", function(d) { return x13(d.VIDPscoreSep) + 25; })
+    .attr("width", function(d) { return x13(d.VIDPscoreSep); })
     .style("fill","#cb4787");
 
 MIDbar13.append("text")
@@ -1251,10 +1251,10 @@ MIDbar21.selectAll("text") //label area
 
 
 MIDbar21.append("rect")
-    .attr("x",0)
+    .attr("x",0 + 25)
     .attr("y", function(d) { return y21(d.OMDBNov) + height + height*10 + margin.top*3; })
     .attr("height", y21.rangeBand())
-    .attr("width", function(d) { return x21(d.OMDBscoreNov) + 25; })
+    .attr("width", function(d) { return x21(d.OMDBscoreNov); })
     .style("fill","#ff4828");
 
 MIDbar21.append("text")
@@ -1277,10 +1277,10 @@ var MIDbar22 = svg.selectAll(".MIDbar22")
     .attr("class", "MIDbar");
 
 MIDbar22.append("rect")
-    .attr("x",width+margin.left)
+    .attr("x",width+margin.left + 25)
     .attr("y", function(d) { return y22(d.OMDBApr) + height + height*10 + margin.top*3; })
     .attr("height", y22.rangeBand())
-    .attr("width", function(d) { return x22(d.OMDBscoreApr) + 25; })
+    .attr("width", function(d) { return x22(d.OMDBscoreApr); })
     .style("fill","#ff4828");
 
 MIDbar22.append("text")
@@ -1303,10 +1303,10 @@ var MIDbar23 = svg.selectAll(".MIDbar23")
     .attr("class", "MIDbar");
 
 MIDbar23.append("rect")
-    .attr("x",(width+margin.left)*2)
+    .attr("x",(width+margin.left)*2 + 25)
     .attr("y", function(d) { return y23(d.OMDBSep)  + height + height*10 + margin.top*3; })
     .attr("height", y23.rangeBand())
-    .attr("width", function(d) { return x23(d.OMDBscoreSep) + 25; })
+    .attr("width", function(d) { return x23(d.OMDBscoreSep); })
     .style("fill","#ff4828");
 
 MIDbar23.append("text")
