@@ -74,7 +74,7 @@ function load_chart_2(){
                 }
 
 
-                dataset.keys().forEach(function(year) {
+                Object.keys(dataset).forEach(function(year) {
                     data = dataset[year]
                     color = colors[year]
 
