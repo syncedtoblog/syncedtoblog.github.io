@@ -109,7 +109,7 @@ function load_chart_2(){
                     bar.selectAll(".ignore").data(data.map(function (d) {return d.type}).filter(onlyUnique)).enter()
                         .append("text")
                         .attr("x", 3 + margin.left)
-                        .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3; })
+                        .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3 + height*counter; })
                         .text(function (d) { return d.type; });
 
 
@@ -117,8 +117,8 @@ function load_chart_2(){
                     months.forEach(function(month) {
                         bar.append("rect")
                             .attr("x",  counter_month*(width + margin.left) + 28)
-                            .attr("y", function(d) { return y(d.type); })
-                            .attr("height", y.rangeBand() + height*counter)
+                            .attr("y", function(d) { return y(d.type) + height*counter; })
+                            .attr("height", y.rangeBand() )
                             .attr("width", function(d) { console.log(d); console.log(month) ; return x(d[month]); })
                             .style("fill",color);
 
