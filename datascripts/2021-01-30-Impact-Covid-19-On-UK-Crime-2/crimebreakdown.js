@@ -117,7 +117,7 @@ function load_chart_2(){
                             .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3; })
                             .text(function (d) { return d[month]; });
                         counter_month = counter_month + 1
-                    }
+                    })
 
                     counter = counter + 1
                 })
