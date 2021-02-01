@@ -5,7 +5,7 @@ function load_chart_2(){
         d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2019.csv", function(error, data2019) {
             d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2020.csv", function(error, data2020) {
 
-                var margin = {top: 10, right: 30, bottom: 10, left: 55},
+                var margin = {top: 10, right: 30, bottom: 10, left: 70},
                     width = 200 - margin.left - margin.right,
                     height = 180 - margin.top - margin.bottom;
 
@@ -75,7 +75,7 @@ function load_chart_2(){
                 var months_g = svg.selectAll(".ignore").data(months).enter().append("g").attr("class", "months")
                                   .append("text")
                                   .attr("x",
-                                      function (d,i) {return 35 + margin.left + 
+                                      function (d,i) {return 40 + margin.left + 
                                                         i*(width + margin.left) + (width + margin.left)/2 - 25}
                                   ).attr("y", 0)
                                   .text(String).attr("text-anchor", "middle");
@@ -117,14 +117,14 @@ function load_chart_2(){
                     var counter_month = 0
                     months.forEach(function(month) {
                         bar.append("rect")
-                            .attr("x",  counter_month*(width + margin.left) + 35 + margin.left)
+                            .attr("x",  counter_month*(width + margin.left) + 40 + margin.left)
                             .attr("y", function(d) { return y(d.type) + height*counter; })
                             .attr("height", y.rangeBand() )
                             .attr("width", function(d) { console.log(d); console.log(month) ; return x(d[month]); })
                             .style("fill",color);
 
                         bar.append("text")
-                            .attr("x", function(d) { return x(d[month]) + 2 + 35  + 
+                            .attr("x", function(d) { return x(d[month]) + 2 + 40  + 
                                                         counter_month*(width + margin.left) + margin.left; })
                             .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3 + height*counter; })
                             .text(function (d) { return d[month]; });
