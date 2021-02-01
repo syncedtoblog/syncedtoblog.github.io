@@ -57,7 +57,7 @@ function load_chart_2(){
 
                 x.domain([0, d3.max(dataCombined, 
                           function(d) { return Math.max(d.Jan, d.Feb, d.March, d.April, d.May, d.June); })]);
-                y.domain(data.map(function(d) { return d.type; }));
+                y.domain(dataCombined.map(function(d) { return d.type; }));
 
                 var counter = 0
                 
