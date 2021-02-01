@@ -13,12 +13,14 @@ function load_chart_2(){
                 var y = d3.scale.ordinal()
                     .rangeRoundBands([0,height], .3, .3);
 
+                /*
                 var yLine = d3.scale.ordinal()
                   .rangeRoundBands([0,height*3], .3, .3);
                 var yAxisLine = d3.svg.axis()
                   .scale(yLine)
                   .tickSize(0)
                   .orient("left");
+                */
 
                 var svg = d3.select(".chart-2-container").append("svg")
                   //.attr("width", (width + margin.left + margin.right)*6)
