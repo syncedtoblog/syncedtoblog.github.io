@@ -123,9 +123,9 @@ function load_chart_2(){
                 })
                 
 
-            }
-        }
-    }
+            })
+        })
+    })
 
 
 /*
@@ -572,14 +572,14 @@ function load_chart_2(){
 
     });
 
-    /*
-    x1.domain([0, d3.max(data, function(d) { return d.Jan; })]);
-    x2.domain([0, d3.max(data, function(d) { return d.Feb; })]);
-    x3.domain([0, d3.max(data, function(d) { return d.March; })]);
-    x4.domain([0, d3.max(data, function(d) { return d.April; })]);
-    x5.domain([0, d3.max(data, function(d) { return d.May; })]);
-    x6.domain([0, d3.max(data, function(d) { return d.June; })]);
-    */
+    
+    //x1.domain([0, d3.max(data, function(d) { return d.Jan; })]);
+    //x2.domain([0, d3.max(data, function(d) { return d.Feb; })]);
+    //x3.domain([0, d3.max(data, function(d) { return d.March; })]);
+    //x4.domain([0, d3.max(data, function(d) { return d.April; })]);
+    //x5.domain([0, d3.max(data, function(d) { return d.May; })]);
+    //x6.domain([0, d3.max(data, function(d) { return d.June; })]);
+    
 
     x1.domain([0, d3.max(data, function(d) { return Math.max(d.Jan,d.Feb,d.March,d.April,d.May,d.June); })]);
     x2.domain([0, d3.max(data, function(d) { return Math.max(d.Jan,d.Feb,d.March,d.April,d.May,d.June); })]);
