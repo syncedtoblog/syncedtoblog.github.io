@@ -98,13 +98,14 @@ function load_chart_2(){
                       .data([year])
                       .enter().append("text")
                       //.attr("x", (labelArea / 2) + width) //alters x position start
-                      .attr("x", -(margin.left-70))
-                      .attr("y", height/2 + counter*height)
-                      .attr("dy", ".20em")
                       .attr("text-anchor", "start") //start, middle, end
                       .attr('class', 'name')
                       .text(String)
-                      .attr("transform", "rotate(-90)");
+                        .attr("transform", "translate( " + -(margin.left-70) + "," + height/2 + counter*height +  
+                                        "); rotate(-90)");
+                      .attr("x", 0)
+                      .attr("y", 0)
+                      //.attr("dy", ".20em")
 
 
                     bar.selectAll(".ignore").data(data.map(function (d) {return d.type}).filter(onlyUnique)).enter()
