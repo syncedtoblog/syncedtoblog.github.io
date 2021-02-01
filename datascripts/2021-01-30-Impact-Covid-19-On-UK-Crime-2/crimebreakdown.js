@@ -108,7 +108,7 @@ function load_chart_2(){
 
                     bar.selectAll(".ignore").data(data.map(function (d) {return d.type}).filter(onlyUnique)).enter()
                         .append("text")
-                        .attr("x", 3 + margin.left)
+                        .attr("x", 3 )
                         .attr("y", function(d) { return y(d) + y.rangeBand()/2 + 3 + height*counter; })
                         .text(function (d) { return d; });
 
