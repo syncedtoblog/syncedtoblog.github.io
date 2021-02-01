@@ -118,13 +118,13 @@ function load_chart_2(){
                         bar.append("rect")
                             .attr("x",  counter_month*(width + margin.left) + 28)
                             .attr("y", function(d) { return y(d.type); })
-                            .attr("height", y.rangeBand())
+                            .attr("height", y.rangeBand() + height*counter)
                             .attr("width", function(d) { console.log(d); console.log(month) ; return x(d[month]); })
                             .style("fill",color);
 
                         bar.append("text")
                             .attr("x", function(d) { return x(d[month]) + 2 + 28  + counter_month*(width + margin.left); })
-                            .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3; })
+                            .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3 + height*counter; })
                             .text(function (d) { return d[month]; });
                         counter_month = counter_month + 1
                     })
