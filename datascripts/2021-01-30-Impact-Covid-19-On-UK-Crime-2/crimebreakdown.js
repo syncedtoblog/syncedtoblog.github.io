@@ -109,7 +109,7 @@ function load_chart_2(){
                             .attr("x",  counter_month*(width + margin.left) + 28)
                             .attr("y", function(d) { return y(d.type); })
                             .attr("height", y.rangeBand())
-                            .attr("width", function(d) { console.log(d[month]); console.log(month) ; return x(d[month]); })
+                            .attr("width", function(d) { console.log(d); console.log(month) ; return x(d[month]); })
                             .style("fill",color);
 
                         bar.append("text")
