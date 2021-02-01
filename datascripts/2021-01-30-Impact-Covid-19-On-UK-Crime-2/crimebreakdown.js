@@ -43,6 +43,7 @@ function load_chart_2(){
                     d.Mar = d.March
                     d.Apr = d.April
                     d.Jun  = d.June
+                    return d
                 }
 
                 var to_numeric = function(d,year) {
@@ -53,10 +54,11 @@ function load_chart_2(){
                   d.May = +d.May
                   d.Jun = +d.Jun
                   d.year = year
+                  return d
                 }
-                data2018.forEach(function (d) {return to_numeric(rename_months(d), 2018) });
-                data2019.forEach(function (d) {return to_numeric(rename_months(d), 2019) });
-                data2020.forEach(function (d) {return to_numeric(rename_months(d), 2020) });
+                data2018 = data2018.forEach(function (d) {return to_numeric(rename_months(d), 2018) });
+                data2019 = data2019.forEach(function (d) {return to_numeric(rename_months(d), 2019) });
+                data2020 = data2020.forEach(function (d) {return to_numeric(rename_months(d), 2020) });
                 var dataCombined = [].concat(data2018, data2019, 2020)
                 var dataset = {'2018':data2018 , '2019': data2019, '2020': data2020 }
                 var colors = {'2018': '#f65635' , '2019':'#4BAEE8' , '2020':'#ADE84B' }
