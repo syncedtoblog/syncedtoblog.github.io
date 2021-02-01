@@ -110,7 +110,8 @@ The violence against the person category paints a mixed picture. Perhaps there w
 </style>
 
 <div class="d3-chart-container chart-2-container"></div>
-*Number of crimes by type, 100km^2 square around London. (ASB - anti-social behaviour, ARS - arson, DRG - drug offences, WPN - weapons offences, VEH - vehicle offences, VIO - violent crime, THF - theft)*
+*Number of crimes by type, 100km^2 square around London.* 
+*ASB - anti-social behaviour, ARS - arson, DRG - drug offences, WPN - weapons offences, VEH - vehicle offences, VIO - violent crime, THF - theft*
 
 <script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/crimebreakdown.js"></script>
 
