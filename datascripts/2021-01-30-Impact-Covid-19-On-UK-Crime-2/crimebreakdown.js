@@ -16,7 +16,7 @@ function load_chart_2(){
                 var yLine = d3.scale.ordinal()
                   .rangeRoundBands([0,height*3], .3, .3);
                 var yAxisLine = d3.svg.axis()
-                  .scale(yEur)
+                  .scale(yLine)
                   .tickSize(0)
                   .orient("left");
 
