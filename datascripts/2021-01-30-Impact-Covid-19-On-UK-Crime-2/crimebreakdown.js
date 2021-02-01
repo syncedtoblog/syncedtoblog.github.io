@@ -5,7 +5,7 @@ function load_chart_2(){
         d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2019.csv", function(error, data2019) {
             d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2020.csv", function(error, data2020) {
 
-                var margin = {top: 10, right: 40, bottom: 10, left: 60},
+                var margin = {top: 10, right: 40, bottom: 10, left: 50},
                     width = 200 - margin.left - margin.right,
                     height = 180 - margin.top - margin.bottom;
 
@@ -76,7 +76,7 @@ function load_chart_2(){
                                   .append("text")
                                   .attr("x",
                                       function (d,i) {return 40 + margin.left + 
-                                                        i*(width + margin.left) + (width + margin.left)/2 - 25}
+                                                        i*(width + margin.left) + (width + margin.left)/2 - 30}
                                   ).attr("y", 0)
                                   .text(String).attr("text-anchor", "middle");
                 
