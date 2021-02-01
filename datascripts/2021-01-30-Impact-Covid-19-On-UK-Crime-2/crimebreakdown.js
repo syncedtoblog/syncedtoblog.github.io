@@ -110,7 +110,7 @@ function load_chart_2(){
                         .append("text")
                         .attr("x", 3 + margin.left)
                         .attr("y", function(d) { return y(d) + y.rangeBand()/2 + 3 + height*counter; })
-                        .text(function (d) { return d.type; });
+                        .text(function (d) { return d; });
 
 
                     var counter_month = 0
