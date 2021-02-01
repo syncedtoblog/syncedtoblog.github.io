@@ -75,7 +75,7 @@ function load_chart_2(){
                 var months_g = svg.selectAll(".ignore").data(months).enter().append("g").attr("class", "months")
                                   .append("text")
                                   .attr("x",
-                                      function (d,i) {return 35 + margin.left
+                                      function (d,i) {return 35 + margin.left + 
                                                         i*(width + margin.left) + (width + margin.left)/2 - 15}
                                   ).attr("y", 0)
                                   .text(String).attr("text-anchor", "middle");
