@@ -102,7 +102,7 @@ function load_chart_2(){
                       .attr('class', 'name')
                       .text(String)
                         .attr("transform", "translate( " + -(margin.left-70) + "," + height/2 + counter*height +  
-                                        "); rotate(-90)")
+                                        "), rotate(-90)")
                       .attr("x", 0)
                       .attr("y", 0)
                       //.attr("dy", ".20em")
