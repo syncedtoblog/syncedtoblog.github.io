@@ -103,7 +103,8 @@ function load_chart_2(){
                       .attr("dy", ".20em")
                       .attr("text-anchor", "start") //start, middle, end
                       .attr('class', 'name')
-                      .text(String);
+                      .text(String)
+                      .attr("transform", "rotate(-90)");
 
 
                     bar.selectAll(".ignore").data(data.map(function (d) {return d.type}).filter(onlyUnique)).enter()
