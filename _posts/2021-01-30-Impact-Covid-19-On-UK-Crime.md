@@ -20,7 +20,7 @@ Once we'd retrieved the crime data, we wanted to convert it into single scores f
 
 So, for example, possession of cannabis (weight of 3) is at the bottom end of the scale, along with e.g. dishonest use of electricity (weight of 7). Whilst homicide has the highest weight of 7,979. For each city and each year, we collected the crimes, multiplied each crime by the severity score for its category and them summed them, finally dividing by the population. 
 
-We've plotted the results below, aggregating the city scores for each year by taking the mean. The results show a very pronouned drop in crime serverity from March to June. It probably reinforces your intuition that lockdown would result in less crime. We dug into the data a little more and found some nuances, which we'll show next, using London as a case study.
+We've plotted the results below, aggregating the city scores for each year by taking the mean. The results show a very pronouned drop in crime serverity from March to June. It probably reinforces your intuition that lockdown would result in less crime. 
 
 <style>
 table {
@@ -82,6 +82,7 @@ tbody td {
 
 <script src="https://blog.synced.to/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-1/crimescores.js"></script>
 
+Digging into the data a little more however, we found some nuances - which we'll show next, using London as a case study.
 
 ### Case Study - London
 Digging into the datasets for each city, we saw it wasn't just a clear-cut case of crime falling across the board. Some types of crime actually rose during lockdown! As an illustrative example, we grouped all the crimes the the 10km x 10km squared area around London in the chart below.
