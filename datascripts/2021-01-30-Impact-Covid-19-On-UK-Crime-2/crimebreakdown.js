@@ -5,7 +5,7 @@ function load_chart_2(){
         d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2019.csv", function(error, data2019) {
             d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2020.csv", function(error, data2020) {
 
-                var margin = {top: 10, right: 30, bottom: 10, left: 99},
+                var margin = {top: 10, right: 30, bottom: 10, left: 30},
                     width = 200 - margin.left - margin.right,
                     height = 180 - margin.top - margin.bottom;
 
@@ -98,14 +98,12 @@ function load_chart_2(){
                       .data([year])
                       .enter().append("text")
                       //.attr("x", (labelArea / 2) + width) //alters x position start
+                      .attr("x", -(margin.left-70))
+                      .attr("y", height/2 + counter*height)
+                      .attr("dy", ".20em")
                       .attr("text-anchor", "start") //start, middle, end
                       .attr('class', 'name')
-                      .text(String)
-                        .attr("transform", "translate( " + -(margin.left-70) + "," + height/2 + counter*height +  
-                                        "), rotate(-90)")
-                      .attr("x", 0)
-                      .attr("y", 0)
-                      //.attr("dy", ".20em")
+                      .text(String);
 
 
                     bar.selectAll(".ignore").data(data.map(function (d) {return d.type}).filter(onlyUnique)).enter()
