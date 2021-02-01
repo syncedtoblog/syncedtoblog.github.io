@@ -75,7 +75,7 @@ function load_chart_2(){
                 var months_g = svg.selectAll(".ignore").data(months).enter().append("g").attr("class", "months")
                                   .append("text")
                                   .attr("x",
-                                      function (d,i) {return 40 + margin.left + 
+                                      function (d,i) {return 45 + margin.left + 
                                                         i*(width + margin.left) + (width + margin.left)/2 - 30}
                                   ).attr("y", 0)
                                   .text(String).attr("text-anchor", "middle");
@@ -117,14 +117,14 @@ function load_chart_2(){
                     var counter_month = 0
                     months.forEach(function(month) {
                         bar.append("rect")
-                            .attr("x",  counter_month*(width + margin.left) + 40 + margin.left)
+                            .attr("x",  counter_month*(width + margin.left) + 45 + margin.left)
                             .attr("y", function(d) { return y(d.type) + height*counter; })
                             .attr("height", y.rangeBand() )
                             .attr("width", function(d) { console.log(d); console.log(month) ; return x(d[month]); })
                             .style("fill",color);
 
                         bar.append("text")
-                            .attr("x", function(d) { return x(d[month]) + 2 + 40  + 
+                            .attr("x", function(d) { return x(d[month]) + 2 + 45  + 
                                                         counter_month*(width + margin.left) + margin.left; })
                             .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3 + height*counter; })
                             .text(function (d) { return d[month]; });
