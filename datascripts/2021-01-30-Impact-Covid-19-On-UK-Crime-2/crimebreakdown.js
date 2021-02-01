@@ -1,5 +1,136 @@
 function load_chart_2(){
 
+
+    d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2018.csv", function(error, data2018) {
+        d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2019.csv", function(error, data2019) {
+            d3.csv("/datascripts/2021-01-30-Impact-Covid-19-On-UK-Crime-2/breakdown2020.csv", function(error, data2020) {
+
+                var margin = {top: 10, right: 30, bottom: 10, left: 99},
+                    width = 150 - margin.left - margin.right,
+                    height = 180 - margin.top - margin.bottom;
+
+                var x = d3.scale.linear().range([0, width])
+                var y = d3.scale.ordinal()
+                    .rangeRoundBands([0,height], .3, .3);
+
+                var yLine = d3.scale.ordinal()
+                  .rangeRoundBands([0,height*3], .3, .3);
+                var yAxisLine = d3.svg.axis()
+                  .scale(yEur)
+                  .tickSize(0)
+                  .orient("left");
+
+                var svg = d3.select(".chart-2-container").append("svg")
+                  //.attr("width", (width + margin.left + margin.right)*6)
+                  //.attr("height", height*3 + margin.top + margin.bottom)
+                  .attr('preserveAspectRatio', "xMinYMin meet")
+                  .attr("viewBox", "0 0 "+(width*6 + (margin.left+margin.right)*5-40)+" "+
+                        (height*3 + margin.top+margin.bottom))
+                  .append("g")
+                  .attr("transform", "translate(40,20)");
+                
+                /*
+                svg.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxisLine)
+                  .selectAll("text")
+                    .style("font-weight","bold");
+
+                });
+                */
+
+                var to_numeric = function(d,year) {
+                  d.Jan = +d.Jan
+                  d.Feb = +d.Feb
+                  d.March = +d.March
+                  d.April = +d.April
+                  d.May = +d.May
+                  d.June = +d.June
+                  d.year = year
+                }
+                data2018.forEach(function (d) {return to_numeric(d, 2018) });
+                data2019.forEach(function (d) {return to_numeric(d, 2019) });
+                data2020.forEach(function (d) {return to_numeric(d, 2020) });
+                var dataCombined = [].concat(data2018, data2019, 2020)
+                var dataset = {'2018':data2018 , '2019': data2019, '2020': data2020 }
+                var colors = {'2018': '#f65635' , '2019':'#4BAEE8' , '2020':'#ADE84B' }
+
+                x.domain([0, d3.max(dataCombined, 
+                          function(d) { return Math.max(d.Jan, d.Feb, d.March, d.April, d.May, d.June); })]);
+                y.domain(data.map(function(d) { return d.type; }));
+
+                var counter = 0
+                
+                var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+                var months_g = svg.selectAll(".ignore").data(months).enter().append("g").attr("class", "months")
+                                  .append("text")
+                                  .attr("x",
+                                     function (d,i) {return margin.left*2 + (width-margin.left)/2 + width*i-30}
+                                  ).attr("y", 0)
+                                  .text(String).attr("text-anchor", "middle");
+                
+                function onlyUnique(value, index, self) {
+                    return self.indexOf(value) === index;
+                }
+
+
+                dataset.keys().forEach(function(year) {
+                    data = dataset[year]
+                    color = colors[year]
+
+                    var bar = svg.selectAll(".ignore")
+                        .data(data)
+                        .enter().append("g")
+                        .attr("class", "bar");
+                    
+
+                    bar.selectAll("text") //label area
+                      .data([year])
+                      .enter().append("text")
+                      //.attr("x", (labelArea / 2) + width) //alters x position start
+                      .attr("x", -(margin.left-70))
+                      .attr("y", height/2 + counter*height)
+                      .attr("dy", ".20em")
+                      .attr("text-anchor", "start") //start, middle, end
+                      .attr('class', 'name')
+                      .text(String);
+
+
+                    bar.selectAll(".ignore").data(data.map(function (d) {return d.type}).filter(onlyUnique)).enter()
+                        .append("text")
+                        .attr("x", 3 + margin.left)
+                        .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3; })
+                        .text(function (d) { return d.type; });
+
+
+                    var counter_month = 0
+                    months.forEach(function(month) {
+                        bar.append("rect")
+                            .attr("x",  counter_month*width + margin.left + 28)
+                            .attr("y", function(d) { return y(d.type); })
+                            .attr("height", y.rangeBand())
+                            .attr("width", function(d) { return x(d[month]); })
+                            .style("fill",color);
+
+                        bar.append("text")
+                            .attr("x", function(d) { return x(d[month]) + 1 + 28  + counter_month*width + margin.left; })
+                            .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3; })
+                            .text(function (d) { return d[month]; });
+                        counter_month = counter_month + 1
+                    }
+
+                    counter = counter + 1
+                })
+                
+
+            }
+        }
+    }
+
+
+/*
+
+
     var margin = {top: 10, right: 30, bottom: 10, left: 99},
         width = 150 - margin.left - margin.right,
         height = 180 - margin.top - margin.bottom;
@@ -637,7 +768,7 @@ function load_chart_2(){
         .style("font-weight","bold");
 
     });
-
+*/
 
 }
 
