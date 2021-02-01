@@ -83,10 +83,10 @@ function load_chart_2(){
 
 
     bar11.append("rect")
-        .attr("x",0)
+        .attr("x",0 + 28)
         .attr("y", function(d) { return y(d.type); })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x1(d.Jan) + 28; })
+        .attr("width", function(d) { return x1(d.Jan); })
         .style("fill","#f65635");
 
     bar11.append("text")
@@ -109,10 +109,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar12.append("rect")
-        .attr("x",width + margin.left)
+        .attr("x",width + margin.left + 28)
         .attr("y", function(d) { return y(d.type); })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x2(d.Feb) + 28; })
+        .attr("width", function(d) { return x2(d.Feb); })
         .style("fill","#f65635");
 
     bar12.append("text")
@@ -135,10 +135,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar13.append("rect")
-        .attr("x",(width+margin.left)*2)
+        .attr("x",(width+margin.left)*2 + 28)
         .attr("y", function(d) { return y(d.type); })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x3(d.March) + 28; })
+        .attr("width", function(d) { return x3(d.March); })
         .style("fill","#f65635");
 
     bar13.append("text")
@@ -162,10 +162,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar14.append("rect")
-        .attr("x",(width + margin.left)*3)
+        .attr("x",(width + margin.left)*3 + 28)
         .attr("y", function(d) { return y(d.type); })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x1(d.April) + 28; })
+        .attr("width", function(d) { return x1(d.April); })
         .style("fill","#f65635");
 
     bar14.append("text")
@@ -190,10 +190,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar15.append("rect")
-        .attr("x",(width + margin.left)*4)
+        .attr("x",(width + margin.left)*4 + 28)
         .attr("y", function(d) { return y(d.type); })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x2(d.May) + 28; })
+        .attr("width", function(d) { return x2(d.May); })
         .style("fill","#f65635");
 
     bar15.append("text")
@@ -216,10 +216,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar16.append("rect")
-        .attr("x",(width+margin.left)*5)
+        .attr("x",(width+margin.left)*5 + 28)
         .attr("y", function(d) { return y(d.type); })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x3(d.June) + 28; })
+        .attr("width", function(d) { return x3(d.June); })
         .style("fill","#f65635");
 
     bar16.append("text")
@@ -275,10 +275,10 @@ function load_chart_2(){
       .text(String);
 
     bar21.append("rect")
-        .attr("x",0)
+        .attr("x",0 + 28)
         .attr("y", function(d) { return y(d.type)+ height; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x1(d.Jan) + 28; })
+        .attr("width", function(d) { return x1(d.Jan); })
         .style("fill","	#4BAEE8");
 
     bar21.append("text")
@@ -301,10 +301,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar22.append("rect")
-        .attr("x",width + margin.left)
+        .attr("x",width + margin.left + 28)
         .attr("y", function(d) { return y(d.type)+ height; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x2(d.Feb) + 28; })
+        .attr("width", function(d) { return x2(d.Feb); })
         .style("fill","	#4BAEE8");
 
     bar22.append("text")
@@ -327,10 +327,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar23.append("rect")
-        .attr("x",(width+margin.left)*2)
+        .attr("x",(width+margin.left)*2 + 28)
         .attr("y", function(d) { return y(d.type)+ height; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x3(d.March) + 28; })
+        .attr("width", function(d) { return x3(d.March); })
         .style("fill","	#4BAEE8");
 
     bar23.append("text")
@@ -354,10 +354,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar24.append("rect")
-        .attr("x",(width + margin.left)*3)
+        .attr("x",(width + margin.left)*3 + 28)
         .attr("y", function(d) { return y(d.type)+ height; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x1(d.April) + 28; })
+        .attr("width", function(d) { return x1(d.April); })
         .style("fill","	#4BAEE8");
 
     bar24.append("text")
@@ -382,10 +382,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar25.append("rect")
-        .attr("x",(width + margin.left)*4)
+        .attr("x",(width + margin.left)*4 + 28)
         .attr("y", function(d) { return y(d.type)+ height; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x2(d.May) + 28; })
+        .attr("width", function(d) { return x2(d.May); })
         .style("fill","	#4BAEE8");
 
     bar25.append("text")
@@ -408,10 +408,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar26.append("rect")
-        .attr("x",(width+margin.left)*5)
+        .attr("x",(width+margin.left)*5 + 28)
         .attr("y", function(d) { return y(d.type)+ height; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x3(d.June) + 28; })
+        .attr("width", function(d) { return x3(d.June); })
         .style("fill","	#4BAEE8");
 
     bar26.append("text")
@@ -468,10 +468,10 @@ function load_chart_2(){
       .text(String);
 
     bar31.append("rect")
-        .attr("x",0)
+        .attr("x",0 + 28)
         .attr("y", function(d) { return y(d.type)+ height*2; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x1(d.Jan) + 28; })
+        .attr("width", function(d) { return x1(d.Jan); })
         .style("fill","	#ADE84B");
 
     bar31.append("text")
@@ -494,10 +494,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar32.append("rect")
-        .attr("x",width + margin.left)
+        .attr("x",width + margin.left + 28)
         .attr("y", function(d) { return y(d.type)+ height*2; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x2(d.Feb) + 28; })
+        .attr("width", function(d) { return x2(d.Feb); })
         .style("fill","	#ADE84B");
 
     bar32.append("text")
@@ -520,10 +520,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar33.append("rect")
-        .attr("x",(width+margin.left)*2)
+        .attr("x",(width+margin.left)*2 + 28)
         .attr("y", function(d) { return y(d.type)+ height*2; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x3(d.March) + 28; })
+        .attr("width", function(d) { return x3(d.March); })
         .style("fill","	#ADE84B");
 
     bar33.append("text")
@@ -547,10 +547,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar34.append("rect")
-        .attr("x",(width + margin.left)*3)
+        .attr("x",(width + margin.left)*3 + 28)
         .attr("y", function(d) { return y(d.type)+ height*2; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x1(d.April) + 28; })
+        .attr("width", function(d) { return x1(d.April); })
         .style("fill","	#ADE84B");
 
     bar34.append("text")
@@ -575,10 +575,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar35.append("rect")
-        .attr("x",(width + margin.left)*4)
+        .attr("x",(width + margin.left)*4 + 28)
         .attr("y", function(d) { return y(d.type)+ height*2; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x2(d.May) + 28; })
+        .attr("width", function(d) { return x2(d.May); })
         .style("fill","	#ADE84B");
 
     bar35.append("text")
@@ -601,10 +601,10 @@ function load_chart_2(){
         .attr("class", "bar");
 
     bar36.append("rect")
-        .attr("x",(width+margin.left)*5)
+        .attr("x",(width+margin.left)*5 + 28)
         .attr("y", function(d) { return y(d.type)+ height*2; })
         .attr("height", y.rangeBand())
-        .attr("width", function(d) { return x3(d.June) + 28; })
+        .attr("width", function(d) { return x3(d.June); })
         .style("fill","	#ADE84B");
 
     bar36.append("text")
