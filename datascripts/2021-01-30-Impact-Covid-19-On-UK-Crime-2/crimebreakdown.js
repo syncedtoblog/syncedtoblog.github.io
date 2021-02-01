@@ -56,9 +56,9 @@ function load_chart_2(){
                   d.year = year
                   return d
                 }
-                data2018 = data2018.forEach(function (d) {return to_numeric(rename_months(d), 2018) });
-                data2019 = data2019.forEach(function (d) {return to_numeric(rename_months(d), 2019) });
-                data2020 = data2020.forEach(function (d) {return to_numeric(rename_months(d), 2020) });
+                data2018.forEach(function (d) {return to_numeric(rename_months(d), 2018) });
+                data2019.forEach(function (d) {return to_numeric(rename_months(d), 2019) });
+                data2020.forEach(function (d) {return to_numeric(rename_months(d), 2020) });
                 var dataCombined = [].concat(data2018, data2019, data2020)
                 console.log("dataCombined")
                 console.log(dataCombined)
