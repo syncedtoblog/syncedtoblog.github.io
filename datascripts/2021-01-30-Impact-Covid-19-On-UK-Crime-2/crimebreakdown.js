@@ -106,14 +106,14 @@ function load_chart_2(){
                     var counter_month = 0
                     months.forEach(function(month) {
                         bar.append("rect")
-                            .attr("x",  counter_month*width + margin.left + 28)
+                            .attr("x",  counter_month*(width + margin.left) + 28)
                             .attr("y", function(d) { return y(d.type); })
                             .attr("height", y.rangeBand())
-                            .attr("width", function(d) { return x(d[month]); })
+                            .attr("width", function(d) { console.log(d[month]); console.log(month) ; return x(d[month]); })
                             .style("fill",color);
 
                         bar.append("text")
-                            .attr("x", function(d) { return x(d[month]) + 1 + 28  + counter_month*width + margin.left; })
+                            .attr("x", function(d) { return x(d[month]) + 2 + 28  + counter_month*(width + margin.left); })
                             .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3; })
                             .text(function (d) { return d[month]; });
                         counter_month = counter_month + 1
