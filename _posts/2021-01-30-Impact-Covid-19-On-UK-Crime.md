@@ -95,7 +95,7 @@ The violence against the person category paints a mixed picture. Perhaps there w
 
 <style>
 .chart-2-container {
-  font: 13px "Titillium Web", sans-serif;
+  font: 14px "Titillium Web", sans-serif;
 }
 
 .chart-2-container .axis path, .chart-2-container .axis line {
