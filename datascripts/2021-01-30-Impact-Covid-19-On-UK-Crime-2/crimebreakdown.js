@@ -76,7 +76,7 @@ function load_chart_2(){
                                   .append("text")
                                   .attr("x",
                                       function (d,i) {return 35 + margin.left + 
-                                                        i*(width + margin.left) + (width + margin.left)/2 - 15}
+                                                        i*(width + margin.left) + (width + margin.left)/2 - 25}
                                   ).attr("y", 0)
                                   .text(String).attr("text-anchor", "middle");
                 
