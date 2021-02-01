@@ -109,7 +109,7 @@ function load_chart_2(){
                     bar.selectAll(".ignore").data(data.map(function (d) {return d.type}).filter(onlyUnique)).enter()
                         .append("text")
                         .attr("x", 3 + margin.left)
-                        .attr("y", function(d) { return y(d.type) + y.rangeBand()/2 + 3 + height*counter; })
+                        .attr("y", function(d) { console.log(d.type); console.log(y(d.type)) ;  return y(d.type) + y.rangeBand()/2 + 3 + height*counter; })
                         .text(function (d) { return d.type; });
 
 
