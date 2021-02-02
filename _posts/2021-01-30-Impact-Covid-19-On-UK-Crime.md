@@ -2,7 +2,6 @@
 layout: post
 title: What Happened to Crime During the UK Lockdown?
 img: images/2021-01-30-Impact-Covid-19-On-UK-Crime-1.jpg
-draft: 1
 ---
 
 Using the UK police's crime [dataset](https://data.police.uk/) we looked at how crime changed in the UK's cities during 2020's first nationwide lockdown. 
