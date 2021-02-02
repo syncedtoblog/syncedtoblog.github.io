@@ -87,7 +87,7 @@ Digging into the data a little more however, we found some nuances - which we'll
 ### Case Study - London
 Digging into the datasets for each city, we saw it wasn't just a clear-cut case of crime falling across the board. Some types of crime actually rose during lockdown! As an illustrative example, we grouped all the crimes the the 10km x 10km area around London in the chart below.
 
-During 2020's lockdown London saw more anti-social behaviour than in previous years. This would likely be instances of people defying the lockdown measures. We were further told by a serving police office that regular offenders also used the lockdown and school closures as an opportunity to add to the anti-social behaviour statistics. 
+During 2020's lockdown London saw more anti-social behaviour than in previous years. This would likely be instances of people defying the lockdown measures. We were further told by a serving police officer that regular offenders also used the lockdown and school closures as an opportunity to add to the anti-social behaviour statistics. 
 
 On the other hand, instances of theft fell sharply during lockdown. With much fewer people out and about muggings and pickpocketing were less frequent. Plus many burglaries are opportunistic and with people sat at home it's harder for burglars to operate. 
 
