@@ -5,14 +5,14 @@ img: images/2021-01-30-Impact-Covid-19-On-UK-Crime-1.jpg
 draft: 1
 ---
 
-Using the UK police's crime dataset we looked at how crime changed in the UK's cities during 2020's first nationwide lockdown. 
+Using the UK police's crime [dataset](https://data.police.uk/) we looked at how crime changed in the UK's cities during 2020's first nationwide lockdown. 
 
 
 ![_config.yml]({{ site.baseurl }}/images/2021-01-30-Impact-Covid-19-On-UK-Crime-1.jpg)
 *by [Mark Timberlake](https://unsplash.com/photos/LIrbNMnQ-jc)*
 
 
-We scanned crimes over a 100km squared area in five of the largest cities in the UK (London, Leeds, Birmingham, Bristol and Liverpool) during 2018, 2019 and 2020. We were looking for differences in crimes committed between the 2020 lockdown period (23rd March to Early June ) and the same period in 2018 and 2019 (we didn't extend further back in time because of incomplete data). 
+We started by scanning crimes over a 100km squared area in five of the largest cities in the UK (London, Leeds, Birmingham, Bristol and Liverpool) during 2018, 2019 and 2020. We were looking for differences in crimes committed between the 2020 lockdown period (23rd March to Early June ) and the same period in 2018 and 2019 (we didn't extend further back in time because of incomplete data). 
 
 Once we'd retrieved the crime data, we wanted to convert it into single scores for each city in each year. Luckily for us the Office for National Statistics (ONS) had already devised The Crime Severity Score. It is a way of assigning a single score for the crime level in an area. The ONS has given each type of crime a [weight](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/crimeseverityscoredatatool), using a broadly sentencing-based methodology:
 
@@ -85,13 +85,13 @@ tbody td {
 Digging into the data a little more however, we found some nuances - which we'll show next, using London as a case study.
 
 ### Case Study - London
-Digging into the datasets for each city, we saw it wasn't just a clear-cut case of crime falling across the board. Some types of crime actually rose during lockdown! As an illustrative example, we grouped all the crimes the the 10km x 10km squared area around London in the chart below.
+Digging into the datasets for each city, we saw it wasn't just a clear-cut case of crime falling across the board. Some types of crime actually rose during lockdown! As an illustrative example, we grouped all the crimes the the 10km x 10km area around London in the chart below.
 
-During 2020's lockdown London saw more anti-social behaviour than in previous years. This would likely be instances of people defying the lockdown measures. We were also told by a serving police office that repeat offenders also used the lockdown and school closures as an opportunity to add to the anti-social behaviour statistics. 
+During 2020's lockdown London saw more anti-social behaviour than in previous years. This would likely be instances of people defying the lockdown measures. We were further told by a serving police office that regular offenders also used the lockdown and school closures as an opportunity to add to the anti-social behaviour statistics. 
 
-On the other hand instances of theft fell sharply during lockdown. With much fewer people out and about, muggings and pickpocketing were less frequent. Plus many burglaries are opportunistic and with people sat at home it's harder for burglars to operate. 
+On the other hand, instances of theft fell sharply during lockdown. With much fewer people out and about muggings and pickpocketing were less frequent. Plus many burglaries are opportunistic and with people sat at home it's harder for burglars to operate. 
 
-The violence against the person category paints a mixed picture. Perhaps there were fewer pub fights, but there was also an increase in domestic violence. We didn't really have the fine-grained data to unpick this.
+The 'violence against the person' category paints a mixed picture. Perhaps there were fewer pub fights, but there was also an increase in domestic violence. We didn't really have the fine-grained data to unpick this.
 
 <style>
 .chart-2-container {
