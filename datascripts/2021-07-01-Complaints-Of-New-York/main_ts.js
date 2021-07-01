@@ -716,7 +716,8 @@ var loadForDate = function(toloaddate) {
     //var nowdate = new Date()
     //go 2 days ago at midnight
    
-    var fromdt = toloaddate.clone().set({hour:0,minute:0,second:0,millisecond:0})
+    //var fromdt = toloaddate.clone().set({hour:0,minute:0,second:0,millisecond:0})
+    var fromdt = toloaddate.clone()
     var todt = fromdt.clone().add(1,'days').set({hour:0,minute:0,second:0,millisecond:0})
 
     //var fromdt = toloaddate.clone().subtract(1,'days')
@@ -739,6 +740,7 @@ var loadForDate = function(toloaddate) {
 
     var displaydt = moment(fromdt.toISOString().split('T')[0] + "T00:00:00")
 
+    console.log('displaydt is displaydt')
 
     var uri = "https://data.cityofnewyork.us/resource/erm2-nwe9.json?"+
         "$where="+"created_date between '"+fromdt_str+"' and '"+todt_str+"'&$order=created_date ASC&$limit=100000"
@@ -906,7 +908,7 @@ toggleplayMenuButton.addEventListener('click',
     function () {
       
         var viewDateInput = document.getElementById(`sydb-viewdate`)
-        var toloaddt = moment(viewDateInput.value, "YYYY-MM-DD")
+        var toloaddt = moment(viewDateInput.value, "YYYY-MM-DD").set({hour:0,minute:0,second:0,millisecond:0})
        
         if (toloaddt && latestdate.diff(toloaddt) >= 0 && toloaddt.diff(earliestdate) >= 0) {
             //all good the date is valid
