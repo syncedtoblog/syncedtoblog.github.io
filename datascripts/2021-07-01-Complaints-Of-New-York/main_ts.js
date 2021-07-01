@@ -288,7 +288,7 @@ var prepDisplay = function(toshowdate){
     var date_text = moment(toshowdate).format(date_display_format)
     var dateElem = document.getElementById(`sydb-date-display`);
     dateElem.innerHTML = `<div style="padding: 6px;">
-                            <h6 style="margin-bottom: 0;"> 
+                            <h6 style="margin-bottom: 0; color: white;"> 
                                 ${date_text} 
                             </h6>
                           </div>`

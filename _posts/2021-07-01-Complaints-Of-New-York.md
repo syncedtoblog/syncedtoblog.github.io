@@ -9,7 +9,7 @@ A snapshot of life in New York, seen through the everyday complaints of  New Yor
 
 
 ![_config.yml]({{ site.baseurl }}/images/2021-07-01-Complaints-Of-New-York-1.jpg)
-*by [Victor He](https://unsplash.com/@victorhwn725)*
+*photo by [Victor He](https://unsplash.com/@victorhwn725)*
 
 
 <link rel="stylesheet" href="https://synced.to/static/theme/assets/css/fontawesome/css/all.min.css" />
@@ -20,15 +20,14 @@ A snapshot of life in New York, seen through the everyday complaints of  New Yor
 
 <div class="sydb-container">
 <div class="sydb-inner-container">
-
+<!--
 <div class="sydb-header-container">
 <h4>Complaints of New York</h4>
 <div style="max-width: 400px; text-align: center; margin-bottom: 6px;">
 A snapshot of life in New York, seen through the everyday complaints of  New Yorkers.  
 </div>
 </div>
-
-
+-->
 <div class="sydb-dashboard-container">
 <div class="sydb-map-container">
 <div id="sydb-map" style="height: 100%;">
