@@ -132,7 +132,7 @@ function flash(feature) {
     var elapsed = frameState.time - start;
     var elapsedRatio = elapsed / duration;
     // radius will be 5 at start and 30 at end.
-    var radius = ol.easing.easeOut(elapsedRatio) * 12 + 5;
+    var radius = ol.easing.easeOut(elapsedRatio) * 6 + 5;
     var opacity = ol.easing.easeOut(1 - elapsedRatio);
 
 
@@ -144,7 +144,7 @@ function flash(feature) {
         radius: radius,
         stroke: new ol.style.Stroke({
           color: 'rgba(181, 44, 34, ' + opacity + ')',
-          width: 0.1 + opacity,
+          width: 0.05 + opacity,
         }),
       }),
     });
