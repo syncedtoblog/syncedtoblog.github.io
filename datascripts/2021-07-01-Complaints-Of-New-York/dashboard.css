@@ -1,0 +1,563 @@
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html { font-size: 62.5%; }
+body {
+    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #222; }
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.sydb-container h1, .sydb-container h2, .sydb-container h3, 
+.sydb-container h4, .sydb-container h5, .sydb-container h6 {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+font-weight: 300; }
+.sydb-container h1 { font-size: 3.6rem; line-height: 1.2;  letter-spacing: -.1rem;}
+.sydb-container h2 { font-size: 3.0rem; line-height: 1.25; letter-spacing: -.1rem; }
+.sydb-container h3 { font-size: 2.4rem; line-height: 1.3;  letter-spacing: -.1rem; }
+.sydb-container h4 { font-size: 1.8rem; line-height: 1.35; letter-spacing: -.08rem; }
+.sydb-container h5 { font-size: 1.5rem; line-height: 1.5;  letter-spacing: -.05rem; }
+.sydb-container h6 { font-size: 1.2rem; line-height: 1.6;  letter-spacing: 0; }
+
+/* Larger than phablet */
+/*
+@media (min-width: 550px) {
+h1 { font-size: 5.0rem; }
+h2 { font-size: 4.2rem; }
+h3 { font-size: 3.6rem; }
+h4 { font-size: 3.0rem; }
+h5 { font-size: 2.4rem; }
+h6 { font-size: 1.5rem; }
+}
+ */
+
+.sydb-container p { margin-top: 0; margin-bottom: 0.5em; }
+
+
+
+
+html {
+    font-size: 10px;
+}
+
+html, body {
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+}
+
+.sydb-container div {
+    box-sizing: inherit;
+}
+
+
+.sydb-container {
+    max-width: 100%;
+    height: 100vh;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+/* Links */
+.sydb-container a {
+  color: black; }
+.sydb-container a:hover {
+  color: black; }
+
+
+.sydb-container .sydb-inner-container {
+    display: flex;
+    flex-direction: column ; 
+    align-items: center; 
+    max-width: 100%;
+    height: 100vh;
+    padding: 6px;
+}
+
+.sydb-container .sydb-header-container {
+    flex: 0;
+    display: flex;
+    flex-direction: column ; 
+    align-items: center; 
+}
+
+.sydb-container .sydb-dashboard-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border: 1px solid #cccccc;
+    min-height: 0px;
+    border-radius: 1px;
+}
+
+.sydb-container .sydb-map-container {
+    padding-top: 0px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    flex-basis: 40%;
+
+    /* border: 1px solid black; */
+    min-height: 0px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+
+.sydb-container .sydb-graphic-container {
+
+}
+
+.sydb-container .sydb-content-container {
+    display:flex;
+    /* border: 1px solid black; */
+    flex-grow: 2;
+    flex-shrink: 1;
+
+    flex-basis: 60%;
+
+    padding-top: 0px;
+    min-height: 0px;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.sydb-container .sydb-content-item-container {
+    cursor: pointer;
+    overflow:auto;
+}
+
+.sydb-container .sydb-content-item {
+    /* border: 1px solid black; */
+    margin-left: 6px; 
+    margin-right: 6px; 
+    margin-bottom: 6px; 
+
+    /*
+    padding-left: 3px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px; 
+     */
+
+    background-color: white;
+    background-clip: padding-box;
+    border-radius: 1px;
+}
+
+.sydb-container .sydb-content-item-container:last-child .sydb-content-item {
+    margin-bottom: 6px;
+}
+
+.sydb-container .sydb-content-item-inner {
+    background-color: white;
+    padding: 6px;
+}
+
+@media screen and (min-width: 738px) {
+
+    .sydb-container .sydb-dashboard-container {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        width: 100%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: stretch;
+        border: 1px solid #cccccc;
+    }
+
+    .sydb-container .sydb-map-container {
+        display: flex;
+        flex-grow: 5;
+        flex-shrink: 1;
+
+        flex-basis: 85%;
+
+        /* border: 1px solid black; */
+        padding-top: 0;
+        position: relative;
+        background-color: white;
+    } 
+
+
+    .sydb-container .sydb-content-container {
+        display:flex;
+        /* border: 1px solid black; */
+        flex-grow: 1;
+        flex-shrink: 3;
+
+        flex-basis: 15%;
+
+        padding-top: 0;
+        min-width: 320px;
+        flex-direction: column;
+    }
+
+}
+
+.sydb-container #sydb-map {
+  min-width: 220px;
+  width: 100%;
+  height: 100%;
+  min-height: 30vh;
+  position: relative;
+}
+
+.sydb-container #sydb-content {
+  flex:1;
+  overflow:auto;
+}
+
+
+.sydb-container .sydb-slide-in-blurred-top {
+    -webkit-animation: sydb-slide-in-blurred-top 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: sydb-slide-in-blurred-top 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    -webkit-backface-visibility: hidden;
+}
+
+
+/* ----------------------------------------------
+* Generated by Animista on 2021-6-24 12:26:20
+* Licensed under FreeBSD License.
+* See http://animista.net/license for more info. 
+* w: http://animista.net, t: @cssanimista
+* ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-blurred-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes sydb-slide-in-blurred-top {
+    0% {
+        -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+        transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        -webkit-filter: blur(40px);
+        filter: blur(40px);
+        opacity: 0;
+        max-height: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+        transform: translateY(0) scaleY(1) scaleX(1);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+        max-height: 500px;
+    }
+}
+@keyframes sydb-slide-in-blurred-top {
+    0% {
+        -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+        transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        -webkit-filter: blur(40px);
+        filter: blur(40px);
+        opacity: 0;
+        max-height: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+        transform: translateY(0) scaleY(1) scaleX(1);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+        max-height: 500px;
+    }
+}
+
+
+
+.sydb-container .sydb-slide-out-blurred-bottom {
+    -webkit-animation: sydb-slide-out-blurred-bottom 1.5s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
+    animation: sydb-slide-out-blurred-bottom 1.5s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-6-24 13:33:26
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-out-blurred-bottom
+ * ----------------------------------------
+ */
+@-webkit-keyframes sydb-slide-out-blurred-bottom {
+    0% {
+        -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+        transform: translateY(0) scaleY(1) scaleX(1);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+        max-height: 500px;
+    }
+    100% {
+        -webkit-transform: translateY(1000px) scaleY(2) scaleX(0.2);
+        transform: translateY(1000px) scaleY(2) scaleX(0.2);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        -webkit-filter: blur(40px);
+        filter: blur(40px);
+        opacity: 0;
+        max-height: 0;
+    }
+}
+@keyframes sydb-slide-out-blurred-bottom {
+    0% {
+        -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+        transform: translateY(0) scaleY(1) scaleX(1);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+        max-height: 500px;
+    }
+    100% {
+        -webkit-transform: translateY(1000px) scaleY(2) scaleX(0.2);
+        transform: translateY(1000px) scaleY(2) scaleX(0.2);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        -webkit-filter: blur(40px);
+        filter: blur(40px);
+        opacity: 0;
+        max-height: 0;
+    }
+}
+
+
+.sydb-container #sydb-anim-controls {
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.sydb-container .sydb-icon-button {
+    color: #d85027;
+    opacity: 0.8;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.sydb-container .sydb-icon-button:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.sydb-container #sydb-date-display {
+    position: absolute;
+    background-color: rgba(0,0,0,0.55);
+    border-radius: 3px;
+    color: white;
+    margin: 12px;
+    top: 0;
+    right: 0;
+
+    animation: sydb-fadeIn linear 0.7s;
+    -webkit-animation: sydb-fadeIn linear 0.7s;
+    -moz-animation: sydb-fadeIn linear 0.7s;
+    -o-animation: sydb-fadeIn linear 0.7s;
+    -ms-animation: sydb-fadeIn linear 0.7s;
+}
+
+@keyframes sydb-fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes sydb-fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes sydb-fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes sydb-fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes sydb-fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+.sydb-container .sydb-slider-container {
+    flex: 1;
+    margin: 6px;
+}
+
+
+/* The slider itself */
+.sydb-container .sydb-slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 6px; /* Specified height */
+    background: #cccccc; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.8; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    border-radius: 6px;
+}
+
+/* Mouse-over effects */
+.sydb-container .sydb-slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.sydb-container .sydb-slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 12px; /* Set a specific slider handle width */
+    height: 12px; /* Slider handle height */
+    background: #d85027CC; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 12px;
+}
+
+.sydb-container .sydb-slider::-moz-range-thumb {
+    width: 12px; /* Set a specific slider handle width */
+    height: 12px; /* Slider handle height */
+    background: #d85027CC; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 12px;
+}
+
+
+
+
+
+
+.sydb-container #sydb-content-cover-menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.3s;
+
+}
+
+.sydb-container #sydb-content-cover-menu.fadeIn {
+    animation: sydb-fadeIn linear 0.3s;
+    -webkit-animation: sydb-fadeIn linear 0.3s;
+    -moz-animation: sydb-fadeIn linear 0.3s;
+    -o-animation: sydb-fadeIn linear 0.3s;
+    -ms-animation: sydb-fadeIn linear 0.3s;
+}
+
+
+.sydb-container #sydb-content-cover-menu.fadeOut {
+    opacity: 0;
+}
+
+.sydb-container #sydb-content-cover-menu.hidden {
+    display: none;
+}
+
+.sydb-container #sydb-loading-spinner {
+    margin: 12px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.sydb-container #sydb-loading-spinner.visible {
+    opacity: 1;
+}
+
+
+.sydb-container #sydb-content-cover-menu-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sydb-container #sydb-content-cover-menu-footer {
+    text-align: center;
+    font-size: 1rem;
+    flex: 0;
+    padding: 6px;
+}
+
+.sydb-container #sydb-toggleplay-cover-menu {
+    font-size: 2.6rem;
+    padding: 3px;
+}
+
+.sydb-container #sydb-viewdate {
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid #d85027CC;
+    border-radius: 1px;
+    color: rgb(60,60,60);
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.sydb-container #sydb-viewdate:focus {
+    border: 1px solid #d85027CC;
+    border-radius: 1px;
+    color: rgb(60,60,60);
+}
+
+.sydb-container #sydb-viewdate::-webkit-calendar-picker-indicator {
+    opacity: 0.8
+}
+
+
+
+/*
+#viewdate::-webkit-datetime-edit-month-field { background-color: #d850274D; }
+#viewdate::-webkit-datetime-edit-day-field { background-color: #d850274D; }
+#viewdate::-webkit-datetime-edit-year-field { background-color: #d850274D; }
+*/
