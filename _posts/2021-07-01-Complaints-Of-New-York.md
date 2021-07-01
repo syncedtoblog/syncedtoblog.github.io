@@ -12,10 +12,10 @@ A snapshot of life in New York, seen through the everyday complaints of  New Yor
 *by [Victor He](https://unsplash.com/@victorhwn725)*
 
 
-<link rel="stylesheet" href="https:synced.to/static/theme/assets/css/fontawesome/css/all.min.css" />
+<link rel="stylesheet" href="https://synced.to/static/theme/assets/css/fontawesome/css/all.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css" type="text/css" />
 <link rel="stylesheet" href="https://blog.synced.to/datascripts/2021-07-01-Complaints-Of-New-York/dashboard.css" />
-<script src="https:synced.to/static/theme/assets/js/moment.min.js?v=8c2de"></script>
+<script src="https://synced.to/static/theme/assets/js/moment.min.js?v=8c2de"></script>
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
 
 <div class="sydb-container">
