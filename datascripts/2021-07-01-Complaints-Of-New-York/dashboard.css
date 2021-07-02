@@ -228,7 +228,8 @@ body {
 
 .sydb-container #sydb-content {
   flex:1;
-  overflow:auto;
+  /* overflow:auto; */
+  overflow: scroll;
 }
 
 
