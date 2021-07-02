@@ -296,7 +296,7 @@ var prepDisplay = function(toshowdate){
     var dateElem = document.getElementById(`sydb-date-display`);
     dateElem.innerHTML = `<div style="padding: 6px;">
                             <h6 style="margin-bottom: 0; color: white;"> 
-                                ${date_text} 
+                                ${date_text} &nbsp; (${fulldataset.length} complaints) 
                             </h6>
                           </div>`
 }
