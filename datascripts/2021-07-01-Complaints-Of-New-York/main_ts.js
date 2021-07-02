@@ -106,8 +106,14 @@ var tilelayer = new ol.layer.Tile({
 var vectorsource = new ol.source.Vector({ wrapX: false })
 var vectorlayer = new ol.layer.Vector({source: vectorsource})
 var layers = [tilelayer, vectorlayer]
+
+var controls = ol.control.defaults({rotate: false}); 
+//var interactions = ol.interaction.defaults({altShiftDragRotate:false, pinchRotate:false});
+
 // create map and add layers
 var map = new ol.Map({
+  controls: controls, 
+  //interactions: interactions,
   layers: layers,
   target: 'sydb-map',
   //layers: layers,
@@ -803,13 +809,13 @@ var loadForDate = function(toloaddate) {
                                 if (muted) {
                                     //audio is current muted, unmute
                                     muted = false;
-                                    togglevolumeButton.classList.remove("fa-volume-down")
-                                    togglevolumeButton.classList.add("fa-volume-mute")
+                                    togglevolumeButton.classList.remove("fa-volume-mute")
+                                    togglevolumeButton.classList.add("fa-volume-down")
                                 } else {
                                     muted = true;
                                     audio.pause()
-                                    togglevolumeButton.classList.remove("fa-volume-mute")
-                                    togglevolumeButton.classList.add("fa-volume-down")
+                                    togglevolumeButton.classList.remove("fa-volume-down")
+                                    togglevolumeButton.classList.add("fa-volume-mute")
                                 }
                             },false)
 

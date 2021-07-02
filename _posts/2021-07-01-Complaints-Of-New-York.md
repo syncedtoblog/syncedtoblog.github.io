@@ -41,7 +41,7 @@ A snapshot of life in New York, seen through the everyday complaints of  New Yor
   </div>
   <i id="sydb-toggleplay" class="sydb-toggleplay fas fa-play sydb-icon-button" aria-hidden="true"></i>
   <i id="sydb-reset" class="fas fa-stop sydb-icon-button" aria-hidden="true"></i>
-  <i id="sydb-togglevolume" class="fas fa-volume-mute sydb-icon-button" aria-hidden="true"></i>
+  <i id="sydb-togglevolume" class="fas fa-volume-down sydb-icon-button" aria-hidden="true"></i>
 
 </div>
 <div id="sydb-content"></div>
