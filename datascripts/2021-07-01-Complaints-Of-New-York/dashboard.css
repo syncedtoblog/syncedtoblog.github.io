@@ -559,6 +559,7 @@ body {
     border: 1px solid #d85027CC;
     border-radius: 1px;
     color: rgb(60,60,60);
+    background-color: white;
     -webkit-appearance: none;
     outline: none;
 }
@@ -567,6 +568,7 @@ body {
     border: 1px solid #d85027CC;
     border-radius: 1px;
     color: rgb(60,60,60);
+    background-color: white;
 }
 
 .sydb-container #sydb-viewdate::-webkit-calendar-picker-indicator {

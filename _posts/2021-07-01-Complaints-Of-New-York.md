@@ -65,8 +65,6 @@ A snapshot of life in New York, seen through the everyday complaints of  New Yor
 
 
 <div style="text-align: center; font-size: 1rem; flex: 0; padding: 6px;">
-<p>data from <a href="https://opendata.cityofnewyork.us/">NYC OpenData</a>, 
-sounds from <a href="https://freesound.org/people/lazymonk/sounds/214319/">freesound/lazymonk</a></p>
 </div>
 
 </div>
@@ -77,8 +75,10 @@ sounds from <a href="https://freesound.org/people/lazymonk/sounds/214319/">frees
 
 
 
+
 [Rahman](https://www.linkedin.com/in/rahman-zane/) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/) - <team@synced.to>
 
-*photo by [Victor He](https://unsplash.com/@victorhwn725)*
+*data from [NYC OpenData](https://opendata.cityofnewyork.us/), photo by [Victor He](https://unsplash.com/@victorhwn725), sound by [freesound/lazymonk](https://freesound.org/people/lazymonk/sounds/214319/)*
+
 
 _Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._
