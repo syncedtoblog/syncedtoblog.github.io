@@ -5,7 +5,7 @@ img: images/2021-07-01-Complaints-Of-New-York-1.jpg
 draft: 1
 ---
 
-Life in New York, seen through the everyday complaints of  New Yorkers.
+Life in New York seen through the everyday complaints of  New Yorkers.
 
 
 ![_config.yml]({{ site.baseurl }}/images/2021-07-01-Complaints-Of-New-York-1.jpg)
