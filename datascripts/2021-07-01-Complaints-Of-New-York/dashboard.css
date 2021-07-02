@@ -73,11 +73,12 @@ body {
 
 
 /* Links */
+/*
 .sydb-container a {
   color: black; }
 .sydb-container a:hover {
   color: black; }
-
+*/
 
 .sydb-container .sydb-inner-container {
     display: flex;
@@ -380,6 +381,22 @@ body {
     opacity: 1; /* Fully shown on mouse-over */
 }
 
+
+.sydb-container .sydb-icon-button-large {
+    color: #d85027;
+    opacity: 0.8;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.sydb-container .sydb-icon-button-large:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+
+
+
+
 .sydb-container #sydb-date-display {
     position: absolute;
     background-color: rgba(0,0,0,0.55);
@@ -508,8 +525,8 @@ body {
     margin: 12px;
     opacity: 0;
     transition: opacity 0.3s;
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 8px;
 }
 
 .sydb-container #sydb-loading-spinner.visible {

@@ -120,7 +120,7 @@ var map = new ol.Map({
 //map.addLayer(vectorlayer)
 
 
-var duration = 2000;
+var duration = 1200;
 function flash(feature) {
   var start = new Date().getTime();
   var listenerKey = tilelayer.on('postrender', animate);
@@ -131,8 +131,17 @@ function flash(feature) {
     var flashGeom = feature.getGeometry().clone();
     var elapsed = frameState.time - start;
     var elapsedRatio = elapsed / duration;
+
+
+    pixelratio = window.devicePixelRatio
+    var scaleFactor = 1
+    if (pixelratio){
+        var scaleFactor = 1.0/pixelratio
+    }
+    //console.log('pixel ratio ', pixelratio)
+
     // radius will be 5 at start and 30 at end.
-    var radius = ol.easing.easeOut(elapsedRatio) * 6 + 5;
+    var radius = (ol.easing.easeOut(elapsedRatio) * 12 + 5) * scaleFactor ;
     var opacity = ol.easing.easeOut(1 - elapsedRatio);
 
 
@@ -144,7 +153,7 @@ function flash(feature) {
         radius: radius,
         stroke: new ol.style.Stroke({
           color: 'rgba(181, 44, 34, ' + opacity + ')',
-          width: 0.05 + opacity,
+          width: (0.1 + opacity) * scaleFactor,
         }),
       }),
     });
@@ -167,17 +176,9 @@ vectorsource.on('addfeature', function (e) {flash(e.feature);});
 
 
 //intervals between time
-var periodchunkeddata = []
-
-
-var periodlength_mins = 30
 var fulldataset = []
-var topcomplainttypes = []
 var complaintsOnDisplay = {}
 var colourMap = {}
-var mapFeatures = {}
-
-
 
 
 var colourSet = ["#63b598", "#ce7d78", "#ea9e70", "#648177" ,"#0d5ac1"  ,"#1c0365" ,"#14a9ad" ,"#4ca2f9" ,"#a4e43f" ,"#d298e2" ,"#6119d0","#d2737d" ,"#c0a43c" ,"#f2510e" ,"#651be6" ,"#79806e" ,"#61da5e" ,"#cd2f00" ,"#9348af" ,"#01ac53" ,"#c5a4fb" ,"#996635","#b11573" ,"#4bb473" ,"#75d89e" ,"#2f3f94" ,"#2f7b99" ,"#da967d" ,"#34891f" ,"#b0d87b" ,"#ca4751" ,"#7e50a8" ,"#c4d647" ,"#e0eeb8" ,"#11dec1" ,"#289812" ,"#566ca0" ,"#ffdbe1" ,"#2f1179" ,"#935b6d" ,"#916988" ,"#513d98","#aead3a", "#9e6d71", "#4b5bdc", "#0cd36d","#250662", "#cb5bea", "#228916", "#ac3e1b", "#df514a", "#539397", "#880977","#f697c1", "#ba96ce", "#679c9d", "#c6c42c", "#5d2c52", "#48b41b", "#e1cf3b","#5be4f0", "#57c4d8", "#a4d17a", "#225b8", "#be608b", "#96b00c", "#088baf","#f158bf", "#e145ba", "#ee91e3", "#05d371", "#5426e0", "#4834d0", "#802234","#6749e8", "#0971f0", "#8fb413", "#b2b4f0", "#c3c89d", "#c9a941", "#41d158","#fb21a3", "#51aed9", "#5bb32d", "#807fb","#f205e6", "#a48a9e"];
@@ -188,7 +189,7 @@ var colourOther = '#999999'
 
 var setDataItemVariables = function(ind) {
 
-        console.log('prepping var ', ind)
+        //console.log('prepping var ', ind)
         fulldataset[ind]['selected'] = false
         fulldataset[ind]['colour'] = colourMap[fulldataset[ind]['complaint_class']]
 
@@ -285,7 +286,7 @@ var prepVariables = function(data) {
 
 var prepDisplay = function(toshowdate){
     var date_display_format = "ddd D MMM 'YY"
-    var date_text = moment(toshowdate).format(date_display_format)
+    var date_text = moment.utc(toshowdate).format(date_display_format)
     var dateElem = document.getElementById(`sydb-date-display`);
     dateElem.innerHTML = `<div style="padding: 6px;">
                             <h6 style="margin-bottom: 0; color: white;"> 
@@ -294,12 +295,16 @@ var prepDisplay = function(toshowdate){
                           </div>`
 }
 
+var clearDisplay = function(toshowdate){
+    var dateElem = document.getElementById(`sydb-date-display`);
+    dateElem.innerHTML = ''
+}
 
 var onclickItem = function(e, index, scrollTo) {
 
     var item = fulldataset[index]
-    console.log('item clicked')
-    console.log(item)
+    //console.log('item clicked')
+    //console.log(item)
 
     //item.feature.setStyle(item.selected ? item.base_style :  item.hover_style )
     //item.selected = !item.selected
@@ -343,14 +348,14 @@ map.on('click', function(evt) {
 //https://openlayers.org/en/latest/examples/feature-animation.html
 var plotDataItem = function(index, updateSlider) {
 
-    console.log('plotting data item ', index)
+    //console.log('plotting data item ', index)
 
     var item = fulldataset[index]
 
     setDataItemVariables(index)
 
-    console.log(item['street_name'])
-    console.log(item['borough'])
+    //console.log(item['street_name'])
+    //console.log(item['borough'])
     var streetText = ''
     var agencyHTML = ''
     var descriptorHTML = ''
@@ -375,7 +380,7 @@ var plotDataItem = function(index, updateSlider) {
     }
 
 
-    var created_time = moment(item['created_date']).format('h:mm a')
+    var created_time = moment.utc(item['created_date']).format('h:mm a')
 
     var contentStr = `
         <div class="sydb-content-item" id="sydb-content-item-${index}" 
@@ -390,7 +395,7 @@ var plotDataItem = function(index, updateSlider) {
                         ${agencyHTML}
                     </div>
                     ${descriptorHTML}
-                    <h6>${created_time} &nbsp; ${streetText}</h6>
+                    <h6><span style="font-weight: 600">${created_time}</span> &nbsp; ${streetText}</h6>
             </div>
         </div>
     `
@@ -407,7 +412,7 @@ var plotDataItem = function(index, updateSlider) {
    
     if (updateSlider){
         var slider = document.getElementById('sydb-timerange');
-        var created_moment = moment(item['created_date'])
+        var created_moment = moment.utc(item['created_date'])
         slider.value = created_moment.hour() * 60 + created_moment.minutes()
         console.log('setting slider value to ', created_moment.hour() * 60 + created_moment.minutes())
     }
@@ -448,7 +453,7 @@ var clearDataItems = function(indexes) {
     //})
 
 
-    console.log('in clearDataItems, removing indexes ', indexes)
+    //console.log('in clearDataItems, removing indexes ', indexes)
     
     indexes.forEach( function(index){ 
         var contentElem = document.getElementById(`sydb-content-item-container-${String(index)}`);
@@ -460,11 +465,11 @@ var clearDataItems = function(indexes) {
 
     setTimeout(function(){ 
         indexes.forEach( function(index){ 
-                        console.log('removing index ', index)
+                        //console.log('removing index ', index)
                         var contentElem = 
                             document.getElementById(`sydb-content-item-container-${String(index)}`);
                         if (contentElem){
-                            console.log('removed index ', index)
+                            //console.log('removed index ', index)
                             contentElem.parentNode.removeChild(contentElem); 
                         }
 
@@ -521,6 +526,7 @@ var togglePlayMenuVisibility = function(action) {
         menu.classList.remove('hidden')
         menu.classList.remove('fadeOut')
         menu.classList.add('fadeIn')
+        clearDisplay()
     } else {
         menu.classList.remove('fadeIn')
         menu.classList.add('fadeOut')
@@ -554,6 +560,7 @@ var toggleplayButton = function(operation) {
 
 
 //define controls
+var periodlength_mins = 30
 var animationIndex = -1;
 var plotLimit = 3;
 var animationLoop = null
@@ -604,22 +611,25 @@ var toggleplay = function () {
           
           //clear older data items
           var complaintsOnDisplay_inds = Object.keys(complaintsOnDisplay)
-          var toClearInds = []
-          complaintsOnDisplay_inds.forEach( function(ind){
-              var dataitem = fulldataset[ind]
+          //if (complaintsOnDisplay_inds.length > 100) {
+              var toClearInds = []
+              complaintsOnDisplay_inds.forEach( function(ind){
+                  var dataitem = fulldataset[ind]
 
-              var curr_created_date = fulldataset[nextAnimationIndex] ? 
-                                      fulldataset[nextAnimationIndex].created_date : null
+                  var curr_created_date = fulldataset[nextAnimationIndex] ? 
+                                          fulldataset[nextAnimationIndex].created_date : null
 
-              if (curr_created_date && dataitem.created_date &&
-                  Date.parse(dataitem.created_date) + 30*60*1000 < Date.parse(curr_created_date)){
+                  if (curr_created_date && dataitem.created_date &&
+                      Date.parse(dataitem.created_date) + periodlength_mins*60*1000 < 
+                      Date.parse(curr_created_date)){
 
-                  toClearInds.push(ind)
+                      toClearInds.push(ind)
 
-              }
-          })
-          clearDataItems(toClearInds)
-          
+                  }
+              })
+              clearDataItems(toClearInds)
+          //}
+            //
           //subtract 1 since nextAnimationIndex adds one of the number to plot already
           animationIndex = nextAnimationIndex + numberToPlot - 1;
        
@@ -631,8 +641,9 @@ var toggleplay = function () {
         else {
           //at end
           reset(true)
+          togglePlayMenuVisibility('show');
         }
-      }, 3000)
+      }, 4000)
 
 
       if (!muted && audio.paused) {
@@ -656,14 +667,14 @@ var seek = function (day, minute) {
 
     //filter the indices by datetime
     var period_end_time = day.clone().set({hour:hours,minute:minutes,second:0,millisecond:0})
-    var period_start_time = period_end_time.clone().subtract(30, "minutes")
+    var period_start_time = period_end_time.clone().subtract(periodlength_mins, "minutes")
     var period_indices = []
 
     var closest_item = null
 
     
     for (var j = 0; j < fulldataset.length; j++){
-        var created_moment = moment(fulldataset[j].created_date)
+        var created_moment = moment.utc(fulldataset[j].created_date)
         //we only want the data in this period, not the data from the very start
        
         //console.log(created_moment.toISOString())
@@ -678,16 +689,18 @@ var seek = function (day, minute) {
 
         if (!closest_item || 
             Math.abs(period_end_time.diff(created_moment)) <
-            Math.abs(period_end_time.diff(moment(closest_item.created_date)))
+            Math.abs(period_end_time.diff(moment.utc(closest_item.created_date)))
         ) {
-            closest_item = fulldataset[j].created_date
+            closest_item = fulldataset[j]
         } 
 
     }
 
-    //console.log('seek period start time ', period_start_time.toISOString())
-    //console.log('seek period end time ', period_end_time.toISOString())
-    //console.log('seek period indices ', period_indices)
+    console.log('seek period start time ', period_start_time.toISOString())
+    console.log('seek period end time ', period_end_time.toISOString())
+    console.log('seek period indices ', period_indices)
+    console.log('hours', hours, 'minutes', minutes)
+    console.log('closest item', closest_item)
 
     //display the indices
     //set the current animation index to latest 
@@ -700,8 +713,8 @@ var seek = function (day, minute) {
         }, 1200)
     }
     else if (closest_item != null) {
-        var closest_date = moment(closest_item.created_date)
-        seek(day, Math.max(closest_date.hour() * 60 + closest_date.minutes() + 1, 60*24) )
+        var closest_date = moment.utc(closest_item.created_date)
+        seek(day, Math.min(closest_date.hour() * 60 + closest_date.minutes() + 1, 60*24) )
     }
     else {
         toggleplay()
@@ -738,9 +751,8 @@ var loadForDate = function(toloaddate) {
     var fromdt_str = fromdt.toISOString().split('T')[0] + "T00:00:00"
     var todt_str = todt.toISOString().split('T')[0] + "T00:00:00"
 
-    var displaydt = moment(fromdt.toISOString().split('T')[0] + "T00:00:00")
+    var displaydt = moment.utc(fromdt.toISOString().split('T')[0] + "T00:00:00")
 
-    console.log('displaydt is displaydt')
 
     var uri = "https://data.cityofnewyork.us/resource/erm2-nwe9.json?"+
         "$where="+"created_date between '"+fromdt_str+"' and '"+todt_str+"'&$order=created_date ASC&$limit=100000"
@@ -752,60 +764,13 @@ var loadForDate = function(toloaddate) {
 
     ajax_get(encodeURI(uri), //encoded URI as first input
         function (data){
-
-            /*
-            var current_index = 0
-
-            //go through time periods
-            for (var i = 0; i < 60*24; i+=periodlength_mins){
-                //parse return number of milliseconds between date and 01/01/1970
-                var period_start_time = Date.parse(fromdt_str) + i*60*1000
-                var period_end_time = Date.parse(fromdt_str) + (i+periodlength_mins)*60*1000
-
-
-                console.log('--- period ', i, ' ---')
-                console.log(new Date(period_start_time))
-                console.log(new Date(period_end_time))
-
-                //initiate data variable for current period
-                var this_period_data = []
-
-                //console.log("period "+i+": "+new Date(period_start_time)+" "+new Date(period_end_time))
-
-                for (var j = current_index; j < data.length; j++){
-                    var createddateobj = Date.parse(data[j].created_date)
-
-                    //we only want the data in this period, not the data from the very start
-                    if (createddateobj >= period_start_time && createddateobj < period_end_time  ) {
-                        //append data to current period data array
-                        this_period_data.push(data[j])
-
-                        //increase index
-                        current_index+=1
-                    }
-
-
-                }
-                
-                //console.log('Index:' + current_index + " Data Length:" + data.length)
-                //TODO: time is GMT+1 or whatever makes time go from 11pm to 11pm instead of 12 to 12. 
-                //just need to change label to the correct time
-                periodchunkeddata.push(
-                        { label: new Date(period_start_time).toUTCString(), 
-                          currentindex: current_index, 
-                          datalength: data.length ,  
-                          data: this_period_data 
-                        })
-            }
-
-            */
             
             //make sure assumed variables exist
             //make sure created_date falls in day
             data = data.filter( function(item) { 
                             
                             return item.created_date &&
-                                   displaydt.isSame( moment(item.created_date) , 'day') &&
+                                   displaydt.isSame( moment.utc(item.created_date) , 'day') &&
                                    item.complaint_type
                         } 
                    )
@@ -814,16 +779,7 @@ var loadForDate = function(toloaddate) {
             prepVariables(data)
             prepDisplay(displaydt)
 
-            //console.log('Period Chunked Data')
-            //console.log(periodchunkeddata)
 
-
-            /*
-            getTopComplaints()
-            setColours()
-            barChartData()
-            mapLayers()
-            */
             map.getLayers()["array_"] = layers
             
             
@@ -892,8 +848,9 @@ var loadForDate = function(toloaddate) {
 
 var viewDateInput = document.getElementById(`sydb-viewdate`);
 
-var latestdate = moment().set({hour:0,minute:0,second:0,millisecond:0}).subtract(1,'days')
-var earliestdate = latestdate.clone().subtract(3, "years")
+var latestdate = moment.utc().set({hour:0,minute:0,second:0,millisecond:0})
+                       .subtract(3,'days').set({hour:0,minute:0,second:0,millisecond:0})
+var earliestdate = latestdate.clone().subtract(3, "years").set({hour:0,minute:0,second:0,millisecond:0})
 
 viewDateInput.value = latestdate.format('YYYY-MM-DD')
 viewDateInput.max = viewDateInput.value
@@ -908,7 +865,8 @@ toggleplayMenuButton.addEventListener('click',
     function () {
       
         var viewDateInput = document.getElementById(`sydb-viewdate`)
-        var toloaddt = moment(viewDateInput.value, "YYYY-MM-DD").set({hour:0,minute:0,second:0,millisecond:0})
+        var toloaddt = moment.utc(viewDateInput.value, "YYYY-MM-DD")
+                        .set({hour:0,minute:0,second:0,millisecond:0})
        
         if (toloaddt && latestdate.diff(toloaddt) >= 0 && toloaddt.diff(earliestdate) >= 0) {
             //all good the date is valid
@@ -916,6 +874,15 @@ toggleplayMenuButton.addEventListener('click',
             viewDateInput.value = latestdate.format('YYYY-MM-DD')
             toloaddt = latestdate
         }
+
+
+        //console.log('toloaddt')
+        //console.log(earliestdate)
+        //console.log(toloaddt)
+        //console.log(latestdate.toISOString())
+        //console.log(latestdate.format('YYYY-MM-DD'))
+        //console.log(toloaddt.toISOString())
+
 
         toggleSpinnerVisibility('show')
         loadForDate(toloaddt);

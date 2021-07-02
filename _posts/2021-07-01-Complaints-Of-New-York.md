@@ -9,7 +9,6 @@ A snapshot of life in New York, seen through the everyday complaints of  New Yor
 
 
 ![_config.yml]({{ site.baseurl }}/images/2021-07-01-Complaints-Of-New-York-1.jpg)
-*photo by [Victor He](https://unsplash.com/@victorhwn725)*
 
 
 <link rel="stylesheet" href="https://synced.to/static/theme/assets/css/fontawesome/css/all.min.css" />
@@ -48,13 +47,17 @@ A snapshot of life in New York, seen through the everyday complaints of  New Yor
 <div id="sydb-content"></div>
 <span id="sydb-content-cover-menu">
 
+<div>
+    <h4>Choose a date</h4>
+</div>
+
 <div id="sydb-content-cover-menu-input">
 <input id="sydb-viewdate"  name="viewdate" type="date" />
-<i id="sydb-toggleplay-cover-menu" class="sydb-toggleplay fas fa-play sydb-icon-button" 
+<i id="sydb-toggleplay-cover-menu" class="sydb-toggleplay fas fa-play sydb-icon-button-large" 
     aria-hidden="true"></i>
 </div>
 
-<img id="sydb-loading-spinner" src="https://blog.synced.to/datascripts/2021-07-01-Complaints-Of-New-York/grid.svg" width="30" height="30" />
+<img id="sydb-loading-spinner" src="https://blog.synced.to/datascripts/2021-07-01-Complaints-Of-New-York/three-dots.svg" />
 
 </span>
 </div>
@@ -75,5 +78,7 @@ sounds from <a href="https://freesound.org/people/lazymonk/sounds/214319/">frees
 
 
 [Rahman](https://www.linkedin.com/in/rahman-zane/) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/) - <team@synced.to>
+
+*photo by [Victor He](https://unsplash.com/@victorhwn725)*
 
 _Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._
