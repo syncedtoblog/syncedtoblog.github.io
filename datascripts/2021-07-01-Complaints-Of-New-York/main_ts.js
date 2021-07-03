@@ -317,11 +317,10 @@ var prepVariables = function(data) {
     for (var complaint_class in counts) {
         sortable.push([complaint_class, counts[complaint_class]]);
     }
+    sortable.sort(function(a, b) {return b[1] - a[1];})
 
     console.log('complaint type counts')
-    console.log(
-        sortable.sort(function(a, b) {return b[1] - a[1];})
-    )
+    console.log(sortable)
 
     var colourCounter = 0
     for (var i = 0; i < sortable.length; i++) {
