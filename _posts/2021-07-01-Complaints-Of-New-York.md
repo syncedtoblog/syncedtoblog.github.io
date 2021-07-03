@@ -57,6 +57,15 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
     aria-hidden="true"></i>
 </div>
 
+<div id="sydb-suggested-dates">
+    <a data-suggested-event="newyear" class="sydb-suggested" href="#" >
+        New years
+    </a>
+    <a data-suggested-event="lockdown" class="sydb-suggested" href="#" >
+        Lockdown
+    </a>
+</div>
+
 <img id="sydb-loading-spinner" src="https://blog.synced.to/datascripts/2021-07-01-Complaints-Of-New-York/three-dots.svg" />
 
 </span>

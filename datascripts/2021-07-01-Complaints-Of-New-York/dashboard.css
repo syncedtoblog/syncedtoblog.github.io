@@ -80,6 +80,21 @@ body {
   color: black; }
 */
 
+ /* 
+.sydb-container #sydb-suggested-dates {
+
+}
+*/
+
+.sydb-container a.sydb-suggested {
+  color: #d85027CC;  
+  padding: 6px;
+  font-size: 1rem;
+}
+.sydb-container a.sydb-suggested:hover {
+  color: #d85027; }
+
+
 .sydb-container .sydb-inner-container {
     display: flex;
     flex-direction: column ; 

@@ -184,10 +184,17 @@ vectorsource.on('addfeature', function (e) {flash(e.feature);});
 //intervals between time
 var fulldataset = []
 var complaintsOnDisplay = {}
-var colourMap = {}
+var colourMap = {
+    'Noise': "#63b598",
+    'Parking': "#ce7d78",
+    'Fireworks': "#ea9e70",
+    'Unsanitary': "#1c0365",
+    'Water': "#0d5ac1",
+    'Homeless': "#14a9ad",
+    'Dirty': "#a4e43f"
+}
 
-
-var colourSet = ["#63b598", "#ce7d78", "#ea9e70", "#648177" ,"#0d5ac1"  ,"#1c0365" ,"#14a9ad" ,"#4ca2f9" ,"#a4e43f" ,"#d298e2" ,"#6119d0","#d2737d" ,"#c0a43c" ,"#f2510e" ,"#651be6" ,"#79806e" ,"#61da5e" ,"#cd2f00" ,"#9348af" ,"#01ac53" ,"#c5a4fb" ,"#996635","#b11573" ,"#4bb473" ,"#75d89e" ,"#2f3f94" ,"#2f7b99" ,"#da967d" ,"#34891f" ,"#b0d87b" ,"#ca4751" ,"#7e50a8" ,"#c4d647" ,"#e0eeb8" ,"#11dec1" ,"#289812" ,"#566ca0" ,"#ffdbe1" ,"#2f1179" ,"#935b6d" ,"#916988" ,"#513d98","#aead3a", "#9e6d71", "#4b5bdc", "#0cd36d","#250662", "#cb5bea", "#228916", "#ac3e1b", "#df514a", "#539397", "#880977","#f697c1", "#ba96ce", "#679c9d", "#c6c42c", "#5d2c52", "#48b41b", "#e1cf3b","#5be4f0", "#57c4d8", "#a4d17a", "#225b8", "#be608b", "#96b00c", "#088baf","#f158bf", "#e145ba", "#ee91e3", "#05d371", "#5426e0", "#4834d0", "#802234","#6749e8", "#0971f0", "#8fb413", "#b2b4f0", "#c3c89d", "#c9a941", "#41d158","#fb21a3", "#51aed9", "#5bb32d", "#807fb","#f205e6", "#a48a9e"];
+var colourSet = ["#d298e2" ,"#6119d0","#d2737d" ,"#c0a43c" ,"#f2510e" ,"#651be6" ,"#79806e" ,"#61da5e" ,"#cd2f00" ,"#9348af" ,"#01ac53" ,"#c5a4fb" ,"#996635","#b11573" ,"#4bb473" ,"#75d89e" ,"#2f3f94" ,"#2f7b99" ,"#da967d" ,"#34891f" ,"#b0d87b" ,"#ca4751" ,"#7e50a8" ,"#c4d647" ,"#e0eeb8" ,"#11dec1" ,"#289812" ,"#566ca0" ,"#ffdbe1" ,"#2f1179" ,"#935b6d" ,"#916988" ,"#513d98","#aead3a", "#9e6d71", "#4b5bdc", "#0cd36d","#250662", "#cb5bea", "#228916", "#ac3e1b", "#df514a", "#539397", "#880977","#f697c1", "#ba96ce", "#679c9d", "#c6c42c", "#5d2c52", "#48b41b", "#e1cf3b","#5be4f0", "#57c4d8", "#a4d17a", "#225b8", "#be608b", "#96b00c", "#088baf","#f158bf", "#e145ba", "#ee91e3", "#05d371", "#5426e0", "#4834d0", "#802234","#6749e8", "#0971f0", "#8fb413", "#b2b4f0", "#c3c89d", "#c9a941", "#41d158","#fb21a3", "#51aed9", "#5bb32d", "#807fb","#f205e6", "#a48a9e"];
 
 var colourOther = '#999999'
 
@@ -198,18 +205,6 @@ var setDataItemVariables = function(ind) {
         //console.log('prepping var ', ind)
         fulldataset[ind]['selected'] = false
         fulldataset[ind]['colour'] = colourMap[fulldataset[ind]['complaint_class']]
-
-        var geom = new ol.geom.Point(
-                        ol.proj.fromLonLat([fulldataset[ind].longitude, fulldataset[ind].latitude])
-                   )
-        
-        var feature = new ol.Feature({geometry: geom })
-        feature.setProperties({
-            complaint_class: fulldataset[ind]['complaint_class'],
-            colour: fulldataset[ind]['colour'],
-            created_date: fulldataset[ind]['created_date']
-        })
-        feature.setId(ind)
         
         var featureStyle = new ol.style.Style({
             image: new ol.style.Circle({
@@ -227,7 +222,24 @@ var setDataItemVariables = function(ind) {
             })
         })
 
-        feature.setStyle(featureStyle)
+
+        fulldataset[ind]['feature'] = null
+        //double equals checks for null and undefined
+        //https://stackoverflow.com/questions/2647867/how-can-i-determine-if-a-variable-is-undefined-or-null
+        if (fulldataset[ind].longitude != null && fulldataset[ind].latitude != null) {
+            var geom = new ol.geom.Point(
+                            ol.proj.fromLonLat([fulldataset[ind].longitude, fulldataset[ind].latitude])
+                       )
+            
+            var feature = new ol.Feature({geometry: geom })
+            feature.setProperties({
+                complaint_class: fulldataset[ind]['complaint_class'],
+                colour: fulldataset[ind]['colour'],
+                created_date: fulldataset[ind]['created_date']
+            })
+            feature.setId(ind)
+            feature.setStyle(featureStyle)
+        } 
 
         fulldataset[ind]['feature'] = feature
         fulldataset[ind]['base_style'] = featureStyle
@@ -244,8 +256,29 @@ var prepVariables = function(data) {
   
 
     for (var k = 0; k < data.length; k++){
-        if (data[k].complaint_type.includes('Noise')) {
+        if (data[k].complaint_type.toLowerCase().includes('noise')) {
             data[k].complaint_class = 'Noise'
+        }
+        else if (data[k].complaint_type.toLowerCase().includes('parking')) {
+            data[k].complaint_class = 'Parking'
+        }
+        else if (data[k].complaint_type.toLowerCase().includes('driveway')) {
+            data[k].complaint_class = 'Parking'
+        }
+        else if (data[k].complaint_type.toLowerCase().includes('fireworks')) {
+            data[k].complaint_class = 'Fireworks'
+        }
+        else if (data[k].complaint_type.toLowerCase().includes('unsanitary')) {
+            data[k].complaint_class = 'Unsanitary'
+        }
+        else if (data[k].complaint_type.toLowerCase().includes('water')) {
+            data[k].complaint_class = 'Water'
+        }
+        else if (data[k].complaint_type.toLowerCase().includes('homeless')) {
+            data[k].complaint_class = 'Homeless'
+        }
+        else if (data[k].complaint_type.toLowerCase().includes('dirty')) {
+            data[k].complaint_class = 'Dirty'
         }
         else {
             data[k].complaint_class = data[k].complaint_type
@@ -271,11 +304,16 @@ var prepVariables = function(data) {
         sortable.sort(function(a, b) {return b[1] - a[1];})
     )
 
+    var colourCounter = 0
     for (var i = 0; i < sortable.length; i++) {
-        if (i < 10) {
-            colourMap[sortable[i][0]] = colourSet[i]
-        } else {
-            colourMap[sortable[i][0]] = colourOther
+        //add this guard to not overwrite colour presets
+        if (!colourMap.hasOwnProperty(sortable[i][0])) {
+            if (Object.keys(colourMap).length < 10) {
+                colourMap[sortable[i][0]] = colourSet[colourCounter]
+                colourCounter++
+            } else {
+                colourMap[sortable[i][0]] = colourOther
+            }
         }
     }
     //////////////////////////////
@@ -314,26 +352,29 @@ var onclickItem = function(e, index, scrollTo) {
 
     //item.feature.setStyle(item.selected ? item.base_style :  item.hover_style )
     //item.selected = !item.selected
-
-    item.feature.setStyle(item.hover_style )
-    var contentItem = document.getElementById(`sydb-content-item-${String(index)}`);
-    if (contentItem){
-        contentItem.style.borderRight = "6px solid rgba(235, 189, 52,1)";    
-        if (scrollTo) {
-            contentItem.scrollIntoView({ behavior: 'smooth', block: 'start'});
-        }
-    }
-    item.selected = true
-
-    
-    setTimeout(function(){ 
-        item.feature.setStyle(item.base_style )
+    if (item.feature) {
+        
+        item.feature.setStyle(item.hover_style )
         var contentItem = document.getElementById(`sydb-content-item-${String(index)}`);
         if (contentItem){
-            contentItem.style.borderRight = "none";    
+            contentItem.style.borderRight = "6px solid rgba(235, 189, 52,1)";    
+            if (scrollTo) {
+                contentItem.scrollIntoView({ behavior: 'smooth', block: 'start'});
+            }
         }
-        item.selected = false
-    }, 4000)
+        item.selected = true
+
+        
+        setTimeout(function(){ 
+            item.feature.setStyle(item.base_style )
+            var contentItem = document.getElementById(`sydb-content-item-${String(index)}`);
+            if (contentItem){
+                contentItem.style.borderRight = "none";    
+            }
+            item.selected = false
+        }, 4000)
+
+    }
 }
 
 
@@ -423,7 +464,9 @@ var plotDataItem = function(index, updateSlider) {
         console.log('setting slider value to ', created_moment.hour() * 60 + created_moment.minutes())
     }
 
-    vectorsource.addFeature(item['feature'])
+    if (item['feature']) {
+        vectorsource.addFeature(item['feature'])
+    }
 
     contentElem.onclick = function(e){ onclickItem(e, index) }
 
@@ -894,5 +937,26 @@ toggleplayMenuButton.addEventListener('click',
         loadForDate(toloaddt);
 
     }, false);
+
+
+var suggestedLinks = document.getElementsByClassName("sydb-suggested");
+var suggestedLinkHandler = function(e) {
+    e.preventDefault();
+    var suggestedEvent = this.getAttribute("data-suggested-event")
+    var viewDateInput = document.getElementById(`sydb-viewdate`)
+    var toggleplayMenuButton = document.getElementById('sydb-toggleplay-cover-menu')
+
+    if (viewDateInput && toggleplayMenuButton && suggestedEvent == 'newyear') {
+        viewDateInput.value = latestdate.format('YYYY') + '-01-01'
+        toggleplayMenuButton.click()
+    }
+    else if (viewDateInput && toggleplayMenuButton && suggestedEvent == 'lockdown') {
+        viewDateInput.value = '2020-04-08'
+        toggleplayMenuButton.click()
+    }
+};
+for (var i = 0; i < suggestedLinks.length; i++) {
+    suggestedLinks[i].addEventListener('click', suggestedLinkHandler, false);
+}
 
 
