@@ -79,7 +79,28 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
 </div>
 </div>
 
-<script src="https://blog.synced.to/datascripts/2021-07-01-Complaints-Of-New-York/main_ts.js"></script>
+<script src="https://blog.synced.to/datascripts/2021-07-01-Complaints-Of-New-York/main_ts_multicity.js"></script>
+<script>
+    var uri_fn = function(fromstr, tostr){
+                return `https://data.cityofnewyork.us/resource/erm2-nwe9.json?$where=created_date between '${fromstr}' and '${tostr}'&$order=created_date ASC&$limit=100000`
+    }
+    var soundpath = '/datascripts/2021-07-01-Complaints-Of-New-York/NYCAmbience.mp3'
+    var data_format_fn = function (item) {
+        return item
+    }
+    var latestdate = moment.utc().set({hour:0,minute:0,second:0,millisecond:0})
+                           .subtract(3,'days').set({hour:0,minute:0,second:0,millisecond:0})
+    var earliestdate = latestdate.clone().subtract(3, "years").set({hour:0,minute:0,second:0,millisecond:0})
+    var opts = {
+        city_coords: [-73.8404, 40.7360],
+        map_zoom: 9,
+        periodlength_mins: null,
+        periodlength_maxcount: null,
+        latestdate: latestdate,
+        earliestdate: earliestdate
+    }
+    loadAppForCity(uri_fn, data_format_fn, soundpath, opts) 
+</script>
 
 
 

@@ -286,7 +286,7 @@ body {
         -webkit-filter: blur(0);
         filter: blur(0);
         opacity: 1;
-        max-height: 500px;
+        max-height: 2000px;
     }
 }
 @keyframes sydb-slide-in-blurred-top {
@@ -308,7 +308,7 @@ body {
         -webkit-filter: blur(0);
         filter: blur(0);
         opacity: 1;
-        max-height: 500px;
+        max-height: 2000px;
     }
 }
 
@@ -341,7 +341,7 @@ body {
         -webkit-filter: blur(0);
         filter: blur(0);
         opacity: 1;
-        max-height: 500px;
+        max-height: 2000px;
     }
     100% {
         -webkit-transform: translateY(1000px) scaleY(2) scaleX(0.2);
@@ -363,7 +363,7 @@ body {
         -webkit-filter: blur(0);
         filter: blur(0);
         opacity: 1;
-        max-height: 500px;
+        max-height: 2000px;
     }
     100% {
         -webkit-transform: translateY(1000px) scaleY(2) scaleX(0.2);
