@@ -2,7 +2,6 @@
 layout: post
 title: Complaints of New York
 img: images/2021-07-01-Complaints-Of-New-York-1.jpg
-draft: 1
 ---
 
 Life in New York seen through the everyday complaints of  New Yorkers.
