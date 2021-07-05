@@ -110,4 +110,4 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
 *311 complaints data from [NYC OpenData](https://opendata.cityofnewyork.us/), photo by [Victor He](https://unsplash.com/@victorhwn725), sound by [freesound/lazymonk](https://freesound.org/people/lazymonk/sounds/214319/)*
 
 
-_Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can find meaningful places, nearaway and faraway._
+_Explore more on [the Synced app](http://onelink.to/8ttzr9), where you can explore meaningful places, nearaway and faraway._
