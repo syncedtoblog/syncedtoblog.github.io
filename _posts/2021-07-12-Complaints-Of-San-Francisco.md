@@ -95,7 +95,7 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
         output_item['agency'] = null
         output_item['street_name'] = item['street']
         output_item['descriptor'] = item['service_subtype'].replace(/_/g, ' ') + ', ' + 
-                                    item['service_details'].split(/\s+/)[0].replace(/_/g, ' ')
+                                    item['service_details'].replace(/_/g, ' ')
         return output_item
     }
     var latestdate = moment.utc().set({hour:0,minute:0,second:0,millisecond:0})
