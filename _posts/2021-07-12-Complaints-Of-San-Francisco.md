@@ -103,7 +103,7 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
     var earliestdate = latestdate.clone().subtract(3, "years").set({hour:0,minute:0,second:0,millisecond:0})
     var opts = {
         city_coords: [-122.446747, 37.733795],
-        map_zoom: 10,
+        map_zoom: 11,
         periodlength_mins: null,
         periodlength_maxcount: null,
         latestdate: latestdate,
