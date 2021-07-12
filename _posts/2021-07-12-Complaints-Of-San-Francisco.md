@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Complaints of New York
-img: images/2021-07-01-Complaints-Of-New-York-1.jpg
+title: Complaints of San Francisco
+img: images/2021-07-12-Complaints-Of-San-Francisco-1.jpg
+draft: 1
 ---
 
-Life in New York seen through the everyday complaints of  New Yorkers.
+Following on from our popular [post on NYC 311 data](/Complaints-Of-New-York/), 
+here is life in San Francisco seen through the everyday complaints of San Franciscans.
 
-
-![_config.yml]({{ site.baseurl }}/images/2021-07-01-Complaints-Of-New-York-1.jpg)
+![_config.yml]({{ site.baseurl }}/images/2021-07-12-Complaints-Of-San-Francisco-1.jpg)
 
 
 <link rel="stylesheet" href="https://synced.to/static/theme/assets/css/fontawesome/css/all.min.css" />
@@ -81,17 +82,26 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
 <script src="https://blog.synced.to/datascripts/311-complaints-articles-scripts/main_ts_multicity.js"></script>
 <script>
     var uri_fn = function(fromstr, tostr){
-                return `https://data.cityofnewyork.us/resource/erm2-nwe9.json?$where=created_date between '${fromstr}' and '${tostr}'&$order=created_date ASC&$limit=100000`
+                return `https://data.sfgov.org/resource/vw6y-z8j6.json?$where=requested_datetime between '${fromstr}' and '${tostr}'&$order=requested_datetime ASC&$limit=100000`
     }
     var soundpath = '/datascripts/311-complaints-articles-scripts/NYCAmbience.mp3'
     var data_format_fn = function (item) {
-        return item
+        var output_item = {}
+        output_item['created_date'] = item['requested_datetime']
+        output_item['complaint_type'] = item['service_name']
+        output_item['latitude'] = item['lat']
+        output_item['longitude'] = item['long']
+        output_item['borough'] = item['police_district']
+        output_item['agency'] = item['service_details'].split(/\s+/)[0]
+        output_item['street_name'] = item['street']
+        output_item['descriptor'] = item['service_subtype']
+        return output_item
     }
     var latestdate = moment.utc().set({hour:0,minute:0,second:0,millisecond:0})
                            .subtract(3,'days').set({hour:0,minute:0,second:0,millisecond:0})
     var earliestdate = latestdate.clone().subtract(3, "years").set({hour:0,minute:0,second:0,millisecond:0})
     var opts = {
-        city_coords: [-73.8404, 40.7360],
+        city_coords: [-122.446747, 37.733795],
         map_zoom: 9,
         periodlength_mins: null,
         periodlength_maxcount: null,
@@ -105,9 +115,9 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
 
 
 
-[Rahman](https://www.linkedin.com/in/rahman-zane/) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/) - <team@synced.to>
+[Tejas](https://synced.to/u/tej) - <team@synced.to>
 
-*311 complaints data from [NYC OpenData](https://opendata.cityofnewyork.us/), photo by [Victor He](https://unsplash.com/@victorhwn725), sound by [freesound/lazymonk](https://freesound.org/people/lazymonk/sounds/214319/)*
+*311 complaints data from [DataSF](https://datasf.org/opendata/), photo by [Sam Beasley](https://unsplash.com/@sam_beasley), sound by [freesound/lazymonk](https://freesound.org/people/lazymonk/sounds/214319/)*
 
 
 _See more on [the Synced app](http://onelink.to/8ttzr9), where you can explore meaningful places, nearaway and faraway._
