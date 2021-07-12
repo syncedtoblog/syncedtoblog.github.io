@@ -311,10 +311,10 @@ var prepVariables = function(displaydt, data_, data_format_fn) {
         else if (includesKeyword(data[k],['water'])) {
             data[k].complaint_class = 'Water'
         }
-        else if (includesKeyword(data[k],['homeless'])) {
+        else if (includesKeyword(data[k],['homeless', 'encampment'])) {
             data[k].complaint_class = 'Homeless'
         }
-        else if (includesKeyword(data[k],['dirty'])) {
+        else if (includesKeyword(data[k],['dirty', 'cleaning'])) {
             data[k].complaint_class = 'Dirty'
         }
         else if (includesKeyword(data[k],['covid', 'social distancing'], true)) {

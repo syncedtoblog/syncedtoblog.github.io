@@ -88,13 +88,14 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
     var data_format_fn = function (item) {
         var output_item = {}
         output_item['created_date'] = item['requested_datetime']
-        output_item['complaint_type'] = item['service_name']
+        output_item['complaint_type'] = item['service_name'].replace(/_/g, ' ')
         output_item['latitude'] = item['lat']
         output_item['longitude'] = item['long']
         output_item['borough'] = item['police_district']
-        output_item['agency'] = item['service_details'].split(/\s+/)[0]
+        output_item['agency'] = null
         output_item['street_name'] = item['street']
-        output_item['descriptor'] = item['service_subtype']
+        output_item['descriptor'] = item['service_subtype'].replace(/_/g, ' ') + ', ' + 
+                                    item['service_details'].split(/\s+/)[0].replace(/_/g, ' ')
         return output_item
     }
     var latestdate = moment.utc().set({hour:0,minute:0,second:0,millisecond:0})
