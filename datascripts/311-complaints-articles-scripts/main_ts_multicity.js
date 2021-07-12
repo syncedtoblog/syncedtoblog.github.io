@@ -200,7 +200,7 @@ var colourMap = {
     'Water': "#0d5ac1",
     'Homeless': "#14a9ad",
     'Dirty': "#a4e43f",
-    'Waste': "#651be6",
+    'Waste': "#a68e37",
     'Covid': "#d298e2",
     'Pests': "#c0a43c"
 }
