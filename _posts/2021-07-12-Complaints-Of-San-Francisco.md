@@ -84,7 +84,7 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
     var uri_fn = function(fromstr, tostr){
                 return `https://data.sfgov.org/resource/vw6y-z8j6.json?$where=requested_datetime between '${fromstr}' and '${tostr}'&$order=requested_datetime ASC&$limit=100000`
     }
-    var soundpath = '/datascripts/311-complaints-articles-scripts/NYCAmbience.mp3'
+    var soundpath = '/datascripts/311-complaints-articles-scripts/SFAmbience.mp3'
     var data_format_fn = function (item) {
         var output_item = {}
         output_item['created_date'] = item['requested_datetime']
@@ -116,9 +116,9 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
 
 
 
-[Tejas](https://synced.to/u/tej) - <team@synced.to>
+[Tejas](https://twitter.com/syncedto) - <team@synced.to>
 
-*311 complaints data from [DataSF](https://datasf.org/opendata/), photo by [Sam Beasley](https://unsplash.com/@sam_beasley), sound by [freesound/lazymonk](https://freesound.org/people/lazymonk/sounds/214319/)*
+*311 complaints data from [DataSF](https://datasf.org/opendata/), photo by [Sam Beasley](https://unsplash.com/@sam_beasley), sound by [freesound/Barna](https://freesound.org/people/Barna/sounds/495497/)*
 
 
 _See more on [the Synced app](http://onelink.to/8ttzr9), where you can explore meaningful places, nearaway and faraway._
