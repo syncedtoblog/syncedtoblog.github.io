@@ -2,7 +2,6 @@
 layout: post
 title: Complaints of San Francisco
 img: images/2021-07-12-Complaints-Of-San-Francisco-1.jpg
-draft: 1
 ---
 
 Following on from our popular [post on NYC 311 data](/Complaints-Of-New-York/), 
@@ -102,7 +101,7 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
     }
     var latestdate = moment.utc().set({hour:0,minute:0,second:0,millisecond:0})
                            .subtract(3,'days').set({hour:0,minute:0,second:0,millisecond:0})
-    var earliestdate = latestdate.clone().subtract(3, "years").set({hour:0,minute:0,second:0,millisecond:0})
+    var earliestdate = latestdate.clone().subtract(2, "years").set({hour:0,minute:0,second:0,millisecond:0})
     var opts = {
         city_coords: [-122.446747, 37.733795],
         map_zoom: 11,
