@@ -4,7 +4,7 @@ title: Complaints of New York
 img: images/2021-07-01-Complaints-Of-New-York-1.jpg
 ---
 
-Life in New York seen through the everyday complaints of  New Yorkers.
+New York seen through the everyday service requests of New Yorkers.
 
 
 ![_config.yml]({{ site.baseurl }}/images/2021-07-01-Complaints-Of-New-York-1.jpg)

@@ -5,7 +5,7 @@ img: images/2021-07-12-Complaints-Of-San-Francisco-1.jpg
 ---
 
 Following on from our popular [post on NYC 311 data](/Complaints-Of-New-York/), 
-here is life in San Francisco seen through the everyday complaints of San Franciscans.
+here San Francisco seen through the everyday service requests of San Franciscans.
 
 ![_config.yml]({{ site.baseurl }}/images/2021-07-12-Complaints-Of-San-Francisco-1.jpg)
 
