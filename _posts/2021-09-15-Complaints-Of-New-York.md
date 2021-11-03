@@ -107,7 +107,7 @@ Life in New York, seen through the everyday complaints of  New Yorkers.
 
 [Rahman](https://www.linkedin.com/in/rahman-zane/) and [Sachin](https://www.linkedin.com/in/sachinvasudevan/) - <team@synced.to>
 
-*311 complaints data from [NYC OpenData](https://opendata.cityofnewyork.us/), photo by [Victor He](https://unsplash.com/@victorhwn725), sound by [freesound/lazymonk](https://freesound.org/people/lazymonk/sounds/214319/)*
+*311 complaints data from [NYC OpenData](https://opendata.cityofnewyork.us/), photo by [Victor He](https://unsplash.com/@victorhwn725), sound by [freesound/lazymonk](https://freesound.org/people/lazymonk/sounds/214319/)* 
 
 
 _See more on [the Synced app](http://onelink.to/8ttzr9), where you can explore meaningful places, nearaway and faraway._
