@@ -107,7 +107,7 @@ var vectorsource = new ol.source.Vector({ wrapX: false })
 var vectorlayer = new ol.layer.Vector({source: vectorsource})
 var layers = [tilelayer, vectorlayer]
 
-var controls = ol.control.defaults({rotate: false}); 
+var controls = ol.control.defaults.defaults({rotate: false}); 
 //var interactions = ol.interaction.defaults({altShiftDragRotate:false, pinchRotate:false});
 
 var map = null 
