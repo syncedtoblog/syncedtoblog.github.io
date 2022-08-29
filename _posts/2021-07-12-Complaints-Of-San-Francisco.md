@@ -11,10 +11,10 @@ here San Francisco seen through the everyday service requests of San Franciscans
 
 
 <link rel="stylesheet" href="https://synced.to/static/theme/assets/css/fontawesome/css/all.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css" type="text/css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.css" type="text/css" />
 <link rel="stylesheet" href="https://blog.synced.to/datascripts/311-complaints-articles-scripts/dashboard.css" />
 <script src="https://synced.to/static/theme/assets/js/moment.min.js?v=8c2de"></script>
-<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.js"></script>
 
 <div class="sydb-container">
 <div class="sydb-inner-container">
