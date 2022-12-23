@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Synced Developer Log (December 2022) - Dashboards & Bounties
-img: images/2022-10-09-Synced-Dashboards-Bounties-Dev-Log-Dec-1.jpeg
+img: images/2022-12-01-Synced-Dashboards-Bounties-Dev-Log-Dec-1.jpeg
 ---
 
 Here's December's development log for Synced's new dashboards and bounty features. Watch this space to follow our progress.
