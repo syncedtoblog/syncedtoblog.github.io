@@ -11,7 +11,7 @@ Here's Febuary 2023's development log for Synced's dashboards and bounty feature
 
 
 
-### Progress (will be updated as we go)
+### Progress in Feb 2023
 - Initial dashboard merge has been performed on development web app.
   ![_config.yml]({{ site.baseurl }}/images/2023-02-28-Synced-Dashboards-Bounties-Dev-Log-Feb-23-2.png)
   
