@@ -2,7 +2,6 @@
 layout: post
 title: The Synced Upgrade is Almost Here
 img: images/2023-09-25-Synced-Update-Almost-Here.png
-draft: 1
 ---
 
 After a while baking in the oven the new Synced is almost ready to serve. 
