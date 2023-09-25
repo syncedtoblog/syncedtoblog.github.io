@@ -10,7 +10,7 @@ After a while baking in the oven the new Synced is almost ready to serve.
 *artwork by [DALL-E](https://openai.com/dall-e-2)*
 
 ### What's in the new Synced?
-There's a few big changes that will together elevate your exploring experience.
+There's a few big changes, along with lots of little changes, that together will elevate your exploring experience.
 
 - **Dashboards** - You will be able to create dashboards to follow regions of interest. Dashboards gather
   marks that you and others leave in the region along with other regional updates.
@@ -46,6 +46,5 @@ Upgrading will involve the following:
 Watch this space!
 
 
-Thanks for reading
 
 [- Tejas](https://twitter.com/syncedto)
