@@ -12,18 +12,18 @@ After a while baking in the oven the new Synced is almost ready to serve.
 ### What's in the new Synced?
 There's a few big changes that will together elevate your exploring experience.
 
-- **Dashboards**: You will be able to create dashboards to follow regions of interest. Dashboards gather
+- **Dashboards** - You will be able to create dashboards to follow regions of interest. Dashboards gather
   marks that you and others leave in the region along with other regional updates.
 
-- **Geo-bounties**: Want specific kinds of information on your dashboards? You will be able to 
+- **Geo-bounties** - Want specific kinds of information on your dashboards? You will be able to 
   issue geo-bounties to other Synced users for collecting data of interest. And you'll be 
   able to earn paid-bounties for gathering information others would like.
 
-- **A new interface**: Our new interface is based on your feedback and you'll find it significantly 
+- **A new interface** - Our new interface is based on your feedback and you'll find it significantly 
   easier to use.
 
-- **Progressive Web Apps (PWAs)**: Web technology has moved on the point where we found we could implement the above 
-  as well with web apps as we could with native native mobile apps. You can also now install apps directly from the web with PWA technology. And from our end we can deploy bugfixes and updates instantly. So we've jumped on board the PWA train, and you'll find the next version of Synced installable via our website. 
+- **Progressive Web Apps (PWAs)** - Web technology has moved on the point where we found we could implement the above 
+  as well with web apps as we could with native mobile apps. You can also now install apps directly from the web with PWA technology. And from our end we can deploy bugfixes and updates instantly. So we've jumped on board the PWA train, and you'll find the next version of Synced installable via our website. 
 
 
 ### When will the upgrade happen?
