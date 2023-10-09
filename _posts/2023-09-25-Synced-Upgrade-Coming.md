@@ -1,12 +1,12 @@
 ---
 layout: post
 title: The Synced Upgrade is Almost Here
-img: images/2023-09-25-Synced-Update-Almost-Here.png
+img: images/2023-09-25-Synced-Update-Almost-Here.jpg
 ---
 
 After a while baking in the oven the new Synced is almost ready to serve. 
 
-![_config.yml]({{ site.baseurl }}/images/2023-09-25-Synced-Update-Almost-Here.png)
+![_config.yml]({{ site.baseurl }}/images/2023-09-25-Synced-Update-Almost-Here.jpg)
 *artwork by [DALL-E](https://openai.com/dall-e-2)*
 
 ### What's in the new Synced?
