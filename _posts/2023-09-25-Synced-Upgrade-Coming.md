@@ -27,7 +27,7 @@ There's a few big changes, along with lots of little changes, that together will
 
 
 ### When will the upgrade happen?
-We expect it'll happen around early to mid October 2023. 
+We expect it'll happen around <s>early to mid October 2023</s> *(Update, we now expect it'll be in May 2024)*.  
 We'll announce the exact date & time closer to the moment on the Synced blog and on our X (formerly Twitter).
 
 
