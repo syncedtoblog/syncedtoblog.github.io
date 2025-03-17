@@ -3,13 +3,13 @@ layout: post
 title: Upgrading to the new Synced
 img: images/2024-10-12-Synced-Upgrade-Here.jpg
 ---
-We're superhype to welcome your to the new Synced, which is now live!
+We're superhype to welcome you to the new Synced, which is now live!
 
 ![_config.yml]({{ site.baseurl }}/images/2024-10-12-Synced-Upgrade-Here.jpg)
 *artwork by [Imagen 3](https://deepmind.google/technologies/imagen-3/)*
 
 ### What's in the new Synced?
-Some big (and many little) changes elevate your exploring experience, including:
+Some big (and many smaller) changes to elevate your exploring experience, including:
 
 - **Dashboards** - You can create dashboards to follow regions of interest. Dashboards gather
   marks that you and others leave in the region along with other regional updates.
@@ -21,7 +21,7 @@ Some big (and many little) changes elevate your exploring experience, including:
 - **A new interface** - Our new interface is based on your feedback and you'll find it significantly 
   easier to use.
 
-- **Progressive Web Apps (PWAs)** - Web technology has moved on the point where we found we could implement the above 
+- **Progressive Web Apps (PWAs)** - Web technology has advanced so we can implement the above just 
   as well with web apps as we could with native mobile apps. You can also now install apps directly from the web with PWA technology.
 
 
