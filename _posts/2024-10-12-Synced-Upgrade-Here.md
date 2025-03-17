@@ -3,11 +3,10 @@ layout: post
 title: Upgrading to the new Synced
 img: images/2024-10-12-Synced-Upgrade-Here.jpg
 ---
-![_config.yml]({{ site.baseurl }}/images/2024-10-12-Synced-Upgrade-Here.jpg)
-*artwork by [Imagen 3](https://deepmind.google/technologies/imagen-3/)*
-
 We're superhype to welcome your to the new Synced, which is now live!
 
+![_config.yml]({{ site.baseurl }}/images/2024-10-12-Synced-Upgrade-Here.jpg)
+*artwork by [Imagen 3](https://deepmind.google/technologies/imagen-3/)*
 
 ### What's in the new Synced?
 Some big (and many little) changes elevate your exploring experience, including:
